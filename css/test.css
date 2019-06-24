@@ -25,13 +25,13 @@
 }
 
 .slid-1_btn {
-	background: yellow;
+	background: var(--color_red);
 }
 
 .slid-2_btn {
-	background: red;
+	background: var(--color_blue);
 }
 
 .slid-3_btn {
-	background-color: #fff;
+	background: var(--color_yellow);
 }
