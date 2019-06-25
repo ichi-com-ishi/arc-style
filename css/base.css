@@ -181,13 +181,13 @@ a {
 	font-size: 2rem;
 }
 
-.el_address {
+.footer_bottom_address .el_address {
 	font-size: 1.4rem;
 	line-height: 1.75;
 	margin-bottom: 15px;
 }
 
-.el_kyoka {
+.footer_bottom_address .el_kyoka {
 	border: 1px solid #fff;
 	display: inline-block;
 	font-size: 1.2rem;
