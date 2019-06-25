@@ -9,7 +9,7 @@ html {
 body {
 	background-color: #fff;
 	color: #5a5a5a;
-	font-family: "Roboto", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+	font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
 	font-size: 1.6rem;
 }
 
@@ -79,6 +79,10 @@ a {
 
 .heading-3 {
 	font-size: 2.8rem;
+
+	/* -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-weight: 600; */
 	font-weight: 500;
 	letter-spacing: 0.05em;
 }
@@ -136,6 +140,9 @@ a {
 
 .header_nav li span:last-child {
 	font-size: 1.2rem;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-weight: 600;
 }
 
 /* フッター */
