@@ -2,24 +2,6 @@
 
 /* test css */
 
-.swiper-container {
-	height: 100vh;
-	width: 100%;
-}
-
-.slid_img1 {
-	background: url(../images/25803898.jpg) center center / cover no-repeat;
-}
-
-.slid_img2 {
-	background: url(../images/pixta_7229716_XL.jpg) center center / cover
-		no-repeat;
-}
-
-.slid_img3 {
-	background: url(../images/48273048.jpg) center center / cover no-repeat;
-}
-
 .button {
 	border: 2px solid #fff;
 	height: 50px;
@@ -36,37 +18,4 @@
 
 .slid-3_btn {
 	background: var(--color_yellow);
-}
-
-.heading-3 {
-	display: inline-block;
-	line-height: 1.4;
-	padding: 0.25em 1em;
-	position: relative;
-	top: 0;
-}
-
-.heading-3::before,
-.heading-3::after {
-	content: "";
-	display: inline-block;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	width: 8px;
-}
-
-.heading-3::before {
-	border-bottom: solid 1px black;
-	border-left: solid 1px black;
-	border-top: solid 1px black;
-	left: 0;
-}
-
-.heading-3::after {
-	border-bottom: solid 1px black;
-	border-right: solid 1px black;
-	border-top: solid 1px black;
-	content: "";
-	right: 0;
 }
