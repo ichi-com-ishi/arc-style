@@ -2,8 +2,29 @@
 
 /* top css */
 
+/* スライダー */
+
+.swiper-container {
+	height: 100vh;
+
+	/* width: 100%; */
+}
+
 .slid {
 	position: relative;
+}
+
+.slid_img1 {
+	background: url(../images/25803898.jpg) center center / cover no-repeat;
+}
+
+.slid_img2 {
+	background: url(../images/pixta_7229716_XL.jpg) center center / cover
+		no-repeat;
+}
+
+.slid_img3 {
+	background: url(../images/48273048.jpg) center center / cover no-repeat;
 }
 
 .slid_img_content {
