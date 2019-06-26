@@ -3,8 +3,8 @@
 /* variables css */
 
 :root {
-	--color_red: red;
-	--color_blue: blue;
-	--color_yellow: yellow;
-	--dark: rgba(0, 0, 0, 0.4);
+  --color_red: red;
+  --color_blue: blue;
+  --color_yellow: yellow;
+  --dark: rgba(0, 0, 0, 0.4);
 }
