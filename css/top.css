@@ -27,7 +27,7 @@
   background: url(../images/48273048.jpg) center center / cover no-repeat;
 }
 
-.slid_img_content {
+.slid-img-content {
   left: 50%;
   max-width: 1200px;
   position: absolute;
@@ -37,7 +37,7 @@
   width: 100%;
 }
 
-.slid_img_content .el_title {
+.slid-img-content .el-title {
   color: #fff;
   font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
   font-size: 6rem;
@@ -47,7 +47,7 @@
   letter-spacing: 0.1em;
 }
 
-.slid_img_content .el_text {
+.slid-img-content .el-text {
   color: #fff;
   font-size: 2.1rem;
   -webkit-font-smoothing: antialiased;
@@ -56,14 +56,14 @@
   letter-spacing: 0.1em;
 }
 
-.slid_img_content .el_btn {
+.slid-img-content .el-btn {
 
   /* background: red; */
   margin: 0 auto;
   text-align: center;
 }
 
-.slid_img_content .el_btn a {
+.slid-img-content .el-btn a {
   background-color: rgba(255, 255, 255, 0.15);
   border: 1px solid #f9f9f9;
   border-radius: 100px;
