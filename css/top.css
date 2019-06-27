@@ -6,8 +6,6 @@
 
 .swiper-container {
   height: 100vh;
-
-  /* width: 100%; */
 }
 
 .slid {
@@ -15,16 +13,16 @@
 }
 
 .slid_img1 {
-  background: url(../images/25803898.jpg) center center / cover no-repeat;
+  background: url(../images/25803898-bk.jpg) center center / cover no-repeat;
 }
 
 .slid_img2 {
-  background: url(../images/pixta_7229716_XL.jpg) center center / cover
+  background: url(../images/pixta_7229716_XL-bk.jpg) center center / cover
     no-repeat;
 }
 
 .slid_img3 {
-  background: url(../images/48273048.jpg) center center / cover no-repeat;
+  background: url(../images/48273048-bk.jpg) center center / cover no-repeat;
 }
 
 .slid-img-content {
@@ -73,4 +71,54 @@
   letter-spacing: 0.1em;
   padding: 15px 0;
   width: 270px;
+}
+
+/* shop */
+
+#shop {
+  padding-bottom: 85px;
+}
+
+.shop-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.shop-flex-child {
+  position: relative;
+  width: calc(100 / 3);
+}
+
+.shop-flex-child img {
+  display: block;
+}
+
+.shop-flex-inner {
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  /* width: 64.1%; */
+  width: 70%;
+}
+
+.shop-flex-inner h3 {
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid #f0f0f0;
+  color: #f0f0f0;
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  line-height: 3.125;
+  margin-bottom: 3.125em;
+}
+
+.shop-flex-inner p {
+  color: #f0f0f0;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
 }
