@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="format-detection" content="telephone=no" />
     <title>豊かな生活スタイル創造企業｜アークスタイル</title>
     <meta name="Keywords" content="アークスタイル,リフォーム,エクステリア" />
     <meta
@@ -21,7 +22,7 @@
     <link rel="stylesheet" href="css/base.css" />
   </head>
   <body>
-    <div id="wrapper">
+    <div class="wrapper">
       <header id="header">
         <div>
           <h1 class="header-log">
@@ -61,14 +62,6 @@
                   <div>
                     <span>FLOW</span>
                     <span>リフォーム</span>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <div>
-                    <span>COMPANY</span>
-                    <span>企業情報</span>
                   </div>
                 </a>
               </li>
@@ -139,79 +132,80 @@
                 <h2 class="heading-2">NEWS</h2>
                 <p class="heading-2-bottom">新着記事</p>
               </div>
-              <div class="article-wrapper flex2 flex-col2">
-                <article class="article flex-child2 flex3 lex-child">
-                  <div class="article-img triming">
+
+              <div class="article-wrapper">
+                <article class="article triming">
+                  <div class="article-img">
+                    <img class="photo" src="images/7463781.jpg" alt="" />
+                  </div>
+                  <div class="article-text">
+                    <div>
+                      <time datetime="2019-06-01">2019.06.01</time>
+                      <a href="" class="category cat-news">お知らせ</a>
+                    </div>
+                    <div>
+                      <h3>この文章はダミーです。</h3>
+                      <p>
+                        この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。
+                      </p>
+                    </div>
+                  </div>
+                </article>
+                <article class="article">
+                  <div>
                     <img src="images/36230743.jpg" width="300" alt="" />
                   </div>
                   <div class="article-text">
                     <div>
-                      <span><time datetime="2019-06-01">2019.06.01</time></span>
-                      <span><a href="">お知らせ</a></span>
+                      <time datetime="2019-06-01">2019.06.01</time>
+                      <a href="" class="category cat-flyer">チラシ</a>
                     </div>
                     <div>
                       <h3>この文章はダミーです。</h3>
                       <p>
-                        この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間…
+                        この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。
                       </p>
                     </div>
                   </div>
                 </article>
-                <article class="flex-child2 flex2 lex-child">
+                <article class="article">
                   <div>
                     <img src="images/36230743.jpg" width="300" alt="" />
                   </div>
-                  <div>
+                  <div class="article-text">
                     <div>
-                      <span><time datetime="2019-06-01">2019.06.01</time></span>
-                      <span><a href="">お知らせ</a></span>
+                      <time datetime="2019-06-01">2019.06.01</time>
+                      <a href="" class="category cat-cnp">キャンペーン</a>
                     </div>
                     <div>
                       <h3>この文章はダミーです。</h3>
                       <p>
-                        この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間…
+                        この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。
                       </p>
                     </div>
                   </div>
                 </article>
-                <article class="flex-child2 flex2">
+                <article class="article">
                   <div>
                     <img src="images/36230743.jpg" width="300" alt="" />
                   </div>
-                  <div>
+                  <div class="article-text">
                     <div>
-                      <span><time datetime="2019-06-01">2019.06.01</time></span>
-                      <span><a href="">お知らせ</a></span>
+                      <time datetime="2019-06-01">2019.06.01</time>
+                      <a href="" class="category cat-event">イベント</a>
                     </div>
                     <div>
                       <h3>この文章はダミーです。</h3>
                       <p>
-                        この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間…
-                      </p>
-                    </div>
-                  </div>
-                </article>
-                <article class="flex-child2 flex2">
-                  <div>
-                    <img src="images/36230743.jpg" width="300" alt="" />
-                  </div>
-                  <div>
-                    <div>
-                      <span><time datetime="2019-06-01">2019.06.01</time></span>
-                      <span><a href="">お知らせ</a></span>
-                    </div>
-                    <div>
-                      <h3>この文章はダミーです。</h3>
-                      <p>
-                        この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間…
+                        この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。
                       </p>
                     </div>
                   </div>
                 </article>
               </div>
             </div>
-            <div>
-              <a href="">新着記事一覧</a>
+            <div class="btn-wrapper">
+              <a class="btn" href="">新着記事一覧<i class="fa fa-angle-right "></i></a>
             </div>
           </section>
           <!-- /#news -->
@@ -334,7 +328,9 @@
                 <div></div>
                 <div></div>
                 <!-- slid -->
-                <a href="">施工実績一覧<i></i></a>
+                <div class="btn-wrapper">
+                  <a class="btn" href="">施工実績一覧<i></i></a>
+                </div>
               </div>
             </div>
           </section>
@@ -345,11 +341,13 @@
                 <h2 class="heading-2">ITEMS</h2>
                 <p class="heading-2-bottom">取り扱い商品</p>
               </div>
-              <div>
-                <div><img src="images/shop-img_9.jpg" width="585" alt="" /></div>
-                <div>
+              <div class="box-wrapper">
+                <div class="box-img">
+                  <img src="images/top/top-items-2.jpg" alt="取り扱い商品イメージ画像" />
+                </div>
+                <div class="box-text">
                   <h3>取り扱い商品</h3>
-                  <a href="">取り扱い商品一覧</a>
+                  <a class="btn" href="">取り扱い商品一覧</a>
                 </div>
               </div>
             </div>
@@ -361,51 +359,84 @@
                 <h2 class="heading-2">FLOW</h2>
                 <p class="heading-2-bottom">リフォームの流れ</p>
               </div>
-              <div>
-                <div><img src="images/36230743.jpg" width="585" alt="" /></div>
-                <div>
+              <div class="box-wrapper">
+                <div class="box-img">
+                  <img src="images/top/top-flow-2.jpg" alt="" />
+                </div>
+                <div class="box-text">
                   <h3>リフォームの流れ</h3>
-                  <a href=""></a>
+                  <a class="btn" href="">リフォームの流れについて</a>
                 </div>
               </div>
             </div>
           </section>
           <!-- /#flow -->
 
-          <section id="company">
+          <section id="info">
             <div>
               <div class="heading-wrapper">
-                <h2 class="heading-2">COMPANY</h2>
-                <p class="heading-2-bottom">企業情報</p>
+                <h2 class="heading-2">INFORMATION</h2>
+                <p class="heading-2-bottom">その他情報</p>
               </div>
-              <ul>
-                <li>
-                  <a href="">
-                    <div><span>会社概要</span></div>
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <div><span>採用情報</span></div>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </section>
-          <!-- /#company -->
-          <section id="partner">
-            <div>
-              <div><img src="images/36230743.jpg" width="585" alt="" /></div>
+              <div class="info-flex">
+                <div class="info-flex-child">
+                  <a href=""><img src="images/bnr/gaiyou.jpg" alt=""/></a>
+                </div>
+                <div class="info-flex-child">
+                  <a href=""><img src="images/bnr/saiyou.jpg" alt=""/></a>
+                </div>
+                <div class="info-flex-child">
+                  <a href=""><img src="images/bnr/kyouryoku.jpg" alt=""/></a>
+                </div>
+                <div class="info-flex-child">
+                  <a href=""><img src="images/bnr/loan.jpg" alt=""/></a>
+                </div>
+                 <div class="info-flex-child">
+                  <a href=""><img src="images/bnr/loan.jpg" alt=""/></a>
+                </div>
+                 <div class="info-flex-child">
+                  <a href=""><img src="images/bnr/loan.jpg" alt=""/></a>
+                </div>
+                 <div class="info-flex-child">
+                  <a href=""><img src="images/bnr/loan.jpg" alt=""/></a>
+                </div>
+              </div>
               <div>
-                <h3 class="heading-2">PARTNER</h3>
-                <p>協力工事業者募集</p>
-                アークスタイルでは、一緒にお客様の夢を<br />
-                叶える協力工事業者えお募集しています。
-                <a href="">お問い合わせはこちら</a>
+                <ul class="info-flex">
+                  <li class="info-flex-child">
+                    <a href=""><img src="images/bnr/gaiyou.jpg" alt=""/></a>
+                  </li>
+                  <li class="info-flex-child">
+                    <a href=""><img src="images/bnr/saiyou.jpg" alt=""/></a>
+                  </li>
+                  <li class="info-flex-child">
+                    <a href=""><img src="images/bnr/kyouryoku.jpg" alt=""/></a>
+                  </li>
+                  <li class="info-flex-child">
+                     <a href=""><img src="images/bnr/loan.jpg" alt=""/></a>
+                  </li>
+                   <li class="info-flex-child">
+                     <a href=""><img src="images/bnr/loan.jpg" alt=""/></a>
+                  </li>
+                   <li class="info-flex-child">
+                     <a href=""><img src="images/bnr/loan.jpg" alt=""/></a>
+                  </li>
+                </ul>
               </div>
+              <!-- ここから -->
+              <div>
+                <A HREF="http://www.j-reform.com/reform-support/" TARGET="_blank">
+                  <IMG
+                    SRC="http://www.j-reform.com/images/banner_s.gif"
+                    ALT="地方公共団体におけるリフォーム支援制度検索"
+                    width="270"
+                    height="200"
+                /></A>
+              </div>
+              <!--ここまで -->
             </div>
           </section>
-          <!-- /#partner -->
+          <!-- /#info -->
         </div>
         <!-- /#main -->
       </div>
@@ -420,8 +451,6 @@
               <li>リフォームの流れ</li>
               <li>取り扱い商品</li>
               <li>施工事例</li>
-              <li>企業情報</li>
-              <li>協力工事業者募集</li>
               <li>個人情報保護方針</li>
               <li>お問い合わせ</li>
             </ul>
@@ -456,7 +485,6 @@
       </footer>
       <!-- /#footer -->
     </div>
-    <!-- /#wrapper -->
     <!-- <script src="js/jquery-2.1.1.min.js"></script> -->
     <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
 

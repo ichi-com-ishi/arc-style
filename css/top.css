@@ -13,16 +13,18 @@
 }
 
 .slid_img1 {
-  background: url(../images/25803898-bk.jpg) center center / cover no-repeat;
+  background: url(../images/slid/slid-darkbg-1.jpg) center center / cover
+    no-repeat;
 }
 
 .slid_img2 {
-  background: url(../images/pixta_7229716_XL-bk.jpg) center center / cover
+  background: url(../images/slid/slid-darkbg-2.jpg) center center / cover
     no-repeat;
 }
 
 .slid_img3 {
-  background: url(../images/48273048-bk.jpg) center center / cover no-repeat;
+  background: url(../images/slid/slid-darkbg-3.jpg) center center / cover
+    no-repeat;
 }
 
 .slid-img-content {
@@ -73,11 +75,9 @@
   width: 270px;
 }
 
-/* shop */
+/* news */
 
-#shop {
-  padding-bottom: 85px;
-}
+/* shop */
 
 .shop-flex {
   display: flex;
@@ -87,7 +87,8 @@
 
 .shop-flex-child {
   position: relative;
-  width: calc(100 / 3);
+
+  /* width: calc(100% / 3); */
 }
 
 .shop-flex-child img {
@@ -100,8 +101,6 @@
   text-align: center;
   top: 50%;
   transform: translate(-50%, -50%);
-
-  /* width: 64.1%; */
   width: 70%;
 }
 
@@ -121,4 +120,102 @@
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.5;
+}
+
+/* items flow共通 */
+
+.box-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.box-img {
+  order: 2;
+  width: 50%;
+}
+
+.box-img img {
+  vertical-align: bottom;
+  width: 100%;
+}
+
+.box-text {
+  background: #5cb85c;
+  padding-top: 4.375em;
+  width: 50%;
+}
+
+.box-text h3 {
+  color: #fff;
+  font-size: 3.2rem;
+  letter-spacing: 0.05em;
+  margin-bottom: 1.875em;
+  text-align: center;
+}
+
+.box-text a {
+  border: 1px solid #fff;
+  color: #fff;
+  display: block;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+/* items */
+
+#items .box-img {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+#items .box-text {
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+/* flow */
+
+#flow .box-img {
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+#flow .box-text {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+/* インフォ */
+
+.info-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.info-flex-child {
+  margin-bottom: 30px;
+}
+
+.info-flex::before,
+.info-flex::after,
+.info-flex .info-flex-child {
+  width: calc((100% - 30px) / 4);
+}
+
+.info-flex::before,
+.info-flex::after {
+  content: "";
+}
+
+.info-flex::before {
+  order: 1;
+}
+
+.info-flex img {
+  vertical-align: bottom;
 }
