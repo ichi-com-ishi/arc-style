@@ -29,13 +29,6 @@ body {
 
 /* 画像のトリミング */
 
-.triming {
-  overflow: hidden;
-  padding-top: 37%;
-  position: relative;
-  width: 50%;
-}
-
 .photo {
   height: auto;
   left: 50%;
@@ -211,6 +204,13 @@ a {
   justify-content: space-between;
   margin-bottom: 30px;
   width: calc((100% - 30px) / 2);
+}
+
+.article-triming {
+  overflow: hidden;
+  padding-top: 37%;
+  position: relative;
+  width: 50%;
 }
 
 .article-text {
