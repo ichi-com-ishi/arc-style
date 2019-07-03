@@ -4,7 +4,7 @@
 
 /* スライダー */
 
-.swiper-container {
+.swiper-main {
   height: 100vh;
 }
 
@@ -120,6 +120,119 @@
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.5;
+}
+
+/* works
+==================================================== */
+
+.swiper-slide {
+  position: relative;
+}
+
+.work-category {
+  color: #fff;
+  font-size: 1.4rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  line-height: 30px;
+  max-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
+.swiper-reform .work-category {
+  background: rgba(133, 88, 53, 0.6);
+}
+
+.swiper-exterior .work-category {
+  background: rgba(92, 184, 92, 0.6);
+}
+
+.item-box-text time {
+  font-family: "Roboto", "verdana", sans-serif;
+  font-size: 1.6rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.swiper-slide {
+  box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.item-box-text {
+  background: #f7f7f7;
+  border-radius: 0 0 3px 3px;
+  min-height: 100px;
+  padding: 0.625em 0.9375em;
+}
+
+.item-box-text h3 {
+  font-size: 2rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+}
+
+.swiper-parent {
+  position: relative;
+}
+
+.triming-work {
+  overflow: hidden;
+  padding-top: 56%;
+  position: relative;
+  width: 100%;
+}
+
+.triming-work img {
+  vertical-align: bottom;
+}
+
+.swiper-button-prev,
+.swiper-container-rtl,
+.swiper-button-next {
+  background-color: rgba(255, 255, 255, 0.5);
+  background-size: 80%;
+}
+
+.swiper-pagination {
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  cursor: pointer;
+  margin: 0 4px;
+}
+
+.swiper-reform,
+.swiper-exterior {
+  padding-bottom: 50px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  margin-top: -22px; /* ボタンの高さ（44px）の半分のネガティブマージンで上に少しずらす */
+  top: calc((100% - 50px) * 0.5); /* ページネーション・スクロールバー（50px）を除く縦位置の中央（＝スライドの高さの中央）に一旦配置 */
+}
+
+.swiper-pagination-brown .swiper-pagination-bullet-active {
+  background: #855835;
+}
+
+.swiper-pagination-green .swiper-pagination-bullet-active {
+  background: #5cb85c;
+}
+
+#works .btn-wrapper {
+  padding-top: 50px;
 }
 
 /* items flow共通 */

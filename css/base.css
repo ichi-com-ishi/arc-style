@@ -22,12 +22,19 @@ body {
   box-sizing: border-box;
 }
 
-/* 画像のトリミング */
-
-.triming {
+ul {
+  list-style: none;
 }
 
-.phpto {
+/* 画像のトリミング */
+
+.photo {
+  height: auto;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
 }
 
 /* 画像の透過 */
@@ -47,17 +54,6 @@ body {
   right: 0;
   top: 0;
   transition: all 0.8s;
-}
-
-/* flex */
-
-ul {
-  list-style: none;
-}
-
-#contents {
-
-  /* min-width: 1200px; */
 }
 
 /* ボタン */
@@ -80,9 +76,6 @@ ul {
   padding: 0.785em 0;
   text-align: center;
   width: 100%;
-}
-
-.btn i {
 }
 
 /* リンク */
@@ -113,14 +106,30 @@ a {
 }
 
 #footer {
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 /* 見出し */
 
-.heading-wrapper {
+.heading-wrapper-2 {
   margin-bottom: 70px;
   padding-top: 70px;
+  text-align: center;
+}
+
+/* .heading-wrapper-3 {
+  margin-bottom: 70px;
+  text-align: center;
+} */
+
+.heading-wrapper-reform {
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.heading-wrapper-exterior {
+  margin-bottom: 70px;
+  padding-top: 100px;
   text-align: center;
 }
 
@@ -199,9 +208,17 @@ a {
   width: calc((100% - 30px) / 2);
 }
 
+.article-triming {
+  overflow: hidden;
+  padding-top: 37%;
+  position: relative;
+  width: 50%;
+}
+
 .article-text {
   background: #f7f7f7;
   padding: 0.9375em;
+  width: 50%;
 }
 
 .article-text p {
@@ -215,6 +232,7 @@ a {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin-right: 1.875em;
+  vertical-align: middle;
 }
 
 .article-text > div {
@@ -234,7 +252,6 @@ a {
   font-size: 1.2rem;
   max-width: 80px;
   text-align: center;
-  vertical-align: sub;
   width: 100%;
 }
 
