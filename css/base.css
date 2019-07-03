@@ -22,9 +22,8 @@ body {
   box-sizing: border-box;
 }
 
-.container {
-  min-width: 1200px;
-  overflow: hidden;
+ul {
+  list-style: none;
 }
 
 /* 画像のトリミング */
@@ -57,23 +56,13 @@ body {
   transition: all 0.8s;
 }
 
-/* flex */
-
-ul {
-  list-style: none;
-}
-
-/* #contents {
-  min-width: 1200px;
-} */
-
 /* ボタン */
 
 .btn-wrapper {
   text-align: center;
 }
 
-.btn {
+.btn-v1 {
   background: #5cb85c;
   color: #fff;
   display: inline-block;
@@ -81,15 +70,41 @@ ul {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 600;
+  line-height: 3;
   margin: 0 auto;
   max-width: 270px;
-  padding: 0 1em;
-  padding: 0.785em 0;
+
+  /* padding: 0.785em 0; */
   text-align: center;
   width: 100%;
 }
 
-.btn i {
+.btn-v1:hover {
+  background: none;
+  border: 1px solid #5cb85c;
+  color: #5cb85c;
+}
+
+.btn-v2 {
+  color: #fff;
+  display: inline-block;
+  font-size: 1.4rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 600;
+
+  /* line-height: 3.6; */
+  margin: 0 auto;
+  max-width: 250px;
+  padding: 1.07em 0;
+  text-align: center;
+  width: 100%;
+}
+
+.btn-v2:hover {
+  background: #fff;
+  border: 1px solid #fff;
+  color: #5cb85c;
 }
 
 /* リンク */
@@ -120,14 +135,30 @@ a {
 }
 
 #footer {
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 /* 見出し */
 
-.heading-wrapper {
+.heading-wrapper-2 {
   margin-bottom: 70px;
   padding-top: 70px;
+  text-align: center;
+}
+
+/* .heading-wrapper-3 {
+  margin-bottom: 70px;
+  text-align: center;
+} */
+
+.heading-wrapper-reform {
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.heading-wrapper-exterior {
+  margin-bottom: 70px;
+  padding-top: 100px;
   text-align: center;
 }
 
