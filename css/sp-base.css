@@ -1,0 +1,96 @@
+@charset 'utf-8';
+
+/* =================================================================
+sp-base css
+================================================================= */
+
+@media screen and (min-width: 800px) {
+
+  /* レイアウト */
+
+  .pc-hide {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  /* レイアウト */
+
+  .sp-hide {
+    display: none;
+  }
+
+  #news > div,
+  #shop > div,
+  #flow > div,
+  #items > div,
+  #info > div {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* ヘッダー */
+
+  .header-log {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* フッター */
+
+  .footer-bottom {
+    padding-bottom: 80px;
+  }
+
+  .footer-bottom-menu {
+    background: #5cb85c;
+    border-top: 1px solid #fff;
+    bottom: 0;
+    padding: 20px 0 15px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+  }
+
+  .footer-bottom-menu nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+  }
+
+  .footer-bottom-menu nav ul li {
+    border-right: 1px solid #fff;
+    width: calc(100% / 4);
+  }
+
+  .footer-bottom-menu nav ul li:last-child {
+    border-right: none;
+  }
+
+  .footer-bottom-menu nav ul li a div i,
+  .footer-bottom-menu nav ul li a div span {
+    display: block;
+  }
+
+  .footer-bottom-menu nav ul li a div {
+    text-align: center;
+  }
+
+  .footer-bottom-menu nav ul li a {
+    color: #fff;
+  }
+
+  .footer-bottom-menu nav ul li a div span {
+    font-size: 1.2rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 600;
+    margin-top: 5px;
+  }
+
+  .footer-bottom-nav {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,71 @@
+@charset 'utf-8';
+
+/* =================================================================
+sp-top css
+================================================================= */
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+
+  .article-text {
+    padding: 1.76% 0 0 2.6%;
+  }
+
+  .article-text h3,
+  .article-text p,
+  .article-text time {
+    font-size: 1.333vw;
+  }
+
+  .category {
+    font-size: 1vw;
+    min-width: 80px;
+    width: 30%;
+  }
+
+  .article-text div:first-child {
+    margin-bottom: 1.46%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  /* news */
+  .article {
+    width: 100%;
+  }
+
+  .article-text h3,
+  .article-text p,
+  .article-text time {
+    font-size: 2.25vw;
+  }
+
+  .article-text {
+    padding: 1.95%;
+  }
+
+  .article-text div:first-child {
+    margin-bottom: 1.08%;
+  }
+
+  .category {
+    font-size: 1.5vw;
+  }
+
+  /* shop */
+  .shop-flex-child {
+    width: 100%;
+  }
+
+  /* items */
+
+  /* info */
+
+  .info-flex .info-flex-child {
+    width: calc((100% - 30px) / 2);
+  }
+
+  .info-flex .info-flex-child img {
+    width: 100%;
+  }
+}
