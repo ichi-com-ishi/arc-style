@@ -26,6 +26,12 @@ ul {
   list-style: none;
 }
 
+.container {
+
+  /* min-width: 1200px; */
+  overflow: hidden;
+}
+
 /* 画像のトリミング */
 
 .photo {
@@ -150,14 +156,32 @@ a {
 
 /* レイアウト */
 
-#news > div,
+/* #news > div,
 #shop > div,
 #flow > div,
 #items > div,
 #info > div {
-  margin: 0 auto;
-  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
   width: 1200px;
+} */
+
+#news > div,
+#shop > div,
+#flow > div,
+#items > div,
+#info > div,
+.footer-bottom > div {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#items div {
 }
 
 #contents #main section {
@@ -475,11 +499,11 @@ a {
   transform: scale(1, 1);
 }
 
-.footer-bottom > div {
+/* .footer-bottom > div {
   margin: 0 auto;
   padding: 0 15px;
   width: 1200px;
-}
+} */
 
 .bg-green {
   background: url(../images/common/footer.jpg) center center / cover no-repeat;

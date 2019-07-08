@@ -114,7 +114,7 @@ top css
 .shop-flex-child {
   position: relative;
 
-  /* width: calc(100% / 3); */
+  width: calc(100% / 3);
 }
 
 .shop-flex-child a:hover .shop-flex-inner h3 {
@@ -131,6 +131,7 @@ top css
 .shop-flex-child img {
   display: block;
   transition: transform 0.8s linear;
+  width: 100%;
 }
 
 .shop-flex-child img:hover {
@@ -248,7 +249,8 @@ top css
 }
 
 .swiper-pagination {
-  bottom: 10px;
+
+  /* bottom: 10px; */
   left: 0;
   width: 100%;
 }
@@ -389,5 +391,7 @@ top css
 }
 
 .info-flex img {
+  height: auto;
   vertical-align: bottom;
+  width: 100%;
 }
