@@ -106,6 +106,7 @@ top css
 /* shop */
 
 .shop-flex {
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -114,11 +115,33 @@ top css
 .shop-flex-child {
   position: relative;
 
-  width: calc(100% / 3);
+  /* width: calc(100% / 3); */
+}
+
+.shop-flex-1,
+.shop-flex-2,
+.shop-flex-3 {
+  flex-basis: 33.333%;
+}
+
+.shop-flex-4,
+.shop-flex-5,
+.shop-flex-6,
+.shop-flex-7 {
+  flex-basis: 25%;
 }
 
 .shop-flex-child a:hover .shop-flex-inner h3 {
-  background-color: rgba(255, 255, 255, 0.15);
+
+  /* background-color: rgba(255, 255, 255, 0.15); */
+
+  /* border-bottom: 1px solid #f0f0f0;
+  border-top: 1px solid #f0f0f0; */
+  border: 1px solid #f0f0f0;
+
+  /* box-shadow: 0 0 45px rgba(255, 255, 255, 0.6); */
+
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.6) inset;
   transition: 3s all ease 0s;
 }
 
@@ -131,6 +154,7 @@ top css
 .shop-flex-child img {
   display: block;
   transition: transform 0.8s linear;
+
   width: 100%;
 }
 
@@ -144,18 +168,33 @@ top css
   text-align: center;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 70%;
+
+  /* width: 70%; */
+  width: 100%;
 }
 
+/* .shop-triming {
+  overflow: hidden;
+  padding-top: 75%;
+  position: relative;
+  width: 100%;
+} */
+
 .shop-flex-inner h3 {
-  border: 1px solid #f0f0f0;
+
+  /* border: 1px solid #f0f0f0; */
+
+  /* background-color: rgba(255, 255, 255, 0.15); */
   color: #f0f0f0;
   font-size: 1.6rem;
   font-weight: 500;
   letter-spacing: 0.05em;
   line-height: 3.125;
   margin-bottom: 3.125em;
+  margin-left: auto;
+  margin-right: auto;
   transition: all 0.6s;
+  width: 70%;
 }
 
 /* .shop-flex-inner h3:hover {

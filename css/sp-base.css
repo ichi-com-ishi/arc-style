@@ -26,8 +26,8 @@ sp-base css
   #flow > div,
   #items > div,
   #info > div {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 3.8%;
+    padding-right: 3.8%;
   }
 
   /* ヘッダー */

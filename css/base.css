@@ -34,13 +34,22 @@ ul {
 
 /* 画像のトリミング */
 
-.photo {
+.photo-width {
   height: auto;
   left: 50%;
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
+}
+
+.photo-height {
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
 }
 
 /* 画像の透過 */
@@ -169,7 +178,7 @@ a {
 } */
 
 #news > div,
-#shop > div,
+/* #shop > div, */
 #flow > div,
 #items > div,
 #info > div,
