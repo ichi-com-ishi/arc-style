@@ -6,28 +6,33 @@ sp-base css
 
 @media screen and (min-width: 800px) {
 
-  /* レイアウト */
-
   .pc-hide {
     display: none;
   }
+
+  /* レイアウト */
 }
 
 @media screen and (max-width: 800px) {
 
-  /* レイアウト */
-
   .sp-hide {
     display: none;
   }
+
+  /* レイアウト */
 
   #news > div,
   #shop > div,
   #flow > div,
   #items > div,
   #info > div {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 3.8%;
+    padding-right: 3.8%;
+  }
+
+  .footer-bottom > div {
+    margin-left: -15px;
+    margin-right: -15px;
   }
 
   /* ヘッダー */

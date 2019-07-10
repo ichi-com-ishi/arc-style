@@ -34,13 +34,22 @@ ul {
 
 /* 画像のトリミング */
 
-.photo {
+.photo-width {
   height: auto;
   left: 50%;
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
+}
+
+.photo-height {
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
 }
 
 /* 画像の透過 */
@@ -169,7 +178,7 @@ a {
 } */
 
 #news > div,
-#shop > div,
+/* #shop > div, */
 #flow > div,
 #items > div,
 #info > div,
@@ -303,15 +312,21 @@ a {
 
 .article-triming {
   overflow: hidden;
-  padding-top: 37%;
+
+  /* padding-top: 37%; */
+  padding-top: 30%;
   position: relative;
-  width: 50%;
+
+  /* width: 50%; */
+  width: 40%;
 }
 
 .article-text {
   background: #f7f7f7;
-  padding: 0.9375em;
-  width: 50%;
+  padding: 0.625em;
+
+  /* width: 50%; */
+  width: 60%;
 }
 
 .article-text p {
@@ -328,7 +343,7 @@ a {
   vertical-align: middle;
 }
 
-.article-text > div {
+.article-text div:first-child {
   margin-bottom: 0.3125em;
 }
 
@@ -336,16 +351,15 @@ a {
   font-size: 1.6rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 0.625em;
+  margin-bottom: 0.3125em;
 }
 
 .category {
   color: #fff;
   display: inline-block;
   font-size: 1.2rem;
-  max-width: 80px;
   text-align: center;
-  width: 100%;
+  width: 80px;
 }
 
 .cat-news {
