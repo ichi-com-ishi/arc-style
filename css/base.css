@@ -27,12 +27,11 @@ ul {
 }
 
 .container {
-
-  /* min-width: 1200px; */
   overflow: hidden;
 }
 
-/* 画像のトリミング */
+/* 画像のトリミング
+================================================================= */
 
 .photo-width {
   height: auto;
@@ -52,7 +51,8 @@ ul {
   width: auto;
 }
 
-/* 画像の透過 */
+/* 画像の透過
+================================================================= */
 
 .bgDark {
   background: #000;
@@ -63,7 +63,8 @@ ul {
   opacity: 0.4;
 }
 
-/* ボタン */
+/* ボタン
+================================================================= */
 
 .btn-wrapper {
   text-align: center;
@@ -81,8 +82,6 @@ ul {
   margin: 0 auto;
   max-width: 270px;
   position: relative;
-
-  /* padding: 0.785em 0; */
   text-align: center;
   transition: 0.5s all ease 0s;
   width: 100%;
@@ -122,8 +121,6 @@ ul {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 600;
-
-  /* line-height: 3.6; */
   margin: 0 auto;
   max-width: 250px;
   padding: 1.07em 0;
@@ -138,7 +135,8 @@ ul {
   color: #5cb85c;
 }
 
-/* リンク */
+/* リンク
+================================================================= */
 
 a {
   color: #5a5a5a;
@@ -163,22 +161,10 @@ a {
   width: 100%;
 }
 
-/* レイアウト */
-
-/* #news > div,
-#shop > div,
-#flow > div,
-#items > div,
-#info > div {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 1200px;
-} */
+/* レイアウト
+================================================================= */
 
 #news > div,
-/* #shop > div, */
 #flow > div,
 #items > div,
 #info > div,
@@ -188,9 +174,6 @@ a {
   max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-}
-
-#items div {
 }
 
 #contents #main section {
@@ -205,16 +188,17 @@ a {
   margin-top: 200px;
 }
 
-/* ページトップへ戻る */
-#PageTopBtn {
+/* ページトップへ戻る
+================================================================= */
+#pageTop {
   bottom: 50px;
   height: auto;
   position: fixed;
   right: 15px;
-  z-index: 99999;
+  z-index: 10000;
 }
 
-#PageTopBtn a {
+#pageTop a {
   background: #232c23;
   color: #f8f8f8;
   height: 60px;
@@ -225,12 +209,13 @@ a {
   width: 60px;
 }
 
-#PageTopBtn a:hover {
+#pageTop a:hover {
   opacity: 0.9;
   text-decoration: none;
 }
 
-/* 見出し */
+/* 見出し
+================================================================= */
 
 .heading-wrapper-2 {
   margin-bottom: 70px;
@@ -313,97 +298,11 @@ a {
   right: 0;
 }
 
-/* アーティクル */
+/* アーティクル
+================================================================= */
 
-.article-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.article {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  margin-bottom: 30px;
-  position: relative;
-  transition: 0.2s;
-  width: calc((100% - 30px) / 2);
-}
-
-.article:hover {
-  opacity: 0.8;
-}
-
-.article-triming {
-  overflow: hidden;
-
-  /* padding-top: 37%; */
-  padding-top: 30%;
-  position: relative;
-
-  /* width: 50%; */
-  width: 40%;
-}
-
-.article-text {
-  background: #f7f7f7;
-  padding: 0.625em;
-
-  /* width: 50%; */
-  width: 60%;
-}
-
-.article-text p {
-  letter-spacing: 0.05em;
-  line-height: 1.75;
-}
-
-.article-text time {
-  font-family: "Roboto", "verdana", sans-serif;
-  font-size: 1.6rem;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  margin-right: 1.875em;
-  vertical-align: middle;
-}
-
-.article-text div:first-child {
-  margin-bottom: 0.3125em;
-}
-
-.article-text h3 {
-  font-size: 1.6rem;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 0.3125em;
-}
-
-.category {
-  color: #fff;
-  display: inline-block;
-  font-size: 1.2rem;
-  text-align: center;
-  width: 80px;
-}
-
-.cat-news {
-  background: #5cb85c;
-}
-
-.cat-flyer {
-  background: #f77825;
-}
-
-.cat-cnp {
-  background: #ed5f68;
-}
-
-.cat-event {
-  background: #5db999;
-}
-
-/* ヘッダー */
+/* ヘッダー
+================================================================= */
 
 #header {
   background: #fff;
@@ -489,7 +388,8 @@ a {
   font-weight: 600;
 }
 
-/* フッター */
+/* フッター
+================================================================= */
 
 .footer-top {
   background: #e8eee8;
@@ -537,12 +437,6 @@ a {
 .footer-nav li a:hover::after {
   transform: scale(1, 1);
 }
-
-/* .footer-bottom > div {
-  margin: 0 auto;
-  padding: 0 15px;
-  width: 1200px;
-} */
 
 .bg-green {
   background: url(../images/common/footer/footer.jpg) center center / cover

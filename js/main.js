@@ -64,7 +64,7 @@ var mySwiper = new Swiper( '.swiper-exterior', {
 
 // ページトップへ戻る
 $( function() {
-  var TopBtn = $( '#PageTopBtn' );
+  var TopBtn = $( '#pageTop' );
   TopBtn.hide();
 
   // スクロール位置が100でボタンを表示
