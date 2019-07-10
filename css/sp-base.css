@@ -35,6 +35,13 @@ sp-base css
     margin-right: -15px;
   }
 
+  /* ページトップへ戻る */
+
+  #PageTopBtn {
+    bottom: 140px;
+    right: 3.8%;
+  }
+
   /* ヘッダー */
 
   .header-log {
@@ -55,7 +62,7 @@ sp-base css
     padding: 20px 0 15px 0;
     position: fixed;
     width: 100%;
-    z-index: 99999;
+    z-index: 9999;
   }
 
   .footer-bottom-menu nav ul {

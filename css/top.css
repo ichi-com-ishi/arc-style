@@ -28,11 +28,12 @@ top css
 }
 
 .slid_img2 {
-  background: url(../images/slid/zisedai.png) center center no-repeat;
+  background: url(../images/slid/ziseda.png) center center no-repeat;
 }
 
 .slid_img3 {
-  background: url(../images/slid/download-1.jpg) center center / cover no-repeat;
+  background: url(../images/slid/slid-darkbg-1.jpg) center center / cover
+    no-repeat;
 }
 
 .slid-img-content {
@@ -53,6 +54,7 @@ top css
   -moz-osx-font-smoothing: grayscale;
   font-weight: 600;
   letter-spacing: 0.1em;
+  text-shadow: rgba(0, 0, 0, 0.1) 2px 3px 5px;
 }
 
 .slid-img-content .el-text {
@@ -62,6 +64,7 @@ top css
   -moz-osx-font-smoothing: grayscale;
   font-weight: 600;
   letter-spacing: 0.1em;
+  text-shadow: rgba(0, 0, 0, 0.1) 2px 3px 5px;
 }
 
 .slid-img-content .el-btn {

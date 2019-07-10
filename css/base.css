@@ -205,6 +205,31 @@ a {
   margin-top: 200px;
 }
 
+/* ページトップへ戻る */
+#PageTopBtn {
+  bottom: 50px;
+  height: auto;
+  position: fixed;
+  right: 15px;
+  z-index: 99999;
+}
+
+#PageTopBtn a {
+  background: #232c23;
+  color: #f8f8f8;
+  height: 60px;
+  line-height: 60px;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  width: 60px;
+}
+
+#PageTopBtn a:hover {
+  opacity: 0.9;
+  text-decoration: none;
+}
+
 /* 見出し */
 
 .heading-wrapper-2 {
@@ -520,7 +545,8 @@ a {
 } */
 
 .bg-green {
-  background: url(../images/common/footer.jpg) center center / cover no-repeat;
+  background: url(../images/common/footer/footer.jpg) center center / cover
+    no-repeat;
 }
 
 .footer-bottom {
