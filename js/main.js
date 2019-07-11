@@ -50,10 +50,11 @@ var mySwiper = new Swiper( '.swiper-exterior', {
     type: 'bullets',
     clickable: true
   },
-  autoplay: {
-    delay: 3000,
-    disableOnInteraction: false
-  },
+
+  // autoplay: {
+  //   delay: 3000,
+  //   disableOnInteraction: false
+  // },
   slidesPerView: 5.5,
   spaceBetween: 30,
   initialSlide: 0,
@@ -82,7 +83,7 @@ $( function() {
       {
         scrollTop: 0
       },
-      300
+      'slow'
     );
     return false;
   });

@@ -8,7 +8,7 @@ top css
 ================================================================= */
 
 .swiper-main {
-  height: 500px;
+  height: 600px;
 
   /* height: 100vh; */
 }
@@ -27,7 +27,8 @@ top css
 }
 
 .slid_img2 {
-  background: url(../images/slid/ziseda.png) center center no-repeat;
+  background: url(../images/slid/zisedai_1900-600.jpg) center center / cover
+    no-repeat;
 }
 
 .slid_img3 {
@@ -48,7 +49,7 @@ top css
 .slid-img-content .el-title {
   color: #fff;
   font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-  font-size: 6rem;
+  font-size: 5.9rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 600;
@@ -63,6 +64,7 @@ top css
   -moz-osx-font-smoothing: grayscale;
   font-weight: 600;
   letter-spacing: 0.1em;
+  padding-left: 7px;
   text-shadow: rgba(0, 0, 0, 0.1) 2px 3px 5px;
 }
 
@@ -229,7 +231,7 @@ top css
   transition: 3s all ease 0s;
 }
 
-.shop-flex-child a:hover .bgDark img {
+.shop-flex-child a:hover .bgDark-04 img {
   background-color: rgba(0, 0, 0, 0.6);
   opacity: 0.7;
   transition: 3s all ease 0s;
@@ -348,7 +350,8 @@ top css
   overflow: hidden;
   padding-top: 56%;
   position: relative;
-  width: 100%;
+
+  /* width: 100%; */
 }
 
 .triming-work img {

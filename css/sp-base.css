@@ -4,6 +4,32 @@
 sp-base css
 ================================================================= */
 
+/* 800px-1200px
+================================================================= */
+
+@media screen and (max-width: 1200px) {
+
+  .slid-img-content .el-title {
+    font-size: 4.9vw;
+    white-space: nowrap;
+  }
+
+  .slid-img-content .el-text {
+    font-size: 1.75vw;
+  }
+}
+
+/* @media screen and (min-width: 800px) and (max-width: 1200px) {
+
+  .slid-img-content .el-title {
+    font-size: 5vw;
+  }
+
+  .slid-img-content .el-text {
+    font-size: 1.75vw;
+  }
+} */
+
 /* ～800px
 ================================================================= */
 
@@ -26,6 +52,7 @@ sp-base css
   /* レイアウト
   ----------------------------------------------------------------- */
 
+  .slid-img-content,
   #news > div,
   #shop > div,
   #flow > div,
@@ -50,6 +77,10 @@ sp-base css
 
   /* ヘッダー
   ----------------------------------------------------------------- */
+
+  #header {
+    height: 80px;
+  }
 
   .header-log {
     margin-left: auto;
