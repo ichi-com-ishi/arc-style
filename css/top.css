@@ -4,12 +4,11 @@
 top css
 ================================================================= */
 
-/* top css */
-
-/* スライダー */
+/* スライダー
+================================================================= */
 
 .swiper-main {
-  height: 500px;
+  height: 600px;
 
   /* height: 100vh; */
 }
@@ -28,11 +27,12 @@ top css
 }
 
 .slid_img2 {
-  background: url(../images/slid/zisedai.png) center center no-repeat;
+  background: url(../images/slid/zisedai_1900-600.jpg) center center no-repeat;
 }
 
 .slid_img3 {
-  background: url(../images/slid/download-1.jpg) center center / cover no-repeat;
+  background: url(../images/slid/slid-darkbg-1.jpg) center center / cover
+    no-repeat;
 }
 
 .slid-img-content {
@@ -48,11 +48,12 @@ top css
 .slid-img-content .el-title {
   color: #fff;
   font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-  font-size: 6rem;
+  font-size: 5.9rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 600;
   letter-spacing: 0.1em;
+  text-shadow: rgba(0, 0, 0, 0.1) 2px 3px 5px;
 }
 
 .slid-img-content .el-text {
@@ -62,6 +63,8 @@ top css
   -moz-osx-font-smoothing: grayscale;
   font-weight: 600;
   letter-spacing: 0.1em;
+  padding-left: 7px;
+  text-shadow: rgba(0, 0, 0, 0.1) 2px 3px 5px;
 }
 
 .slid-img-content .el-btn {
@@ -101,9 +104,99 @@ top css
   transform: translateY(-50%);
 }
 
-/* news */
+/* news
+================================================================= */
 
-/* shop */
+.article-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.article {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  position: relative;
+  transition: 0.2s;
+  width: calc((100% - 30px) / 2);
+}
+
+.article:hover {
+  opacity: 0.8;
+}
+
+.article-triming {
+  overflow: hidden;
+
+  /* padding-top: 37%; */
+  padding-top: 30%;
+  position: relative;
+
+  /* width: 50%; */
+  width: 40%;
+}
+
+.article-text {
+  background: #f7f7f7;
+  padding: 0.625em;
+
+  /* width: 50%; */
+  width: 60%;
+}
+
+.article-text p {
+  letter-spacing: 0.05em;
+  line-height: 1.75;
+}
+
+.article-text time {
+  font-family: "Roboto", "verdana", sans-serif;
+  font-size: 1.6rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-right: 1.875em;
+  vertical-align: middle;
+}
+
+.article-text div:first-child {
+  margin-bottom: 0.3125em;
+}
+
+.article-text h3 {
+  font-size: 1.6rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 0.3125em;
+}
+
+.category {
+  color: #fff;
+  display: inline-block;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 80px;
+}
+
+.cat-news {
+  background: #5cb85c;
+}
+
+.cat-flyer {
+  background: #f77825;
+}
+
+.cat-cnp {
+  background: #ed5f68;
+}
+
+.cat-event {
+  background: #5db999;
+}
+
+/* shop
+================================================================= */
 
 .shop-flex {
   align-items: center;
@@ -132,20 +225,12 @@ top css
 }
 
 .shop-flex-child a:hover .shop-flex-inner h3 {
-
-  /* background-color: rgba(255, 255, 255, 0.15); */
-
-  /* border-bottom: 1px solid #f0f0f0;
-  border-top: 1px solid #f0f0f0; */
   border: 1px solid #f0f0f0;
-
-  /* box-shadow: 0 0 45px rgba(255, 255, 255, 0.6); */
-
   box-shadow: 0 0 30px rgba(255, 255, 255, 0.6) inset;
   transition: 3s all ease 0s;
 }
 
-.shop-flex-child a:hover .bgDark img {
+.shop-flex-child a:hover .bgDark-04 img {
   background-color: rgba(0, 0, 0, 0.6);
   opacity: 0.7;
   transition: 3s all ease 0s;
@@ -154,7 +239,6 @@ top css
 .shop-flex-child img {
   display: block;
   transition: transform 0.8s linear;
-
   width: 100%;
 }
 
@@ -181,10 +265,6 @@ top css
 } */
 
 .shop-flex-inner h3 {
-
-  /* border: 1px solid #f0f0f0; */
-
-  /* background-color: rgba(255, 255, 255, 0.15); */
   color: #f0f0f0;
   font-size: 1.6rem;
   font-weight: 500;
@@ -197,10 +277,6 @@ top css
   width: 70%;
 }
 
-/* .shop-flex-inner h3:hover {
-  background-color: rgba(255, 255, 255, 0.15);
-} */
-
 .shop-flex-inner p {
   color: #f0f0f0;
   font-size: 1.6rem;
@@ -209,7 +285,7 @@ top css
 }
 
 /* works
-==================================================== */
+================================================================= */
 
 .swiper-slide {
   position: relative;
@@ -273,7 +349,8 @@ top css
   overflow: hidden;
   padding-top: 56%;
   position: relative;
-  width: 100%;
+
+  /* width: 100%; */
 }
 
 .triming-work img {
@@ -288,8 +365,6 @@ top css
 }
 
 .swiper-pagination {
-
-  /* bottom: 10px; */
   left: 0;
   width: 100%;
 }
@@ -306,8 +381,12 @@ top css
 
 .swiper-button-prev,
 .swiper-button-next {
-  margin-top: -22px; /* ボタンの高さ（44px）の半分のネガティブマージンで上に少しずらす */
-  top: calc((100% - 50px) * 0.5); /* ページネーション・スクロールバー（50px）を除く縦位置の中央（＝スライドの高さの中央）に一旦配置 */
+  margin-top: -22px;
+
+  /* ボタンの高さ（44px）の半分のネガティブマージンで上に少しずらす */
+  top: calc((100% - 50px) * 0.5);
+
+  /* ページネーション・スクロールバー（50px）を除く縦位置の中央（＝スライドの高さの中央）に一旦配置 */
 }
 
 .swiper-pagination-brown .swiper-pagination-bullet-active {
@@ -322,7 +401,8 @@ top css
   padding-top: 50px;
 }
 
-/* items flow共通 */
+/* items flow共通
+================================================================= */
 
 .box-wrapper {
   display: flex;
@@ -374,7 +454,8 @@ top css
   text-align: center;
 }
 
-/* items */
+/* items
+================================================================= */
 
 #items .box-img {
   -webkit-box-ordinal-group: 3;
@@ -388,7 +469,8 @@ top css
   order: 1;
 }
 
-/* flow */
+/* flow
+================================================================= */
 
 #flow .box-img {
   -webkit-box-ordinal-group: 2;
@@ -402,7 +484,8 @@ top css
   order: 2;
 }
 
-/* インフォ */
+/* info
+================================================================= */
 
 .info-flex {
   display: flex;

@@ -3,7 +3,8 @@
 /* variables css */
 
 :root {
-  --color_red: red;
+  --font-kerning: "palt";
+  --font-sans: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
   --color_blue: blue;
   --color_yellow: yellow;
   --dark: rgba(0, 0, 0, 0.4);

@@ -4,23 +4,55 @@
 sp-base css
 ================================================================= */
 
-@media screen and (min-width: 800px) {
+/* 800px-1200px
+================================================================= */
 
-  /* レイアウト */
+@media screen and (max-width: 1200px) {
+
+  .slid-img-content .el-title {
+    font-size: 4.9vw;
+    white-space: nowrap;
+  }
+
+  .slid-img-content .el-text {
+    font-size: 1.75vw;
+  }
+}
+
+/* @media screen and (min-width: 800px) and (max-width: 1200px) {
+
+  .slid-img-content .el-title {
+    font-size: 5vw;
+  }
+
+  .slid-img-content .el-text {
+    font-size: 1.75vw;
+  }
+} */
+
+/* ～800px
+================================================================= */
+
+@media screen and (min-width: 800px) {
 
   .pc-hide {
     display: none;
   }
 }
 
-@media screen and (max-width: 800px) {
+/* 800px～
+================================================================= */
 
-  /* レイアウト */
+@media screen and (max-width: 800px) {
 
   .sp-hide {
     display: none;
   }
 
+  /* レイアウト
+  ----------------------------------------------------------------- */
+
+  .slid-img-content,
   #news > div,
   #shop > div,
   #flow > div,
@@ -30,14 +62,33 @@ sp-base css
     padding-right: 3.8%;
   }
 
-  /* ヘッダー */
+  .footer-bottom > div {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  /* ページトップへ戻る
+  ----------------------------------------------------------------- */
+
+  #pageTop {
+    bottom: 140px;
+    right: 3.8%;
+  }
+
+  /* ヘッダー
+  ----------------------------------------------------------------- */
+
+  #header {
+    height: 80px;
+  }
 
   .header-log {
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* フッター */
+  /* フッター
+  ----------------------------------------------------------------- */
 
   .footer-bottom {
     padding-bottom: 80px;
@@ -50,7 +101,7 @@ sp-base css
     padding: 20px 0 15px 0;
     position: fixed;
     width: 100%;
-    z-index: 99999;
+    z-index: 9999;
   }
 
   .footer-bottom-menu nav ul {
