@@ -69,6 +69,97 @@ ul {
   opacity: 0.8;
 }
 
+/* パンくず
+================================================================= */
+
+#topic-path {
+  background: #e8eee8;
+
+  height: 50px;
+  line-height: 50px;
+}
+
+#topic-path ul {
+
+  /* font-size: 1.2rem; */
+}
+
+#topic-path ul li {
+  display: inline-block;
+}
+
+#topic-path ul li span {
+  font-size: 1.4rem;
+}
+
+#topic-path ul li:first-child::after {
+  content: "\f054";
+  font-family: "Font Awesome 5 Free";
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 900;
+  margin: 0 0.625em;
+  vertical-align: 2%;
+}
+
+#topic-path ul li a {
+  display: inline;
+}
+
+#topic-path ul li a:hover {
+  display: inherit;
+  text-decoration: underline;
+}
+
+/* search
+================================================================= */
+#search {
+  margin-top: 50px;
+}
+
+#search div nav ul {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#search div nav ul li {
+  border: 1px solid #5cb85c;
+  width: calc(100% / 3);
+}
+
+#search div nav ul li a {
+  color: #5cb85c;
+  display: block;
+  font-size: 1.6rem;
+  padding: 0.9375em 0;
+  transition: 0.5s all ease 0s;
+}
+
+#search div nav ul li a:hover {
+  background: #5cb85c;
+  color: #fff;
+}
+
+/* modal
+================================================================= */
+
+.modal-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.modal-flex li {
+  border: 1px solid #5cb85c;
+  color: #5cb85c;
+  width: calc((100% - 10px) / 7);
+}
+
 /* ボタン
 ================================================================= */
 
@@ -171,6 +262,7 @@ a {
 ================================================================= */
 
 .slid-img-content,
+#topic-path > div,
 #news > div,
 #flow > div,
 #items > div,
@@ -180,6 +272,14 @@ a {
   margin-left: auto;
   margin-right: auto;
   max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#search div {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -570,4 +670,14 @@ a {
 
 .footer-bottom-nav div ul li:last-child {
   padding-left: 15px;
+}
+
+.modal-text {
+  font-size: 4rem;
+}
+
+#modal {
+  background: #fff;
+  height: 200px;
+  width: 300px;
 }

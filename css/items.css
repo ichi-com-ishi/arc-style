@@ -1,7 +1,7 @@
 @charset 'utf-8';
 
 /* =================================================================
-tenpo css
+items css
 ================================================================= */
 
 /* スライダー
@@ -17,21 +17,60 @@ tenpo css
   padding-top: 100px;
 } */
 
-.slid {
+/* .img div img {
+  width: 100%;
+} */
+
+.img {
+  align-items: center;
+  background: url(../images/items/items_main.jpg) center center / cover;
+  display: flex;
+  height: 500px;
+  justify-content: center;
   position: relative;
+  text-align: center;
 }
 
-.slid_img1 {
-  background: url(../images/slid/tenzi.jpg) center center / cover;
+.img::before {
+  background-color: rgba(0, 0, 0, 0.3);
+  bottom: 0;
+  content: " ";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
-.slid_img2 {
-  background: url(../images/slid/zisedai_1900-500.jpg) center center / cover;
+.img-inner {
+  position: absolute;
+  text-align: center;
+  width: 100%;
 }
 
-.slid_img3 {
-  background: url(../images/slid/gaiheki.jpg) center center / cover;
+.img-inner h2 {
+  color: #f8f8f8;
+  font-family: "Roboto", "verdana", sans-serif;
+  font-size: 6rem;
+  letter-spacing: 0.05em;
+  text-shadow: rgba(0, 0, 0, 0.1) 2px 3px 5px;
 }
+
+.img-inner p {
+  color: #f8f8f8;
+  font-size: 1.8rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-shadow: rgba(0, 0, 0, 0.1) 2px 3px 5px;
+}
+
+/* .img div {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 500px;
+  text-align: center;
+  width: 100%;
+} */
 
 .slid-img-content {
   left: 50%;

@@ -27,7 +27,8 @@ top css
 }
 
 .slid_img2 {
-  background: url(../images/slid/zisedai_1900-600.jpg) center center no-repeat;
+  background: url(../images/slid/zisedai_1900-600.jpg) center center / cover
+    no-repeat;
 }
 
 .slid_img3 {
@@ -47,13 +48,13 @@ top css
 
 .slid-img-content .el-title {
   color: #fff;
-  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  font-family: '游明朝', YuMincho, 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'HG明朝E', 'ＭＳ Ｐ明朝', 'ＭＳ 明朝', serif;
   font-size: 5.9rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 600;
-  letter-spacing: 0.1em;
-  text-shadow: rgba(0, 0, 0, 0.1) 2px 3px 5px;
+  letter-spacing: .1em;
+  text-shadow: rgba(0, 0, 0, .1) 2px 3px 5px;
 }
 
 .slid-img-content .el-text {
@@ -62,9 +63,9 @@ top css
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 600;
-  letter-spacing: 0.1em;
+  letter-spacing: .1em;
   padding-left: 7px;
-  text-shadow: rgba(0, 0, 0, 0.1) 2px 3px 5px;
+  text-shadow: rgba(0, 0, 0, .1) 2px 3px 5px;
 }
 
 .slid-img-content .el-btn {
@@ -74,15 +75,15 @@ top css
 }
 
 .slid-img-content .el-btn a {
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, .15);
   border: 1px solid #f9f9f9;
   border-radius: 100px;
   color: #f9f9f9;
   display: inline-block;
   font-size: 1.8rem;
-  letter-spacing: 0.1em;
+  letter-spacing: .1em;
   max-width: 270px;
-  padding: 0.8333em 0;
+  padding: .8333em 0;
   position: relative;
   width: 100%;
 }
@@ -90,8 +91,8 @@ top css
 .slid-img-content .el-btn a::after {
   bottom: auto;
   color: #fff;
-  content: "\f105";
-  font-family: "Font Awesome 5 Free";
+  content: '\f105';
+  font-family: 'Font Awesome 5 Free';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 900;
@@ -119,12 +120,12 @@ top css
   justify-content: space-between;
   margin-bottom: 30px;
   position: relative;
-  transition: 0.2s;
+  transition: .2s;
   width: calc((100% - 30px) / 2);
 }
 
 .article:hover {
-  opacity: 0.8;
+  opacity: .8;
 }
 
 .article-triming {
@@ -140,19 +141,19 @@ top css
 
 .article-text {
   background: #f7f7f7;
-  padding: 0.625em;
+  padding: .625em;
 
   /* width: 50%; */
   width: 60%;
 }
 
 .article-text p {
-  letter-spacing: 0.05em;
+  letter-spacing: .05em;
   line-height: 1.75;
 }
 
 .article-text time {
-  font-family: "Roboto", "verdana", sans-serif;
+  font-family: 'Roboto', 'verdana', sans-serif;
   font-size: 1.6rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -161,14 +162,14 @@ top css
 }
 
 .article-text div:first-child {
-  margin-bottom: 0.3125em;
+  margin-bottom: .3125em;
 }
 
 .article-text h3 {
   font-size: 1.6rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 0.3125em;
+  margin-bottom: .3125em;
 }
 
 .category {
@@ -226,19 +227,19 @@ top css
 
 .shop-flex-child a:hover .shop-flex-inner h3 {
   border: 1px solid #f0f0f0;
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.6) inset;
+  box-shadow: 0 0 30px rgba(255, 255, 255, .6) inset;
   transition: 3s all ease 0s;
 }
 
 .shop-flex-child a:hover .bgDark-04 img {
-  background-color: rgba(0, 0, 0, 0.6);
-  opacity: 0.7;
+  background-color: rgba(0, 0, 0, .6);
+  opacity: .7;
   transition: 3s all ease 0s;
 }
 
 .shop-flex-child img {
   display: block;
-  transition: transform 0.8s linear;
+  transition: transform .8s linear;
   width: 100%;
 }
 
@@ -268,12 +269,12 @@ top css
   color: #f0f0f0;
   font-size: 1.6rem;
   font-weight: 500;
-  letter-spacing: 0.05em;
+  letter-spacing: .05em;
   line-height: 3.125;
   margin-bottom: 3.125em;
   margin-left: auto;
   margin-right: auto;
-  transition: all 0.6s;
+  transition: all .6s;
   width: 70%;
 }
 
@@ -297,7 +298,7 @@ top css
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 600;
-  letter-spacing: 0.1em;
+  letter-spacing: .1em;
   line-height: 30px;
   max-height: 30px;
   position: absolute;
@@ -307,29 +308,29 @@ top css
 }
 
 .swiper-reform .work-category {
-  background: rgba(133, 88, 53, 0.6);
+  background: rgba(133, 88, 53, .6);
 }
 
 .swiper-exterior .work-category {
-  background: rgba(92, 184, 92, 0.6);
+  background: rgba(92, 184, 92, .6);
 }
 
 .item-box-text time {
-  font-family: "Roboto", "verdana", sans-serif;
+  font-family: 'Roboto', 'verdana', sans-serif;
   font-size: 1.6rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .swiper-slide {
-  box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, .15);
 }
 
 .item-box-text {
   background: #f7f7f7;
   border-radius: 0 0 3px 3px;
   min-height: 100px;
-  padding: 0.625em 0.9375em;
+  padding: .625em .9375em;
 }
 
 .item-box-text h3 {
@@ -337,7 +338,7 @@ top css
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 600;
-  letter-spacing: 0.1em;
+  letter-spacing: .1em;
   line-height: 1.5;
 }
 
@@ -360,7 +361,7 @@ top css
 .swiper-button-prev,
 .swiper-container-rtl,
 .swiper-button-next {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, .5);
   background-size: 80%;
 }
 
@@ -384,7 +385,7 @@ top css
   margin-top: -22px;
 
   /* ボタンの高さ（44px）の半分のネガティブマージンで上に少しずらす */
-  top: calc((100% - 50px) * 0.5);
+  top: calc((100% - 50px) * .5);
 
   /* ページネーション・スクロールバー（50px）を除く縦位置の中央（＝スライドの高さの中央）に一旦配置 */
 }
@@ -441,7 +442,7 @@ top css
 .box-text h3 {
   color: #fff;
   font-size: 3.2rem;
-  letter-spacing: 0.05em;
+  letter-spacing: .05em;
   margin-bottom: 1.875em;
   text-align: center;
 }
@@ -500,12 +501,12 @@ top css
 .info-flex::before,
 .info-flex::after,
 .info-flex .info-flex-child {
-  width: calc((100% - 30px) / 4);
+  width: calc((100% - 90px) / 4);
 }
 
 .info-flex::before,
 .info-flex::after {
-  content: "";
+  content: '';
 }
 
 .info-flex::before {

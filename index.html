@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/sp-top.css" />
     <link rel="stylesheet" href="css/sp-base.css" />
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css" /> -->
+    <link rel="stylesheet" href="js/plugin/modaal/modaal.css" />
     <link rel="stylesheet" href="js/plugin/swiper/swiper.css" />
     <link rel="stylesheet" href="css/ress.css" />
   </head>
@@ -51,7 +52,7 @@
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="items/toriatukai.html">
                   <div>
                     <span>ITEMS</span>
                     <span>取り扱い商品</span>
@@ -122,7 +123,6 @@
             </div>
           </div>
         </div>
-
       </div>
       <!-- ▲slid-1▲ -->
 
@@ -584,7 +584,6 @@
                   <div class="swiper-pagination swiper-pagination-green swiper-exterior-page"></div>
                 </div>
                 <!-- ▲slid-3▲ -->
-
               </div>
               <div class="btn-wrapper">
                 <a class="btn-v1" href="">施工実績一覧<i></i></a>
@@ -672,6 +671,20 @@
       </div>
       <!--▲ページトップへ戻る▲-->
 
+      <a href="#modal" class="modal">Show</a>
+      <div id="modal" style="display:none;">
+        <h2>モーダルのテストです。</h2>
+        <ul class="modal-flex">
+          <li>三条店</li>
+          <li>新潟店</li>
+          <li>新発田店</li>
+          <li>京都八幡店</li>
+          <li>姫路店</li>
+          <li>仙台泉店</li>
+          <li>久喜菖蒲店</li>
+        </ul>
+      </div>
+
       <footer id="footer">
         <div class="footer-top sp-hide">
           <nav>
@@ -679,7 +692,7 @@
               <li><a href="/">ホーム</a></li>
               <li><a href="/">新着記事</a></li>
               <li><a href="/">リフォームの流れ</a></li>
-              <li><a href="/">取り扱い商品</a></li>
+              <li><a href="#modal" class="modal">取り扱い商品</a></li>
               <li><a href="/">施工事例</a></li>
               <li><a href="/">個人情報保護方針</a></li>
               <li><a href="/">お問い合わせ</a></li>
@@ -729,7 +742,7 @@
                       </a>
                     </li>
                     <li>
-                      <a href="/">
+                      <a href="#modal" class="modal">
                         <div>
                           <i class="fa fa-paste "></i>
                           <span class="aa">お見積り</span>
@@ -763,7 +776,32 @@
 
     <script src="js/vendor/jquery-3.4.1.min.js"></script>
     <script src="js/plugin/swiper/swiper.min.js"></script>
+    <script src="js/plugin/modaal/modaal.js"></script>
     <script src="js/main.js"></script>
+
+    <script>
+      $(".modal").modaal();
+    </script>
+
+    <!-- 
+    <script>
+      $(".modal").modaal();
+    </script> -->
+
+    <!-- <script>
+      $(".modal").modaal({
+        type: "inline", // コンテンツのタイプを指定
+        animation_speed: "500", // アニメーションのスピードをミリ秒単位で指定
+        background: "#333", // 背景の色を白に変更
+        overlay_opacity: "0.6", // 背景のオーバーレイの透明度を変更
+        fullscreen: "false", // フルスクリーンモードにする
+        background_scroll: "true", // 背景をスクロールさせるか否か
+        loading_content: "Now Loading, Please Wait.", // 読み込み時のテキスト表示
+        width: "500",
+        height: "500",
+      });
+    </script> -->
+
     <script>
       const buttonElement = document.querySelector(".button");
       const cssStyle = getComputedStyle(buttonElement);

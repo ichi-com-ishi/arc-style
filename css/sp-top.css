@@ -29,6 +29,16 @@ sp-top css
     margin-bottom: 1.46%;
   }
 
+  .info-flex::before,
+  .info-flex::after,
+  .info-flex .info-flex-child {
+    width: calc((100% - 7.5%) / 4);
+  }
+
+  .info-flex-child {
+    margin-bottom: 2.5%;
+  }
+
   /* shop
   ----------------------------------------------------------------- */
 
@@ -87,10 +97,14 @@ sp-top css
   ----------------------------------------------------------------- */
 
   .info-flex .info-flex-child {
-    width: calc((100% - 30px) / 2);
+    width: calc((100% - 3.75%) / 2);
   }
 
   .info-flex .info-flex-child img {
     width: 100%;
+  }
+
+  .info-flex-child {
+    margin-bottom: 3.75%;
   }
 }
