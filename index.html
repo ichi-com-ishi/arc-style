@@ -52,7 +52,7 @@
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="items/toriatukai.html">
                   <div>
                     <span>ITEMS</span>
                     <span>取り扱い商品</span>
@@ -672,19 +672,17 @@
       <!--▲ページトップへ戻る▲-->
 
       <a href="#modal" class="modal">Show</a>
-
-      <a href="#inline" data-modaal-type="inline" data-modaal-animation="fade" class="modaal">Show</a>
-
-
-      <div id="inline" style="display：none;">
-        <p>モーダルのインラインコンテンツのテスト</p>
-      </div>
-
       <div id="modal" style="display:none;">
-        <p class="modal-text">
-          モーダルのテスト1<br />
-          モーダルのテスト2
-        </p>
+        <h2>モーダルのテストです。</h2>
+        <ul class="modal-flex">
+          <li>三条店</li>
+          <li>新潟店</li>
+          <li>新発田店</li>
+          <li>京都八幡店</li>
+          <li>姫路店</li>
+          <li>仙台泉店</li>
+          <li>久喜菖蒲店</li>
+        </ul>
       </div>
 
       <footer id="footer">
@@ -694,7 +692,7 @@
               <li><a href="/">ホーム</a></li>
               <li><a href="/">新着記事</a></li>
               <li><a href="/">リフォームの流れ</a></li>
-              <li><a href="/">取り扱い商品</a></li>
+              <li><a href="#modal" class="modal">取り扱い商品</a></li>
               <li><a href="/">施工事例</a></li>
               <li><a href="/">個人情報保護方針</a></li>
               <li><a href="/">お問い合わせ</a></li>
@@ -784,6 +782,11 @@
     <script>
       $(".modal").modaal();
     </script>
+
+    <!-- 
+    <script>
+      $(".modal").modaal();
+    </script> -->
 
     <!-- <script>
       $(".modal").modaal({
