@@ -571,3 +571,13 @@ a {
 .footer-bottom-nav div ul li:last-child {
   padding-left: 15px;
 }
+
+.modal-text {
+  font-size: 4rem;
+}
+
+#modal {
+  background: #fff;
+  height: 200px;
+  width: 300px;
+}
