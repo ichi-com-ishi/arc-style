@@ -69,6 +69,35 @@ ul {
   opacity: 0.8;
 }
 
+/* パンくず
+================================================================= */
+
+#topic-path {
+  background: #e8eee8;
+  height: 50px;
+  line-height: 50px;
+}
+
+#topic-path ul {
+  font-size: 1.2rem;
+}
+
+#topic-path ul li {
+  display: inline-block;
+}
+
+#topic-path ul li:first-child::after {
+  content: "\f054";
+  font-family: "Font Awesome 5 Free";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 900;
+}
+
+#topic-path ul li a:hover {
+  text-decoration: underline;
+}
+
 /* ボタン
 ================================================================= */
 
@@ -171,6 +200,7 @@ a {
 ================================================================= */
 
 .slid-img-content,
+#topic-path > div,
 #news > div,
 #flow > div,
 #items > div,
