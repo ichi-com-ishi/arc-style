@@ -105,97 +105,6 @@ top css
   transform: translateY(-50%);
 }
 
-/* news
-================================================================= */
-
-.article-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.article {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  margin-bottom: 30px;
-  position: relative;
-  transition: .2s;
-  width: calc((100% - 30px) / 2);
-}
-
-.article:hover {
-  opacity: .8;
-}
-
-.article-triming {
-  overflow: hidden;
-
-  /* padding-top: 37%; */
-  padding-top: 30%;
-  position: relative;
-
-  /* width: 50%; */
-  width: 40%;
-}
-
-.article-text {
-  background: #f7f7f7;
-  padding: .625em;
-
-  /* width: 50%; */
-  width: 60%;
-}
-
-.article-text p {
-  letter-spacing: .05em;
-  line-height: 1.75;
-}
-
-.article-text time {
-  font-family: 'Roboto', 'verdana', sans-serif;
-  font-size: 1.6rem;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  margin-right: 1.875em;
-  vertical-align: middle;
-}
-
-.article-text div:first-child {
-  margin-bottom: .3125em;
-}
-
-.article-text h3 {
-  font-size: 1.6rem;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: .3125em;
-}
-
-.category {
-  color: #fff;
-  display: inline-block;
-  font-size: 1.2rem;
-  text-align: center;
-  width: 80px;
-}
-
-.cat-news {
-  background: #5cb85c;
-}
-
-.cat-flyer {
-  background: #f77825;
-}
-
-.cat-cnp {
-  background: #ed5f68;
-}
-
-.cat-event {
-  background: #5db999;
-}
-
 /* shop
 ================================================================= */
 
@@ -419,7 +328,6 @@ top css
 .box-img {
   display: inline-block;
   height: auto;
-  order: 2;
   overflow: hidden;
   width: 50%;
 }
@@ -464,15 +372,27 @@ top css
 /* items
 ================================================================= */
 
+/* #contents #main .box-wrapper:nth-of-type(1) .box-img {
+  order: 2;
+}
+
+#contents #main .box-wrapper:nth-of-type(1) .box-text {
+  order: 1;
+}
+
+#contents #main .box-wrapper:nth-of-type(2) .box-img {
+  order: 1;
+}
+
+#contents #main .box-wrapper:nth-of-type(2) .box-text {
+  order: 2;
+} */
+
 #items .box-img {
-  -webkit-box-ordinal-group: 3;
-  -ms-flex-order: 2;
   order: 2;
 }
 
 #items .box-text {
-  -webkit-box-ordinal-group: 2;
-  -ms-flex-order: 1;
   order: 1;
 }
 
@@ -480,14 +400,10 @@ top css
 ================================================================= */
 
 #flow .box-img {
-  -webkit-box-ordinal-group: 2;
-  -ms-flex-order: 1;
   order: 1;
 }
 
 #flow .box-text {
-  -webkit-box-ordinal-group: 3;
-  -ms-flex-order: 2;
   order: 2;
 }
 

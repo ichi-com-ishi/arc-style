@@ -45,19 +45,19 @@ tenpo css
 
 .slid-img-content .el-title {
   color: #fff;
-  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  font-family: '游明朝', YuMincho, 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'HG明朝E', 'ＭＳ Ｐ明朝', 'ＭＳ 明朝', serif;
   font-size: 6rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 600;
-  letter-spacing: 0.1em;
-  text-shadow: rgba(0, 0, 0, 0.1) 2px 3px 5px;
+  letter-spacing: .1em;
+  text-shadow: rgba(0, 0, 0, .1) 2px 3px 5px;
 }
 
 /* news
 ================================================================= */
 
-.article-wrapper {
+/* .article-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -69,40 +69,34 @@ tenpo css
   justify-content: space-between;
   margin-bottom: 30px;
   position: relative;
-  transition: 0.2s;
+  transition: .2s;
   width: calc((100% - 30px) / 2);
 }
 
 .article:hover {
-  opacity: 0.8;
+  opacity: .8;
 }
 
 .article-triming {
   overflow: hidden;
-
-  /* padding-top: 37%; */
   padding-top: 30%;
   position: relative;
-
-  /* width: 50%; */
   width: 40%;
 }
 
 .article-text {
   background: #f7f7f7;
-  padding: 0.625em;
-
-  /* width: 50%; */
+  padding: .625em;
   width: 60%;
 }
 
 .article-text p {
-  letter-spacing: 0.05em;
+  letter-spacing: .05em;
   line-height: 1.75;
 }
 
 .article-text time {
-  font-family: "Roboto", "verdana", sans-serif;
+  font-family: 'Roboto', 'verdana', sans-serif;
   font-size: 1.6rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -111,14 +105,14 @@ tenpo css
 }
 
 .article-text div:first-child {
-  margin-bottom: 0.3125em;
+  margin-bottom: .3125em;
 }
 
 .article-text h3 {
   font-size: 1.6rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 0.3125em;
+  margin-bottom: .3125em;
 }
 
 .category {
@@ -143,7 +137,7 @@ tenpo css
 
 .cat-event {
   background: #5db999;
-}
+} */
 
 /* 取り扱い品目
 ================================================================= */
@@ -155,7 +149,7 @@ tenpo css
 }
 
 .item-box {
-  box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, .15);
   margin-bottom: 30px;
   position: relative;
   width: calc((100% - 90px) / 4);
@@ -169,7 +163,7 @@ tenpo css
 
 .item::before,
 .item::after {
-  content: "";
+  content: '';
 }
 
 .item::before {
@@ -186,7 +180,7 @@ tenpo css
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 600;
-  letter-spacing: 0.1em;
+  letter-spacing: .1em;
   line-height: 30px;
   max-height: 30px;
   position: absolute;
@@ -196,11 +190,11 @@ tenpo css
 }
 
 .work-category.cat-exterior {
-  background: rgba(92, 184, 92, 0.6);
+  background: rgba(92, 184, 92, .6);
 }
 
 .work-category.cat-reform {
-  background: rgba(133, 88, 53, 0.6);
+  background: rgba(133, 88, 53, .6);
 }
 
 .item-box-text {
@@ -210,7 +204,7 @@ tenpo css
   display: flex;
   justify-content: center;
   min-height: 70px;
-  padding: 0 0.5em;
+  padding: 0 .5em;
 }
 
 .item-box-text h3 {
@@ -218,86 +212,18 @@ tenpo css
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 600;
-  letter-spacing: 0.05em;
+  letter-spacing: .05em;
   line-height: 1.5;
 }
 
-.triming-work {
+.item-box-triming {
   overflow: hidden;
-  padding-top: 65%;
+  padding-top: 81%;
   position: relative;
 }
 
-.triming-work img {
+.item-box-triming img {
   vertical-align: bottom;
-}
-
-/* items flow共通
-================================================================= */
-
-.box-wrapper {
-  display: flex;
-  position: relative;
-  width: 100%;
-}
-
-.box-wrapper:hover .box-img img {
-  transform: scale(1.2);
-}
-
-.box-img {
-  display: inline-block;
-  height: auto;
-  order: 2;
-  overflow: hidden;
-  width: 50%;
-}
-
-.box-img img {
-  transition: all 1.8s 0s ease;
-  vertical-align: bottom;
-  width: 100%;
-}
-
-.box-img img:hover {
-  transform: scale(1.2);
-}
-
-.box-text {
-  background: #5cb85c;
-  padding-top: 4.375em;
-  width: 50%;
-}
-
-.box-text h3 {
-  color: #fff;
-  font-size: 3.2rem;
-  letter-spacing: 0.05em;
-  margin-bottom: 1.875em;
-  text-align: center;
-}
-
-.box-text a {
-  border: 1px solid #fff;
-  color: #fff;
-  display: block;
-  font-size: 1.4rem;
-  text-align: center;
-}
-
-/* 折り込みチラシ
-================================================================= */
-
-#flow .box-img {
-  -webkit-box-ordinal-group: 2;
-  -ms-flex-order: 1;
-  order: 1;
-}
-
-#flow .box-text {
-  -webkit-box-ordinal-group: 3;
-  -ms-flex-order: 2;
-  order: 2;
 }
 
 /* 店舗情報
@@ -307,7 +233,7 @@ tenpo css
   border-top: 1px solid #aba696;
   display: flex;
   flex-wrap: wrap;
-  letter-spacing: 0.05em;
+  letter-spacing: .05em;
   line-height: 1.75;
   padding: 1.875em 0;
   text-align: justify;
@@ -332,8 +258,7 @@ tenpo css
 ================================================================= */
 
 .map {
-  height: 450px;
-  height: 0;
+  height: 400px;
   overflow: hidden;
   padding-bottom: 39.475%;
   position: relative;

@@ -13,12 +13,6 @@ sp-items css
 
 @media screen and (max-width: 800px) {
 
-  .item-box {
-    width: calc((100% - 30px) / 2);
-  }
-
-  .item::before,
-  .item::after,
   .item .item-box {
     width: calc((100% - 30px) / 2);
   }
@@ -38,8 +32,6 @@ sp-items css
     width: 100%;
   }
 
-  .item::before,
-  .item::after,
   .item .item-box {
     width: 100%;
   }

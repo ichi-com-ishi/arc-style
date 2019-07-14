@@ -46,6 +46,31 @@ sp-base css
   .box-text h3 {
     font-size: 2.6vw;
   }
+
+  /* item
+  ----------------------------------------------------------------- */
+
+  .item::before,
+  .item::after,
+  .item .item-box {
+    width: calc((100% - 7.5%) / 4);
+  }
+
+  .item-box {
+    margin-bottom: 2.5%;
+  }
+
+  .item-box-text h3 {
+    font-size: 1.67vw;
+  }
+
+  .work-category {
+    font-size: 1.17vw;
+  }
+
+  .item-box-text time {
+    font-size: 1.34vw;
+  }
 }
 
 /* 1200px〜
@@ -249,5 +274,59 @@ sp-base css
 
   .box-text-inner h3 {
     font-size: 5vw;
+  }
+
+  /* item
+  ----------------------------------------------------------------- */
+
+  .item .item-box {
+    width: calc((100% - 3.75%) / 2);
+  }
+
+  .item-box {
+    margin-bottom: 3.75%;
+  }
+
+  .item-box-text h3 {
+    font-size: 2.5vw;
+  }
+
+  .work-category {
+    font-size: 1.75vw;
+  }
+
+  /* list
+  ----------------------------------------------------------------- */
+
+.list dl {
+  font-size: 2vw;
+  padding-left: 1.88%;
+  padding-right: 1.88%;
+}
+
+.col-10 > div  {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+@media screen and (max-width: 500px) {
+
+  /* item
+  ----------------------------------------------------------------- */
+
+  .item .item-box {
+    width: 100%;
+  }
+
+  .item-box {
+    margin-bottom: 6%;
+  }
+
+  .item-box-text h3 {
+    font-size: 4vw;
+  }
+
+  .work-category {
+    font-size: 2.8vw;
   }
 }
