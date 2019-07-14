@@ -9,25 +9,8 @@ sp-top css
 
 @media screen and (min-width: 800px) and (max-width: 1200px) {
 
-  .article-text {
-    padding: 1.76% 0 0 2.6%;
-  }
-
-  .article-text h3,
-  .article-text p,
-  .article-text time {
-    font-size: 1.333vw;
-  }
-
-  .category {
-    font-size: 1vw;
-    min-width: 80px;
-    width: 30%;
-  }
-
-  .article-text div:first-child {
-    margin-bottom: 1.46%;
-  }
+  /* info
+  ----------------------------------------------------------------- */
 
   .info-flex::before,
   .info-flex::after,
@@ -53,41 +36,29 @@ sp-top css
 
 @media screen and (max-width: 800px) {
 
-  /* news
-  ----------------------------------------------------------------- */
-
-  .article {
-    width: 100%;
-  }
-
-  .article-text h3,
-  .article-text p,
-  .article-text time {
-    font-size: 2.25vw;
-  }
-
-  .article-text {
-    padding: 1.95%;
-  }
-
-  .article-text div:first-child {
-    margin-bottom: 1.08%;
-  }
-
-  .category {
-    font-size: 1.5vw;
-  }
-
   /* shop
   ----------------------------------------------------------------- */
+
+  .shop-flex {
+    flex-direction: column;
+  }
 
   .shop-flex-child {
     width: 100%;
   }
 
+  .shop-flex-inner {
+    width: 70%;
+  }
+
   .shop-flex-inner h3,
   .shop-flex-inner p {
-    font-size: 2vw;
+    font-size: 2.25vw;
+  }
+
+  .shop-flex-inner h3 {
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 0 8px rgba(255, 255, 255, .8) inset;
   }
 
   /* items

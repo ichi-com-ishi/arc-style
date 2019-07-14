@@ -33,8 +33,17 @@ var mySwiper = new Swiper( '.swiper-reform ', {
   loop: true,
   speed: 1500,
   breakpoints: {
-    767: {
-      slidesPerView: 4
+    1200: {
+      slidesPerView: 4.5
+    },
+    800: {
+      slidesPerView: 3.5
+    },
+    700: {
+      slidesPerView: 2.5
+    },
+    600: {
+      slidesPerView: 1.5
     }
   }
 });
@@ -60,7 +69,21 @@ var mySwiper = new Swiper( '.swiper-exterior', {
   initialSlide: 0,
   centeredSlides: true,
   loop: true,
-  speed: 1500
+  speed: 1500,
+  breakpoints: {
+    1200: {
+      slidesPerView: 4.5
+    },
+    800: {
+      slidesPerView: 3.5
+    },
+    700: {
+      slidesPerView: 2.5
+    },
+    600: {
+      slidesPerView: 1.5
+    }
+  }
 });
 
 // ページトップへ戻る

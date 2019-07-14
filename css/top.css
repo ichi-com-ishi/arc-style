@@ -282,6 +282,7 @@ top css
   color: #f0f0f0;
   font-size: 1.6rem;
   font-weight: 500;
+  letter-spacing: .05em;
   line-height: 1.5;
 }
 
@@ -434,24 +435,29 @@ top css
 }
 
 .box-text {
+
+  /* align-items: center; */
   background: #5cb85c;
-  padding-top: 4.375em;
+  position: relative;
+
+  /* display: flex;
+  justify-content: center; */
   width: 50%;
+}
+
+.box-text-inner {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
 }
 
 .box-text h3 {
   color: #fff;
   font-size: 3.2rem;
   letter-spacing: .05em;
-  margin-bottom: 1.875em;
-  text-align: center;
-}
-
-.box-text a {
-  border: 1px solid #fff;
-  color: #fff;
-  display: block;
-  font-size: 1.4rem;
+  margin-bottom: 1.56em;
   text-align: center;
 }
 

@@ -3,9 +3,11 @@
 /* variables css */
 
 :root {
-  --font-kerning: "palt";
-  --font-sans: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+  --font-sans: '游ゴシック Medium', 'Yu Gothic Medium', '游ゴシック体', 'YuGothic', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', 'Meiryo', 'verdana', sans-serif;
+  --font-google: 'Roboto', 'verdana', sans-serif;
+  --font-awesome: 'Font Awesome 5 Free';
+  --flex-bottom: 3.75%;
   --color_blue: blue;
   --color_yellow: yellow;
-  --dark: rgba(0, 0, 0, 0.4);
+  --dark: rgba(0, 0, 0, .4);
 }

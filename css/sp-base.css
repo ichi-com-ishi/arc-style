@@ -7,6 +7,50 @@ sp-base css
 /* 800px-1200px
 ================================================================= */
 
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+
+  /* ボタン
+  -----------------------------------------------------------------  */
+
+  .btn-v2 {
+    font-size: 1.17vw;
+  }
+
+  /* article
+  ----------------------------------------------------------------- */
+
+  .article {
+    margin-bottom: 3.75%;
+  }
+
+  .article-text {
+    padding: 1.76% 0 0 2.6%;
+  }
+
+  .article-text h3,
+  .article-text p,
+  .article-text time {
+    font-size: 1.333vw;
+  }
+
+  .category {
+    font-size: 1vw;
+    min-width: 80px;
+    width: 30%;
+  }
+
+  .article-text div:first-child {
+    margin-bottom: 1.46%;
+  }
+
+  .box-text h3 {
+    font-size: 2.6vw;
+  }
+}
+
+/* 1200px〜
+================================================================= */
+
 @media screen and (max-width: 1200px) {
 
   .slid-img-content .el-title {
@@ -18,17 +62,6 @@ sp-base css
     font-size: 1.75vw;
   }
 }
-
-/* @media screen and (min-width: 800px) and (max-width: 1200px) {
-
-  .slid-img-content .el-title {
-    font-size: 5vw;
-  }
-
-  .slid-img-content .el-text {
-    font-size: 1.75vw;
-  }
-} */
 
 /* ～800px
 ================================================================= */
@@ -54,7 +87,6 @@ sp-base css
 
   .slid-img-content,
   #news > div,
-  #shop > div,
   #flow > div,
   #items > div,
   #info > div {
@@ -67,12 +99,33 @@ sp-base css
     margin-right: -15px;
   }
 
+  /* 画像の透過
+  ----------------------------------------------------------------- */
+
+  .bgGreen {
+    background: #5cb85c;
+  }
+
+  .bgGreen img {
+    opacity: .4;
+  }
+
   /* ページトップへ戻る
   ----------------------------------------------------------------- */
 
   #pageTop {
     bottom: 140px;
     right: 3.8%;
+  }
+
+  /* ボタン
+  ----------------------------------------------------------------- */
+
+  .btn-v2 {
+    font-size: 2vw;
+    max-width: inherit;
+    padding: 1.25em;
+    width: 100%;
   }
 
   /* ヘッダー
@@ -143,5 +196,58 @@ sp-base css
 
   .footer-bottom-nav {
     justify-content: center;
+  }
+
+  /* article
+  ----------------------------------------------------------------- */
+
+  .article {
+    margin-bottom: 3.75%;
+    width: 100%;
+  }
+
+  .article-text h3,
+  .article-text p,
+  .article-text time {
+    font-size: 2.25vw;
+  }
+
+  .article-text {
+    padding: 1.95%;
+  }
+
+  .article-text div:first-child {
+    margin-bottom: 1.08%;
+  }
+
+  .category {
+    font-size: 1.5vw;
+  }
+
+  /* box
+  ----------------------------------------------------------------- */
+
+  .box-wrapper {
+    display: inherit;
+  }
+
+  .box-img {
+    width: 100%;
+  }
+
+  .box-text {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+  }
+
+  .box-text-inner {
+    width: 100%;
+  }
+
+  .box-text-inner h3 {
+    font-size: 5vw;
   }
 }

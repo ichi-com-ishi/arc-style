@@ -11,7 +11,7 @@ html {
 body {
   background-color: #fff;
   color: #5a5a5a;
-  font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+  font-family: '游ゴシック Medium', 'Yu Gothic Medium', '游ゴシック体', 'YuGothic', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', 'Meiryo', 'verdana', sans-serif;
 
   /* font-feature-settings: "palt"; */
   font-size: 1.6rem;
@@ -53,20 +53,38 @@ ul {
   width: auto;
 }
 
+/* objectFit
+----------------------------------------------------------------- */
+
+.of-width {
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
+  font-family: 'object-fit: cover;'
+}
+
+.of-height {
+  object-fit: cover;
+  width: 500px;
+  height: 100%;
+  font-family: 'object-fit: cover;'
+}
+
+
 /* 画像の透過
 ================================================================= */
 
-[class*="bgDark"] {
+[class*='bgDark'] {
   background: #000;
   overflow: hidden;
 }
 
 .bgDark-04 img {
-  opacity: 0.4;
+  opacity: .4;
 }
 
 .bgDark-08 img {
-  opacity: 0.8;
+  opacity: .8;
 }
 
 /* パンくず
@@ -93,13 +111,13 @@ ul {
 }
 
 #topic-path ul li:first-child::after {
-  content: "\f054";
-  font-family: "Font Awesome 5 Free";
+  content: '\f054';
+  font-family: 'Font Awesome 5 Free';
   font-size: 1rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 900;
-  margin: 0 0.625em;
+  margin: 0 .625em;
   vertical-align: 2%;
 }
 
@@ -135,8 +153,8 @@ ul {
   color: #5cb85c;
   display: block;
   font-size: 1.6rem;
-  padding: 0.9375em 0;
-  transition: 0.5s all ease 0s;
+  padding: .9375em 0;
+  transition: .5s all ease 0s;
 }
 
 #search div nav ul li a:hover {
@@ -164,6 +182,7 @@ ul {
 ================================================================= */
 
 .btn-wrapper {
+  padding-top: 50px;
   text-align: center;
 }
 
@@ -180,15 +199,15 @@ ul {
   max-width: 270px;
   position: relative;
   text-align: center;
-  transition: 0.5s all ease 0s;
+  transition: .5s all ease 0s;
   width: 100%;
 }
 
 .btn-v1::after {
   bottom: auto;
   color: #fff;
-  content: "\f105";
-  font-family: "Font Awesome 5 Free";
+  content: '\f105';
+  font-family: 'Font Awesome 5 Free';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 900;
@@ -212,8 +231,9 @@ ul {
 }
 
 .btn-v2 {
+  border: 1px solid #fff;
   color: #fff;
-  display: inline-block;
+  display: block;
   font-size: 1.4rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -222,7 +242,7 @@ ul {
   max-width: 250px;
   padding: 1.07em 0;
   text-align: center;
-  transition: 0.5s all ease 0s;
+  transition: .5s all ease 0s;
   width: 100%;
 }
 
@@ -242,11 +262,11 @@ a {
 }
 
 .link-opacity {
-  transition: 0.1s all ease 0s;
+  transition: .1s all ease 0s;
 }
 
 .link-opacity:hover {
-  opacity: 0.8;
+  opacity: .8;
 }
 
 .linkbox {
@@ -297,7 +317,8 @@ a {
 }
 
 #contents #main section:last-of-type {
-  padding-bottom: 0;
+
+  /* padding-bottom: 0; */
 }
 
 #contents #main section:nth-child(even) {
@@ -330,7 +351,7 @@ a {
 }
 
 #pageTop a:hover {
-  opacity: 0.9;
+  opacity: .9;
   text-decoration: none;
 }
 
@@ -362,10 +383,10 @@ a {
 /* トップh2見出し */
 
 .heading-2-top {
-  font-family: "Roboto", "verdana", sans-serif;
+  font-family: 'Roboto', 'verdana', sans-serif;
   font-size: 4rem;
   font-weight: 700;
-  letter-spacing: 0.05em;
+  letter-spacing: .05em;
 }
 
 .heading-2-top-bottom {
@@ -374,23 +395,23 @@ a {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 600;
-  letter-spacing: 0.05em;
+  letter-spacing: .05em;
 }
 
 .heading-2 {
   display: inline-block;
-  font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
-  font-feature-settings: "palt";
+  font-family: '游ゴシック Medium', 'Yu Gothic Medium', '游ゴシック体', 'YuGothic', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', 'Meiryo', 'verdana', sans-serif;
+  font-feature-settings: 'palt';
   font-size: 4rem;
   font-weight: 700;
-  letter-spacing: 0.05em;
+  letter-spacing: .05em;
   position: relative;
 }
 
 .heading-2::before {
   background: #5cb85c;
   bottom: -5px;
-  content: "";
+  content: '';
   display: inline-block;
   height: 4px;
   left: 50%;
@@ -407,20 +428,20 @@ a {
 	-moz-osx-font-smoothing: grayscale;
 	font-weight: 600; */
   font-weight: 500;
-  letter-spacing: 0.05em;
+  letter-spacing: .05em;
 }
 
 .heading-3 {
   display: inline-block;
   line-height: 1.4;
-  padding: 0.25em 1em;
+  padding: .25em 1em;
   position: relative;
   top: 0;
 }
 
 .heading-3::before,
 .heading-3::after {
-  content: "";
+  content: '';
   display: inline-block;
   height: 100%;
   position: absolute;
@@ -439,7 +460,7 @@ a {
   border-bottom: solid 1px black;
   border-right: solid 1px black;
   border-top: solid 1px black;
-  content: "";
+  content: '';
   right: 0;
 }
 
@@ -505,12 +526,12 @@ a {
 .header_nav li a::after {
   background: #5cb85c;
   bottom: -8px;
-  content: "";
+  content: '';
   height: 5px;
   left: 0;
   opacity: 0;
   position: absolute;
-  transition: 0.3s;
+  transition: .3s;
   visibility: hidden;
   width: 100%;
 }
@@ -596,13 +617,13 @@ a {
 .footer-nav li a::after {
   background: #5a5a5a;
   bottom: 15px;
-  content: "";
+  content: '';
   height: 1px;
   left: 0;
   position: absolute;
   transform: scale(0, 1);
   transform-origin: left top;
-  transition: transform 0.3s;
+  transition: transform .3s;
   width: 100%;
 }
 
@@ -616,7 +637,7 @@ a {
 }
 
 .footer-bottom {
-  background-color: rgba(92, 184, 92, 0.8);
+  background-color: rgba(92, 184, 92, .8);
 }
 
 .footer-bottom-address {
@@ -638,7 +659,7 @@ a {
   border: 1px solid #fff;
   display: inline-block;
   font-size: 1.2rem;
-  padding: 0.4em 1.25em;
+  padding: .4em 1.25em;
 }
 
 .footer-bottom-nav {
