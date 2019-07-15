@@ -5,34 +5,10 @@ sp-items css
 ================================================================= */
 
 @media screen and (min-width: 800px) and (max-width: 1200px) {
-
-  .item-box-text h3 {
-    font-size: 1.666vw;
-  }
 }
 
 @media screen and (max-width: 800px) {
-
-  .item .item-box {
-    width: calc((100% - 30px) / 2);
-  }
-
-  .item-box-text h3 {
-    font-size: 2.5vw;
-  }
 }
 
 @media screen and (max-width: 500px) {
-
-  .item-box {
-    width: 100%;
-  }
-
-  .item .item-box {
-    width: 100%;
-  }
-
-  .item-box-text h3 {
-    font-size: 4vw;
-  }
 }
