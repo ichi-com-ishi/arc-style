@@ -1,0 +1,24 @@
+@charset 'utf-8';
+
+/* =================================================================
+sp-items css
+================================================================= */
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+
+  #mitumori > div > div > div {
+    margin-left: 8.33%;
+    margin-right: 8.33%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  #mitumori > div > div > div {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+}
