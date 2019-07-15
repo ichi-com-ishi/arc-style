@@ -4,6 +4,35 @@
 items css
 ================================================================= */
 
+/* レイアウト
+================================================================= */
+
+section > div {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#contents #main section:nth-of-type(even) {
+  background: inherit;
+}
+
+#mitumori > div > div {
+  border: 2px solid #5cb85c;
+}
+
+#mitumori > div > div > div {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 970px;
+}
+
+#mitumori > div > div > div div {
+  margin-bottom: 70px;
+}
+
 /* page-bg
 ================================================================= */
 
@@ -57,6 +86,50 @@ items css
 #type > div div.left-heading-wrapper-3:not(:first-child) {
   margin-top: 100px;
 }
+
+.mitumori-h2 {
+  background: #5cb85c;
+  color: #fff;
+  font-size: 3.4rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 600;
+  letter-spacing: .05em;
+  line-height: 1.78;
+  text-align: center;
+}
+
+#mitumori > div > div > div h3.mitumori-h3:first-child {
+  margin-top: 50px;
+}
+
+.mitumori-h3 {
+  background: #f7f6f3;
+  border-radius: 3px;
+  font-size: 2.8rem;
+  font-weight: 600;
+  letter-spacing: .05em;
+  line-height: 1.8;
+  margin-bottom: 50px;
+  padding-left: .714em;
+}
+
+/* ボタン
+================================================================= */
+
+.mitumori-btn-wrapper {
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.mitumori-btn {
+  border: 1px solid #5cb85c;
+  border-radius: 5px;
+  display: block;
+}
+
+/* 画像
+================================================================= */
 
 .photo-height {
   height: 75%;
