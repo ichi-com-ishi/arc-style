@@ -797,3 +797,140 @@ a {
 
 /* box
 =================================================================  */
+
+.box-wrapper {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.box-wrapper:hover .box-img img {
+  transform: scale(1.2);
+}
+
+.box-img {
+  display: inline-block;
+  height: auto;
+  overflow: hidden;
+  width: 50%;
+}
+
+.box-img img {
+  transition: all 1.8s 0s ease;
+  vertical-align: bottom;
+  width: 100%;
+}
+
+.box-img img:hover {
+  transform: scale(1.2);
+}
+
+.box-text {
+  background: #5cb85c;
+  position: relative;
+  width: 50%;
+}
+
+.box-text-inner {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.box-text h3 {
+  color: #fff;
+  font-size: 3.2rem;
+  letter-spacing: .05em;
+  margin-bottom: 1.56em;
+  text-align: center;
+}
+
+/* item
+================================================================= */
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item-box {
+  box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, .15);
+  margin-bottom: 30px;
+  position: relative;
+  width: calc((100% - 90px) / 4);
+}
+
+.item::before,
+.item::after,
+.item .item-box {
+  width: calc((100% - 90px) / 4);
+}
+
+.item::before,
+.item::after {
+  content: '';
+}
+
+.item::before {
+  order: 1;
+}
+
+.swiper-slide {
+  position: relative;
+}
+
+.work-category {
+  color: #fff;
+  font-size: 1.4rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 600;
+  letter-spacing: .1em;
+  line-height: 30px;
+  max-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
+.work-category.cat-exterior {
+  background: rgba(92, 184, 92, .6);
+}
+
+.work-category.cat-reform {
+  background: rgba(133, 88, 53, .6);
+}
+
+.item-box-text {
+  align-items: center;
+  background: #f7f7f7;
+  border-radius: 0 0 3px 3px;
+  display: flex;
+  justify-content: center;
+
+  /* min-height: 70px; */
+  padding: 0 .5em;
+}
+
+.item-box-text h3 {
+  font-size: 2rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 600;
+  letter-spacing: .05em;
+  line-height: 3.5;
+}
+
+.item-box-triming {
+  overflow: hidden;
+  padding-top: 81%;
+  position: relative;
+}
+
+.item-box-triming img {
+  vertical-align: bottom;
+}

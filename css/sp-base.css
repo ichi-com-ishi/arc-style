@@ -153,6 +153,10 @@ sp-base css
     width: 100%;
   }
 
+   #search div nav ul li a {
+    font-size: 2vw;
+  }
+
   /* ヘッダー
   ----------------------------------------------------------------- */
 
@@ -314,7 +318,7 @@ sp-base css
   /* item
   ----------------------------------------------------------------- */
 
-  .item .item-box {
+  /* .item .item-box {
     width: 100%;
   }
 
@@ -324,9 +328,9 @@ sp-base css
 
   .item-box-text h3 {
     font-size: 4vw;
-  }
+  } 
 
   .work-category {
     font-size: 2.8vw;
-  }
+  }*/
 }

@@ -17,10 +17,6 @@ sp-items css
     width: calc((100% - 30px) / 2);
   }
 
-  #search div nav ul li a {
-    font-size: 2vw;
-  }
-
   .item-box-text h3 {
     font-size: 2.5vw;
   }

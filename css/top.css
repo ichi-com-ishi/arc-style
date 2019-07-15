@@ -225,7 +225,7 @@ top css
   background: rgba(92, 184, 92, .6);
 }
 
-.item-box-text time {
+.work-text time {
   font-family: 'Roboto', 'verdana', sans-serif;
   font-size: 1.6rem;
   -webkit-font-smoothing: antialiased;
@@ -236,14 +236,14 @@ top css
   box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, .15);
 }
 
-.item-box-text {
+.work-text {
   background: #f7f7f7;
   border-radius: 0 0 3px 3px;
   min-height: 100px;
   padding: .625em .9375em;
 }
 
-.item-box-text h3 {
+.work-text h3 {
   font-size: 2rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -314,60 +314,6 @@ top css
 
 /* items flow共通
 ================================================================= */
-
-.box-wrapper {
-  display: flex;
-  position: relative;
-  width: 100%;
-}
-
-.box-wrapper:hover .box-img img {
-  transform: scale(1.2);
-}
-
-.box-img {
-  display: inline-block;
-  height: auto;
-  overflow: hidden;
-  width: 50%;
-}
-
-.box-img img {
-  transition: all 1.8s 0s ease;
-  vertical-align: bottom;
-  width: 100%;
-}
-
-.box-img img:hover {
-  transform: scale(1.2);
-}
-
-.box-text {
-
-  /* align-items: center; */
-  background: #5cb85c;
-  position: relative;
-
-  /* display: flex;
-  justify-content: center; */
-  width: 50%;
-}
-
-.box-text-inner {
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%) translateX(-50%);
-  transform: translateY(-50%) translateX(-50%);
-}
-
-.box-text h3 {
-  color: #fff;
-  font-size: 3.2rem;
-  letter-spacing: .05em;
-  margin-bottom: 1.56em;
-  text-align: center;
-}
 
 /* items
 ================================================================= */
