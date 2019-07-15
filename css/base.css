@@ -919,8 +919,7 @@ a {
   -moz-osx-font-smoothing: grayscale;
   font-weight: 600;
   letter-spacing: .1em;
-  line-height: 30px;
-  max-height: 30px;
+  line-height: 2.2;
   position: absolute;
   text-align: center;
   top: 0;
@@ -933,6 +932,18 @@ a {
 
 .work-category.cat-reform {
   background: rgba(133, 88, 53, .6);
+}
+
+.work-category.cat-inaba {
+  background: rgba(255, 133, 0, .6);
+}
+
+.work-category.cat-yodo {
+  background: rgba(35, 148, 40, .6);
+}
+
+.work-category.cat-takubo {
+  background: rgba(31, 43, 129, .6);
 }
 
 .item-box-text {
