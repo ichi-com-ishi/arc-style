@@ -3,6 +3,7 @@ var mySwiper = new Swiper( '.swiper-main', {
   loop: true,
   virtualTranslate: false,
   roundLengths: false,
+
   autoplay: {
     delay: 5000
   },

@@ -49,7 +49,7 @@ section > div {
 .page-bg::before {
   background-color: rgba(0, 0, 0, .3);
   bottom: 0;
-  content: ' ';
+  content: " ";
   left: 0;
   position: absolute;
   right: 0;
@@ -64,7 +64,7 @@ section > div {
 
 .page-bg-inner h2 {
   color: #f8f8f8;
-  font-family: 'Roboto', 'verdana', sans-serif;
+  font-family: "Roboto", "verdana", sans-serif;
   font-size: 6rem;
   letter-spacing: .05em;
   text-shadow: rgba(0, 0, 0, .1) 2px 3px 5px;
@@ -114,6 +114,61 @@ section > div {
   padding-left: .714em;
 }
 
+.heading-wrapper-4 {
+  margin-bottom: 50px;
+}
+
+.mitumori-4 {
+  background: transparent;
+  border-left: 5px solid #5cb85c;
+  font-size: 2.4rem;
+  font-weight: 600;
+  letter-spacing: .05em;
+  padding-left: .41em;
+}
+
+.size {
+  margin-bottom: 70px;
+}
+
+.size ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.size ul li {
+  text-align: center;
+  width: calc(100% / 5);
+}
+
+.size ul li a {
+  background: #fff;
+  border: 1px solid #5cb85c;
+
+  color: #5cb85c;
+  padding: .625em;
+  transition: .5s all ease 0s;
+}
+
+.size ul li a:hover {
+  background: #5cb85c;
+  color: #fff;
+}
+
+.size ul li a span:first-of-type {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.size ul li a span:last-of-type {
+  font-size: 1.4rem;
+}
+
+.size ul li a span {
+  display: block;
+}
+
 /* ボタン
 ================================================================= */
 
@@ -138,4 +193,45 @@ section > div {
   top: 50%;
   transform: translate(-50%, -40%);
   width: auto;
+}
+
+/* 一時利用css
+================================================================= */
+
+.test {
+  height: 310px;
+  margin: 0 auto;
+  text-align: center;
+  width: 375px;
+}
+
+.test img {
+  font-family: "object-fit: cover;";
+  height: auto;
+  object-fit: cover;
+  width: 100%;
+}
+
+.flex-test {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-test > div {
+  width: calc((100% - 30px) / 2);
+}
+
+.flex-test div ul li {
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  padding: 1.56em 0;
+}
+
+.flex-test div ul li input {
+  padding-left: 50px;
+}
+
+.flex-test div ul li label {
+  letter-spacing: .05em;
 }
