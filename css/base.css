@@ -11,7 +11,7 @@ html {
 body {
   background-color: #fff;
   color: #5a5a5a;
-  font-family: '游ゴシック Medium', 'Yu Gothic Medium', '游ゴシック体', 'YuGothic', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', 'Meiryo', 'verdana', sans-serif;
+  font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
 
   /* font-feature-settings: "palt"; */
   font-size: 1.6rem;
@@ -76,7 +76,7 @@ ul {
 } */
 
 .of-height {
-  font-family: 'object-fit: cover;';
+  font-family: "object-fit: cover;";
   height: 100%;
   object-fit: cover;
   width: 500px;
@@ -85,13 +85,17 @@ ul {
 /* 画像の透過
 ================================================================= */
 
-[class*='bgDark'] {
+[class*="bgDark"] {
   background: #000;
   overflow: hidden;
 }
 
 .bgDark-04 img {
   opacity: .4;
+}
+
+.bgDark-06 img {
+  opacity: .6;
 }
 
 .bgDark-08 img {
@@ -121,8 +125,8 @@ ul {
 }
 
 #topic-path ul li:not(:last-child)::after {
-  content: '\f054';
-  font-family: 'Font Awesome 5 Free';
+  content: "\f054";
+  font-family: "Font Awesome 5 Free";
   font-size: 1rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -216,8 +220,8 @@ ul {
 .btn-v1::after {
   bottom: auto;
   color: #fff;
-  content: '\f105';
-  font-family: 'Font Awesome 5 Free';
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 900;
@@ -390,7 +394,7 @@ a {
 /* トップh2見出し */
 
 .heading-2-top {
-  font-family: 'Roboto', 'verdana', sans-serif;
+  font-family: "Roboto", "verdana", sans-serif;
   font-size: 4rem;
   font-weight: 700;
   letter-spacing: .05em;
@@ -407,8 +411,8 @@ a {
 
 .heading-2 {
   display: inline-block;
-  font-family: '游ゴシック Medium', 'Yu Gothic Medium', '游ゴシック体', 'YuGothic', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', 'Meiryo', 'verdana', sans-serif;
-  font-feature-settings: 'palt';
+  font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+  font-feature-settings: "palt";
   font-size: 4rem;
   font-weight: 700;
   letter-spacing: .05em;
@@ -418,7 +422,7 @@ a {
 .heading-2::before {
   background: #5cb85c;
   bottom: -5px;
-  content: '';
+  content: "";
   display: inline-block;
   height: 4px;
   left: 50%;
@@ -462,7 +466,7 @@ a {
 
 .heading-3::before,
 .heading-3::after {
-  content: '';
+  content: "";
   display: inline-block;
   height: 100%;
   position: absolute;
@@ -481,7 +485,7 @@ a {
   border-bottom: solid 1px black;
   border-right: solid 1px black;
   border-top: solid 1px black;
-  content: '';
+  content: "";
   right: 0;
 }
 
@@ -493,6 +497,8 @@ a {
   border-top: 10px solid #5cb85c;
   height: 100px;
 
+  /* padding: 15px; */
+
   /* position: fixed; */
   width: 100%;
 
@@ -500,7 +506,7 @@ a {
 }
 
 .header-log {
-  padding-left: 30px;
+  max-width: 293px;
 }
 
 .header-log a {
@@ -508,7 +514,6 @@ a {
 }
 
 .header-log img {
-  max-width: 200px;
   width: 100%;
 }
 
@@ -518,6 +523,8 @@ a {
   flex-wrap: wrap;
   height: 100px;
   justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 #header > div nav {
@@ -546,7 +553,7 @@ a {
 .header_nav li a::after {
   background: #5cb85c;
   bottom: -8px;
-  content: '';
+  content: "";
   height: 5px;
   left: 0;
   opacity: 0;
@@ -567,7 +574,7 @@ a {
 .header_nav li a::after {
   background: #5cb85c;
   bottom: -16px;
-  content: '';
+  content: "";
   height: 5px;
   left: 0;
   position: absolute;
@@ -635,7 +642,7 @@ a {
 .footer-nav li a::after {
   background: #5a5a5a;
   bottom: 15px;
-  content: '';
+  content: "";
   height: 1px;
   left: 0;
   position: absolute;
@@ -769,7 +776,7 @@ a {
 }
 
 .article-text time {
-  font-family: 'Roboto', 'verdana', sans-serif;
+  font-family: "Roboto", "verdana", sans-serif;
   font-size: 1.6rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -867,7 +874,7 @@ a {
 /* item
 ================================================================= */
 
-[class*='item-col'] {
+[class*="item-col"] {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -901,7 +908,7 @@ a {
 .item-col3::after,
 .item-col4::before,
 .item-col4::after {
-  content: '';
+  content: "";
 }
 
 .item-col4::before {

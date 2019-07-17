@@ -37,28 +37,32 @@ section > div {
 ================================================================= */
 
 .page-bg {
-  align-items: center;
-  background: url(../images/items/items_main.jpg) center center / cover;
-  display: flex;
-  height: 500px;
-  justify-content: center;
+
+  /* align-items: center; */
+
+  /* background: url(../images/items/items_main.jpg) center center / cover; */
+
+  /* display: flex; */
+
+  /* height: 500px; */
+
+  /* justify-content: center; */
   position: relative;
   text-align: center;
 }
 
-.page-bg::before {
-  background-color: rgba(0, 0, 0, .3);
-  bottom: 0;
-  content: " ";
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
+.page-bg img {
+  vertical-align: bottom;
+  width: 100%;
 }
 
 .page-bg-inner {
+  left: 50%;
   position: absolute;
   text-align: center;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   width: 100%;
 }
 
@@ -193,4 +197,45 @@ section > div {
   top: 50%;
   transform: translate(-50%, -40%);
   width: auto;
+}
+
+/* 一時利用css
+================================================================= */
+
+.test {
+  height: 310px;
+  margin: 0 auto;
+  text-align: center;
+  width: 375px;
+}
+
+.test img {
+  font-family: "object-fit: cover;";
+  height: auto;
+  object-fit: cover;
+  width: 100%;
+}
+
+.flex-test {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-test > div {
+  width: calc((100% - 30px) / 2);
+}
+
+.flex-test div ul li {
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  padding: 1.56em 0;
+}
+
+.flex-test div ul li input {
+  padding-left: 50px;
+}
+
+.flex-test div ul li label {
+  letter-spacing: .05em;
 }

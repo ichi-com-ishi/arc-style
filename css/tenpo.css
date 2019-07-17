@@ -7,11 +7,9 @@ tenpo css
 /* スライダー
 ================================================================= */
 
-.swiper-main {
+/* .swiper-main {
   height: 500px;
-
-  /* height: 100vh; */
-}
+} */
 
 /* .swiper-main {
   padding-top: 100px;
@@ -50,8 +48,8 @@ tenpo css
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 600;
-  letter-spacing: 0.1em;
-  text-shadow: rgba(0, 0, 0, 0.1) 2px 3px 5px;
+  letter-spacing: .1em;
+  text-shadow: rgba(0, 0, 0, .1) 2px 3px 5px;
 }
 
 /* news
@@ -142,6 +140,9 @@ tenpo css
 /* 取り扱い品目
 ================================================================= */
 
+/* ロゴ
+================================================================= */
+
 /* 店舗情報
 ================================================================= */
 
@@ -149,7 +150,7 @@ tenpo css
   border-top: 1px solid #aba696;
   display: flex;
   flex-wrap: wrap;
-  letter-spacing: 0.05em;
+  letter-spacing: .05em;
   line-height: 1.75;
   padding: 1.875em 0;
   text-align: justify;

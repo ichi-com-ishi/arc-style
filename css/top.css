@@ -7,11 +7,14 @@ top css
 /* スライダー
 ================================================================= */
 
-.swiper-main {
-  height: 600px;
-
-  /* height: 100vh; */
+.slid img {
+  vertical-align: bottom;
+  width: 100%;
 }
+
+/* .swiper-main {
+  height: 600px;
+} */
 
 /* .swiper-main {
   padding-top: 100px;
@@ -27,8 +30,9 @@ top css
 }
 
 .slid_img2 {
-  background: url(../images/slid/zisedai_1900-600.jpg) center center / cover
-    no-repeat;
+  background: url(../images/slid/zisedai_1900-600.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .slid_img3 {
@@ -41,8 +45,8 @@ top css
   max-width: 1200px;
   position: absolute;
   top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -55%);
+  transform: translate(-50%, -55%);
   width: 100%;
 }
 
