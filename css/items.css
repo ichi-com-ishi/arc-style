@@ -37,28 +37,32 @@ section > div {
 ================================================================= */
 
 .page-bg {
-  align-items: center;
-  background: url(../images/items/items_main.jpg) center center / cover;
-  display: flex;
-  height: 500px;
-  justify-content: center;
+
+  /* align-items: center; */
+
+  /* background: url(../images/items/items_main.jpg) center center / cover; */
+
+  /* display: flex; */
+
+  /* height: 500px; */
+
+  /* justify-content: center; */
   position: relative;
   text-align: center;
 }
 
-.page-bg::before {
-  background-color: rgba(0, 0, 0, .3);
-  bottom: 0;
-  content: " ";
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
+.page-bg img {
+  vertical-align: bottom;
+  width: 100%;
 }
 
 .page-bg-inner {
+  left: 50%;
   position: absolute;
   text-align: center;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   width: 100%;
 }
 
@@ -173,14 +177,47 @@ section > div {
 ================================================================= */
 
 .mitumori-btn-wrapper {
-  margin-bottom: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
   text-align: center;
+  width: 100%;
 }
 
 .mitumori-btn {
-  border: 1px solid #5cb85c;
+  background: #f0676f;
   border-radius: 5px;
+  color: #fff;
   display: block;
+  font-size: 1.8rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 600;
+  letter-spacing: .05em;
+  line-height: 3.25;
+  position: relative;
+  transition: all .5s ease 0s;
+}
+
+.mitumori-btn::after {
+  bottom: auto;
+  color: #fff;
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 900;
+  left: auto;
+  position: absolute;
+  right: 2.5em;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.mitumori-btn:hover {
+  opacity: .8;
 }
 
 /* 画像
@@ -200,16 +237,15 @@ section > div {
 
 .test {
   height: 310px;
-  margin: 0 auto;
   text-align: center;
-  width: 375px;
+  width: auto;
 }
 
 .test img {
   font-family: "object-fit: cover;";
-  height: auto;
+  height: 100%;
   object-fit: cover;
-  width: 100%;
+  width: auto;
 }
 
 .flex-test {
@@ -218,20 +254,135 @@ section > div {
   justify-content: space-between;
 }
 
-.flex-test > div {
+.flex-test {
   width: calc((100% - 30px) / 2);
 }
 
-.flex-test div ul li {
+.flex-test ul li {
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #ccc;
-  padding: 1.56em 0;
+  line-height: 2;
+  padding: 1.25em 0;
+  transition: all .2s ease 0s;
 }
 
-.flex-test div ul li input {
+.flex-test ul li:hover {
+  background: rgba(101, 164, 203, .1);
+}
+
+.flex-test ul li input {
   padding-left: 50px;
 }
 
-.flex-test div ul li label {
+/* .flex-test div ul li input :checked {
+  color: red;
+}
+
+.flex-test div ul li label:checked {
+  color: red;
+} */
+
+.flex-test ul li label {
+
+  /* background: url(../images/test/btn_color-T.gif); */
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
   letter-spacing: .05em;
+  overflow: hidden;
+  padding: 15px 0 15px 60px;
+}
+
+.flex-test ul li.ar label {
+
+  /* background: url(../images/items/color/clr-1.jpg.png) left / 50px 50px
+    no-repeat; */
+}
+
+.flex-test ul li label {
+  cursor: pointer;
+  position: relative;
+}
+
+.flex-test ul li label::before {
+  color: #ccc;
+  content: "\f111";
+  font-family: "Font Awesome 5 Free";
+  font-size: 79%;
+  font-weight: 900;
+  margin-right: .5em;
+  vertical-align: .1em;
+}
+
+.flex-test2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-test2 {
+  width: calc((100% - 30px) / 2);
+}
+
+.test2 {
+  height: 310px;
+  text-align: center;
+  width: auto;
+}
+
+.test2 img {
+  font-family: "object-fit: cover;";
+  height: 100%;
+  object-fit: cover;
+  width: auto;
+}
+
+.flex-test input[type="radio"]:checked + label::before {
+  color: #88a1e6;
+}
+
+/* mitumori-list,mitumori-list-cost共通
+=================================================================  */
+
+.mitumori-list dl dt,
+.mitumori-list-cost dl dt {
+  text-align: left;
+}
+
+.mitumori-list dl dd,
+.mitumori-list-cost dl dd {
+  text-align: right;
+}
+
+.mitumori-list dl dt,
+.mitumori-list dl dd,
+.mitumori-list-cost dl dt,
+.mitumori-list-cost dl dd {
+  width: 50%;
+}
+
+/* mitumori-list
+=================================================================  */
+
+.mitumori-list {
+  background: #f7f6f3;
+  padding: 3.75em .9375em;
+}
+
+/* mitumori-list-cost
+=================================================================  */
+
+.mitumori-list-cost dl {
+  border-top: 1px solid #ccc;
+  letter-spacing: .05em;
+  padding: .9375em;
+}
+
+.mitumori-list-cost dl:last-child {
+  border-bottom: 1px solid #ccc;
+  color: #ed5f68;
+}
+
+.mitumori-list-cost dl:nth-of-type(even) {
+  background: #f2f2f2;
 }

@@ -21,18 +21,6 @@
     <link rel="stylesheet" href="../css/ress.css" />
 
     <style>
-      table,
-      td,
-      th {
-        border: 1px solid #595959;
-        border-collapse: collapse;
-      }
-      td,
-      th {
-        padding: 3px;
-        width: 30px;
-        height: 25px;
-      }
       th {
         background: #f0e6cc;
       }
@@ -103,7 +91,9 @@
       <!-- /#header -->
 
       <div class="page-bg">
-        <!-- <div><img src="../images/items/items_main.jpg" alt=""></div> -->
+        <div class="bgDark bgDark-06">
+          <img src="../images/slid/item_main.jpg" alt="" />
+        </div>
         <div class="page-bg-inner">
           <h2>ITEMS</h2>
           <p>取り扱い商品</p>
@@ -159,43 +149,56 @@
                 <h3 class="mitumori-h3">商品カラー</h3>
               </div>
               <div class="flex-test">
-                <div>
-                  <ul>
-                    <li>
-                      <input type="radio" name="" value="" id="" title="" class="" />
-                      <label for="">アンティークローズ</label>
-                    </li>
-                    <li>
-                      <input type="radio" name="" value="" id="" title="" class="" />
-                      <label for="">リーフグリーン</label>
-                    </li>
-                    <li>
-                      <input type="radio" name="" value="" id="" title="" class="" />
-                      <label for="">フレンドリーホワイト</label>
-                    </li>
-                  </ul>
-                </div>
-                <div>
-                  <ul>
-                    <li>
-                      <input type="radio" name="" value="" id="" title="" class="" />
-                      <label for="">ティンバーブラウン</label>
-                    </li>
-                    <li>
-                      <input type="radio" name="" value="" id="" title="" class="" />
-                      <label for="">プレミアムグレー</label>
-                    </li>
-                    <li>
-                      <input type="radio" name="" value="" id="" title="" class="" />
-                      <label for="">リーフグリーン</label>
-                    </li>
-                  </ul>
-                </div>
-                <div></div>
+                <ul>
+                  <li class="ar">
+                    <input type="radio" name="" value="" id="clr-1" title="" class="" />
+                    <label for="clr-1">アンティークローズ</label>
+                  </li>
+                  <li class="rg">
+                    <input type="radio" name="" value="" id="clr-2" title="" class="" />
+                    <label for="clr-2">リーフグリーン</label>
+                  </li>
+                  <li class="fw">
+                    <input type="radio" name="" value="" id="clr-3" title="" class="" />
+                    <label for="clr-3">フレンドリーホワイト</label>
+                  </li>
+
+                  <li class="tb">
+                    <input type="radio" name="" value="" id="clr-4" title="" class="" />
+                    <label for="clr-4">ティンバーブラウン</label>
+                  </li>
+                  <li class="pg">
+                    <input type="radio" name="" value="" id="clr-5" title="" class="" />
+                    <label for="clr-5">プレミアムグレー</label>
+                  </li>
+                  <li class="ab">
+                    <input type="radio" name="" value="" id="clr-6" title="" class="" />
+                    <label for="clr-6">アクアブルー</label>
+                  </li>
+                </ul>
               </div>
+
               <div class="left-heading-wrapper-3">
                 <h3 class="mitumori-h3">商品タイプ</h3>
               </div>
+              <div class="flex-test2">
+                <div class="test2">
+                  <img src="../images/items/inaba/listImg_3.jpg" alt="" />
+                </div>
+                <div>
+                  <ul>
+                    <li>
+                      <input type="radio" name="" value="" id="" title="" class="" />
+                      <label for="">前面棚タイプ</label>
+                    </li>
+                    <li>
+                      <input type="radio" name="" value="" id="" title="" class="" />
+                      <label for="">長もの収納タイプ<img src="../images/items/color/clr-1.jpg.png" alt=""></label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
             </div>
           </section>
           <section>
@@ -206,8 +209,55 @@
               <div class="left-heading-wrapper-3">
                 <h3 class="mitumori-h3">転倒防止工事費（4箇所）</h3>
               </div>
+              <div class="flex-test2">
+                <div>
+                  <p>
+                    物置を設置するにあたり、台風や突発的な強風、地震などの自然災害などで物置転倒事故の危険性があります。
+                    そのような物置転倒事故を防止するために、「転倒防止工事」をおすすめしています。
+                  </p>
+                </div>
+                <div>
+                  <ul>
+                    <li>
+                      <input type="radio" name="" value="" id="" title="" class="" /> <label for="">土（芝含む）</label>
+                    </li>
+                    <li>
+                      <input type="radio" name="" value="" id="" title="" class="" /> <label for="">コンクリート</label>
+                    </li>
+                    <li>
+                      <input type="radio" name="" value="" id="" title="" class="" /> <label for="">アスファルト</label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
               <div class="left-heading-wrapper-3">
                 <h3 class="mitumori-h3">既存物置解体処分費</h3>
+              </div>
+              <div>
+                <ul>
+                  <li><input type="radio" name="" value="" id="" title="" class="" /> <label for="">不要</label></li>
+                  <li>
+                    <input type="radio" name="" value="" id="" title="" class="" /> <label for="">0.29坪未満</label>
+                  </li>
+                  <li>
+                    <input type="radio" name="" value="" id="" title="" class="" /> <label for="">0.49坪未満</label>
+                  </li>
+                  <li>
+                    <input type="radio" name="" value="" id="" title="" class="" /> <label for="">0.99坪未満</label>
+                  </li>
+                  <li>
+                    <input type="radio" name="" value="" id="" title="" class="" /> <label for="">1.49坪未満</label>
+                  </li>
+                  <li>
+                    <input type="radio" name="" value="" id="" title="" class="" /> <label for="">1.99坪未満</label>
+                  </li>
+                  <li>
+                    <input type="radio" name="" value="" id="" title="" class="" /> <label for="">2.49坪未満</label>
+                  </li>
+                  <li>
+                    <input type="radio" name="" value="" id="" title="" class="" /> <label for="">2.99坪未満</label>
+                  </li>
+                </ul>
               </div>
             </div>
           </section>
@@ -217,104 +267,92 @@
                 <h2 class="mitumori-h2">概算お見積り</h2>
                 <div>
                   <h3 class="mitumori-h3">商品仕様</h3>
-                  <div>
-                    <table>
-                      <tbody>
-                        <tr>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                      </tbody>
-                    </table>
+                  <div class="list mitumori-list">
+                    <dl>
+                      <dt>メーカー品番</dt>
+                      <dd>MJX-094A</dd>
+                    </dl>
+                    <dl>
+                      <dt>商品名</dt>
+                      <dd>シンプリー</dd>
+                    </dl>
+                    <dl>
+                      <dt>メーカー品番</dt>
+                      <dd>MJX-094A</dd>
+                    </dl>
+                    <dl>
+                      <dt>規格幅</dt>
+                      <dd>900mm</dd>
+                    </dl>
+                    <dl>
+                      <dt>規格奥行</dt>
+                      <dd>415mm</dd>
+                    </dl>
+                    <dl>
+                      <dt>規格高</dt>
+                      <dd>903mm</dd>
+                    </dl>
+                    <dl>
+                      <dt>商品カラー</dt>
+                      <dd>プレミアムグレー</dd>
+                    </dl>
+                    <dl>
+                      <dt>商品タイプ</dt>
+                      <dd>全面棚タイプ</dd>
+                    </dl>
+                    <dl>
+                      <dt>耐荷重タイプ</dt>
+                      <dd>一般型</dd>
+                    </dl>
+                    <dl>
+                      <dt>雨とい</dt>
+                      <dd>一般型</dd>
+                    </dl>
                   </div>
                   <h3 class="mitumori-h3">商品代</h3>
-                  <div>
-                    <table>
-                      <tbody>
-                        <tr>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                      </tbody>
-                    </table>
+                  <div class="list mitumori-list-cost">
+                    <dl>
+                      <dt>商品価格</dt>
+                      <dd>39,000円</dd>
+                    </dl>
+                    <dl>
+                      <dt>お値引き</dt>
+                      <dd>-11,700円</dd>
+                    </dl>
                   </div>
                   <h3 class="mitumori-h3">工事代</h3>
                   <div>
-                    <table>
-                      <tbody>
-                        <tr>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                      </tbody>
-                    </table>
+                    <div class="list mitumori-list-cost">
+                      <dl>
+                        <dt>基本工事費</dt>
+                        <dd>10,290円</dd>
+                      </dl>
+                      <dl>
+                        <dt>お値引き</dt>
+                        <dd>-490円</dd>
+                      </dl>
+                    </div>
                   </div>
                   <h3 class="mitumori-h3">概算お見積り額</h3>
                   <div>
-                    <table>
-                      <tbody>
-                        <tr>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                      </tbody>
-                    </table>
+                    <div class="list mitumori-list-cost">
+                      <dl>
+                        <dt>商品代</dt>
+                        <dd>27,300円</dd>
+                      </dl>
+                      <dl>
+                        <dt>工事代</dt>
+                        <dd>9,800円</dd>
+                      </dl>
+                      <dl>
+                        <dt>消費税</dt>
+                        <dd>2,968円</dd>
+                      </dl>
+                      <dl>
+                        <dt>合計</dt>
+                        <dd>40,068円</dd>
+                      </dl>
+                    </div>
                   </div>
                   <div class="mitumori-btn-wrapper">
                     <a class="mitumori-btn" href="">本見積もりのお申込みへ進む</a>
