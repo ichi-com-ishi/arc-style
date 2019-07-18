@@ -37,16 +37,6 @@ section > div {
 ================================================================= */
 
 .page-bg {
-
-  /* align-items: center; */
-
-  /* background: url(../images/items/items_main.jpg) center center / cover; */
-
-  /* display: flex; */
-
-  /* height: 500px; */
-
-  /* justify-content: center; */
   position: relative;
   text-align: center;
 }
@@ -232,113 +222,99 @@ section > div {
   width: auto;
 }
 
-/* 一時利用css
+/* 商品タイプ、商品、工事仕様
 ================================================================= */
 
-.test {
-  height: 310px;
+.product-img-wrapper {
+  margin: 0 auto;
+  max-width: 375px;
   text-align: center;
-  width: auto;
 }
 
-.test img {
+.product-img-wrapper img {
   font-family: "object-fit: cover;";
-  height: 100%;
+  height: auto;
   object-fit: cover;
-  width: auto;
+  width: 100%;
 }
 
-.flex-test {
+.product-flex ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.flex-test {
+.product-flex ul li {
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+  line-height: 50px;
+  padding: .625em 0;
+  transition: all .2s ease 0s;
   width: calc((100% - 30px) / 2);
 }
 
-.flex-test ul li {
-  border-bottom: 1px solid #ccc;
+.product-flex ul li:nth-of-type(-n + 2) {
   border-top: 1px solid #ccc;
-  line-height: 2;
-  padding: 1.25em 0;
-  transition: all .2s ease 0s;
 }
 
-.flex-test ul li:hover {
+.product-flex ul li img {
+  height: 50px;
+  vertical-align: bottom;
+  width: 50px;
+}
+
+.product-flex ul li:hover {
   background: rgba(101, 164, 203, .1);
 }
 
-.flex-test ul li input {
-  padding-left: 50px;
-}
-
-/* .flex-test div ul li input :checked {
-  color: red;
-}
-
-.flex-test div ul li label:checked {
-  color: red;
-} */
-
-.flex-test ul li label {
-
-  /* background: url(../images/test/btn_color-T.gif); */
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: 50px 50px;
-  letter-spacing: .05em;
-  overflow: hidden;
-  padding: 15px 0 15px 60px;
-}
-
-.flex-test ul li.ar label {
-
-  /* background: url(../images/items/color/clr-1.jpg.png) left / 50px 50px
-    no-repeat; */
-}
-
-.flex-test ul li label {
+.product-flex ul li label {
   cursor: pointer;
+  display: inline-block;
+  letter-spacing: .05em;
+  padding-left: .9375em;
   position: relative;
+  width: 85%;
 }
 
-.flex-test ul li label::before {
+.product-flex ul li label::before {
   color: #ccc;
   content: "\f111";
   font-family: "Font Awesome 5 Free";
   font-size: 79%;
   font-weight: 900;
-  margin-right: .5em;
+  margin-right: .9375em;
   vertical-align: .1em;
 }
 
-.flex-test2 {
+.product-flex input[type="radio"]:checked + label::before {
+  color: #88a1e6;
+}
+
+.product-flex2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.flex-test2 {
+.product-flex2 .product-flex ul {
+  flex-direction: column;
+}
+
+.product-flex2 .product-flex ul li {
+  width: 100%;
+}
+
+.product-flex2 .product-flex ul li:nth-last-of-type(2) {
+  border-top: none;
+}
+
+.product-flex2 div {
   width: calc((100% - 30px) / 2);
 }
 
-.test2 {
-  height: 310px;
-  text-align: center;
-  width: auto;
-}
-
-.test2 img {
-  font-family: "object-fit: cover;";
-  height: 100%;
-  object-fit: cover;
-  width: auto;
-}
-
-.flex-test input[type="radio"]:checked + label::before {
-  color: #88a1e6;
+.product-flex2 .product-text {
+  letter-spacing: .05em;
+  line-height: 1.75;
 }
 
 /* mitumori-list,mitumori-list-cost共通

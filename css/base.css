@@ -395,8 +395,6 @@ a {
   text-align: center;
 }
 
-/* トップh2見出し */
-
 .heading-2-top {
   font-family: "Roboto", "verdana", sans-serif;
   font-size: 4rem;
@@ -483,16 +481,16 @@ section:first-of-type .left-heading-wrapper-3 {
 }
 
 .heading-3::before {
-  border-bottom: solid 1px black;
-  border-left: solid 1px black;
-  border-top: solid 1px black;
+  border-bottom: solid 1px #5a5a5a;
+  border-left: solid 1px #5a5a5a;
+  border-top: solid 1px #5a5a5a;
   left: 0;
 }
 
 .heading-3::after {
-  border-bottom: solid 1px black;
-  border-right: solid 1px black;
-  border-top: solid 1px black;
+  border-bottom: solid 1px #5a5a5a;
+  border-right: solid 1px #5a5a5a;
+  border-top: solid 1px #5a5a5a;
   content: "";
   right: 0;
 }
