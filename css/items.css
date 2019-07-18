@@ -58,10 +58,10 @@ section > div {
 
 .page-bg-inner h2 {
   color: #f8f8f8;
-  font-family: "Roboto", "verdana", sans-serif;
+  font-family: 'Roboto', 'verdana', sans-serif;
   font-size: 6rem;
   letter-spacing: .05em;
-  text-shadow: rgba(0, 0, 0, .1) 2px 3px 5px;
+  text-shadow: rgba(0, 0, 0, .2) 2px 3px 5px;
 }
 
 .page-bg-inner p {
@@ -71,7 +71,7 @@ section > div {
   -moz-osx-font-smoothing: grayscale;
   font-weight: 600;
   letter-spacing: .05em;
-  text-shadow: rgba(0, 0, 0, .1) 2px 3px 5px;
+  text-shadow: rgba(0, 0, 0, .2) 2px 3px 5px;
 }
 
 /* 見出し
@@ -192,8 +192,8 @@ section > div {
 .mitumori-btn::after {
   bottom: auto;
   color: #fff;
-  content: "\f105";
-  font-family: "Font Awesome 5 Free";
+  content: '\f105';
+  font-family: 'Font Awesome 5 Free';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 900;
@@ -232,7 +232,7 @@ section > div {
 }
 
 .product-img-wrapper img {
-  font-family: "object-fit: cover;";
+  font-family: 'object-fit: cover;';
   height: auto;
   object-fit: cover;
   width: 100%;
@@ -278,15 +278,15 @@ section > div {
 
 .product-flex ul li label::before {
   color: #ccc;
-  content: "\f111";
-  font-family: "Font Awesome 5 Free";
+  content: '\f111';
+  font-family: 'Font Awesome 5 Free';
   font-size: 79%;
   font-weight: 900;
   margin-right: .9375em;
   vertical-align: .1em;
 }
 
-.product-flex input[type="radio"]:checked + label::before {
+.product-flex input[type='radio']:checked + label::before {
   color: #88a1e6;
 }
 
