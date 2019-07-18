@@ -37,16 +37,6 @@ section > div {
 ================================================================= */
 
 .page-bg {
-
-  /* align-items: center; */
-
-  /* background: url(../images/items/items_main.jpg) center center / cover; */
-
-  /* display: flex; */
-
-  /* height: 500px; */
-
-  /* justify-content: center; */
   position: relative;
   text-align: center;
 }
@@ -232,29 +222,29 @@ section > div {
   width: auto;
 }
 
-/* 一時利用css
+/* 商品タイプ、商品、工事仕様
 ================================================================= */
 
-.test {
-  height: 310px;
+.product-img-wrapper {
+  margin: 0 auto;
+  max-width: 375px;
   text-align: center;
-  width: auto;
 }
 
-.test img {
+.product-img-wrapper img {
   font-family: "object-fit: cover;";
-  height: 100%;
+  height: auto;
   object-fit: cover;
-  width: auto;
+  width: 100%;
 }
 
-.flex-test ul {
+.product-flex ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.flex-test ul li {
+.product-flex ul li {
   border-bottom: 1px solid #ccc;
   cursor: pointer;
   line-height: 50px;
@@ -263,33 +253,21 @@ section > div {
   width: calc((100% - 30px) / 2);
 }
 
-/* .flex-test3 ul li {
-  border-bottom: 1px solid #ccc;
-  cursor: pointer;
-  line-height: 50px;
-  padding: .625em 0;
-  transition: all .2s ease 0s;
-}
-
-.flex-test3 ul li:first-of-type {
-  border-top: 1px solid #ccc;
-} */
-
-.flex-test ul li:nth-of-type(-n + 2) {
+.product-flex ul li:nth-of-type(-n + 2) {
   border-top: 1px solid #ccc;
 }
 
-.flex-test ul li img {
+.product-flex ul li img {
   height: 50px;
   vertical-align: bottom;
   width: 50px;
 }
 
-.flex-test ul li:hover {
+.product-flex ul li:hover {
   background: rgba(101, 164, 203, .1);
 }
 
-.flex-test ul li label {
+.product-flex ul li label {
   cursor: pointer;
   display: inline-block;
   letter-spacing: .05em;
@@ -298,7 +276,7 @@ section > div {
   width: 85%;
 }
 
-.flex-test ul li label::before {
+.product-flex ul li label::before {
   color: #ccc;
   content: "\f111";
   font-family: "Font Awesome 5 Free";
@@ -308,48 +286,35 @@ section > div {
   vertical-align: .1em;
 }
 
-.flex-test2 {
+.product-flex input[type="radio"]:checked + label::before {
+  color: #88a1e6;
+}
+
+.product-flex2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.flex-test2 .flex-test ul {
+.product-flex2 .product-flex ul {
   flex-direction: column;
 }
 
-.flex-test2 .flex-test ul li {
+.product-flex2 .product-flex ul li {
   width: 100%;
 }
 
-.flex-test2 .flex-test ul li:nth-last-of-type(2) {
+.product-flex2 .product-flex ul li:nth-last-of-type(2) {
   border-top: none;
 }
 
-.flex-test2 div {
+.product-flex2 div {
   width: calc((100% - 30px) / 2);
 }
 
-.flex-test2 .text {
+.product-flex2 .product-text {
   letter-spacing: .05em;
   line-height: 1.75;
-}
-
-.test2 {
-  height: 310px;
-  text-align: center;
-  width: auto;
-}
-
-.test2 img {
-  font-family: "object-fit: cover;";
-  height: 100%;
-  object-fit: cover;
-  width: auto;
-}
-
-.flex-test input[type="radio"]:checked + label::before {
-  color: #88a1e6;
 }
 
 /* mitumori-list,mitumori-list-cost共通

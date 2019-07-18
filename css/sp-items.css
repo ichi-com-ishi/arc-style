@@ -18,6 +18,10 @@ sp-items css
   .size ul li a span:last-of-type {
     font-size: 1.16vw;
   }
+
+  .product-flex2 div {
+    width: calc((100% - 2.5%) / 2);
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -38,24 +42,24 @@ sp-items css
   /* test2
   ----------------------------------------------------------------- */
 
-  .flex-test ul li {
+  .product-flex ul li {
     width: 100%;
   }
 
-  .flex-test ul li:nth-of-type(2) {
+  .product-flex ul li:nth-of-type(2) {
     border-top: none;
   }
 
-  .flex-test ul li label {
+  .product-flex ul li label {
     font-size: 2.5vw;
     width: 80%;
   }
 
-  .flex-test2 div {
+  .product-flex2 div {
     width: 100%;
   }
 
-  .flex-test2 .text {
+  .product-flex2 .product-text {
     margin-bottom: 30px;
   }
 
