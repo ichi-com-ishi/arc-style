@@ -28,6 +28,10 @@ ul {
   list-style: none;
 }
 
+input {
+  display: none;
+}
+
 .container {
   overflow: hidden;
 }
@@ -433,7 +437,11 @@ a {
 }
 
 .left-heading-wrapper-3 {
-  margin-bottom: 50px;
+  margin: 50px 0;
+}
+
+section:first-of-type .left-heading-wrapper-3 {
+  margin-top: 0;
 }
 
 .left-heading-3 {
@@ -973,5 +981,34 @@ a {
   line-height: 3.5;
 }
 
-/* item
+/* list
 ================================================================= */
+
+.list dl {
+  border-top: 1px solid #aba696;
+  display: flex;
+  flex-wrap: wrap;
+  letter-spacing: .05em;
+  line-height: 1.75;
+  padding: 1.875em 0;
+  text-align: justify;
+}
+
+.list dl:last-child {
+  border-bottom: 1px solid #aba696;
+}
+
+.list dl dt {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 600;
+  width: 20%;
+}
+
+.list dl dd {
+  width: 80%;
+}
+
+.list + p {
+  margin-top: 30px;
+}

@@ -34,6 +34,34 @@ sp-items css
   .size ul li a span:last-of-type {
     font-size: 1.75vw;
   }
+
+  /* test2
+  ----------------------------------------------------------------- */
+
+  .flex-test ul li {
+    width: 100%;
+  }
+
+  .flex-test ul li:nth-of-type(2) {
+    border-top: none;
+  }
+
+  /* mitumori-list
+  ----------------------------------------------------------------- */
+
+  .mitumori-list {
+    padding: 7.5% 3.75%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  /* ボタン
+================================================================= */
+
+  .mitumori-btn {
+    font-size: 3vw;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -49,7 +77,7 @@ sp-items css
     flex-basis: 100%;
   }
 
-    .size ul li a span:first-of-type {
+  .size ul li a span:first-of-type {
     font-size: 4vw;
   }
 
