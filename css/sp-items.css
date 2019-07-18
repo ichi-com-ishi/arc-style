@@ -46,6 +46,11 @@ sp-items css
     border-top: none;
   }
 
+  .flex-test ul li label {
+    font-size: 2vw;
+    width: 80%;
+  }
+
   /* mitumori-list
   ----------------------------------------------------------------- */
 

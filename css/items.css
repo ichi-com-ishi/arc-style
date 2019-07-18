@@ -68,7 +68,7 @@ section > div {
 
 .page-bg-inner h2 {
   color: #f8f8f8;
-  font-family: 'Roboto', 'verdana', sans-serif;
+  font-family: "Roboto", "verdana", sans-serif;
   font-size: 6rem;
   letter-spacing: .05em;
   text-shadow: rgba(0, 0, 0, .1) 2px 3px 5px;
@@ -202,8 +202,8 @@ section > div {
 .mitumori-btn::after {
   bottom: auto;
   color: #fff;
-  content: '\f105';
-  font-family: 'Font Awesome 5 Free';
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 900;
@@ -242,7 +242,7 @@ section > div {
 }
 
 .test img {
-  font-family: 'object-fit: cover;';
+  font-family: "object-fit: cover;";
   height: 100%;
   object-fit: cover;
   width: auto;
@@ -274,42 +274,31 @@ section > div {
 }
 
 .flex-test ul li img {
+  height: 50px;
   vertical-align: bottom;
+  width: 50px;
 }
 
 .flex-test ul li:hover {
   background: rgba(101, 164, 203, .1);
 }
 
-.flex-test ul li input {
-  padding-left: 50px;
-}
-
-/* .flex-test div ul li input :checked {
-  color: red;
-}
-
-.flex-test div ul li label:checked {
-  color: red;
-} */
-
-.flex-test ul li label {
-  letter-spacing: .05em;
-}
-
 .flex-test ul li label {
   cursor: pointer;
-  padding-left: 1.25em;
+  display: inline-block;
+  letter-spacing: .05em;
+  padding-left: .9375em;
   position: relative;
+  width: 85%;
 }
 
 .flex-test ul li label::before {
   color: #ccc;
-  content: '\f111';
-  font-family: 'Font Awesome 5 Free';
+  content: "\f111";
+  font-family: "Font Awesome 5 Free";
   font-size: 79%;
   font-weight: 900;
-  margin-right: .5em;
+  margin-right: .9375em;
   vertical-align: .1em;
 }
 
@@ -330,13 +319,13 @@ section > div {
 }
 
 .test2 img {
-  font-family: 'object-fit: cover;';
+  font-family: "object-fit: cover;";
   height: 100%;
   object-fit: cover;
   width: auto;
 }
 
-.flex-test input[type='radio']:checked + label::before {
+.flex-test input[type="radio"]:checked + label::before {
   color: #88a1e6;
 }
 
