@@ -247,6 +247,7 @@ section > div {
 .product-flex ul li {
   border-bottom: 1px solid #ccc;
   cursor: pointer;
+  display: flex;
   line-height: 50px;
   padding: .625em 0;
   transition: all .2s ease 0s;
@@ -269,11 +270,16 @@ section > div {
 
 .product-flex ul li label {
   cursor: pointer;
-  display: inline-block;
+
+  /* display: inline-block; */
+  display: block;
   letter-spacing: .05em;
   padding-left: .9375em;
   position: relative;
-  width: 85%;
+
+  /* width: 85%; */
+
+  width: 100%;
 }
 
 .product-flex ul li label::before {
