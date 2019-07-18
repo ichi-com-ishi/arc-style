@@ -47,8 +47,16 @@ sp-items css
   }
 
   .flex-test ul li label {
-    font-size: 2vw;
+    font-size: 2.5vw;
     width: 80%;
+  }
+
+  .flex-test2 div {
+    width: 100%;
+  }
+
+  .flex-test2 .text {
+    margin-bottom: 30px;
   }
 
   /* mitumori-list

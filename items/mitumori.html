@@ -180,22 +180,17 @@
                 <div class="left-heading-wrapper-3">
                   <h3 class="mitumori-h3">商品タイプ</h3>
                 </div>
-                <div class="flex-test2">
-                  <div class="test2">
-                    <img src="../images/items/inaba/listImg_3.jpg" alt="" />
-                  </div>
-                  <div>
-                    <ul>
-                      <li>
-                        <input type="radio" name="" value="" id="" />
-                        <label for="">前面棚タイプ</label>
-                      </li>
-                      <li>
-                        <input type="radio" name="" value="" id="" />
-                        <label for="">長もの収納タイプ</label>
-                      </li>
-                    </ul>
-                  </div>
+                <div class="flex-test">
+                  <ul>
+                    <li>
+                      <input type="radio" name="aaa" value="" id="type-01" />
+                      <label for="type-01">前面棚タイプ</label>
+                    </li>
+                    <li>
+                      <input type="radio" name="aaa" value="" id="type-02" />
+                      <label for="type-02">長もの収納タイプ</label>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -213,24 +208,24 @@
                 </div>
                 <div class="flex-test2">
                   <div>
-                    <p>
+                    <p class="text">
                       物置を設置するにあたり、台風や突発的な強風、地震などの自然災害などで物置転倒事故の危険性があります。
                       そのような物置転倒事故を防止するために、「転倒防止工事」をおすすめしています。
                     </p>
                   </div>
-                  <div>
+                  <div class="flex-test">
                     <ul>
                       <li>
-                        <input type="radio" name="" value="" id="" />
-                        <label for="">土（芝含む）</label>
+                        <input type="radio" name="" value="" id="opt-01" />
+                        <label for="opt-01">土（芝含む）</label>
                       </li>
                       <li>
-                        <input type="radio" name="" value="" id="" />
-                        <label for="">コンクリート</label>
+                        <input type="radio" name="" value="" id="opt-02" />
+                        <label for="opt-02">コンクリート</label>
                       </li>
                       <li>
-                        <input type="radio" name="" value="" id="" />
-                        <label for="">アスファルト</label>
+                        <input type="radio" name="" value="" id="opt-03" />
+                        <label for="opt-03">アスファルト</label>
                       </li>
                     </ul>
                   </div>
@@ -244,36 +239,36 @@
                 <div class="flex-test">
                   <ul>
                     <li>
-                      <input type="radio" name="" value="" id="" />
-                      <label for="">不要</label>
+                      <input type="radio" name="" value="" id="opt-04" />
+                      <label for="opt-04">不要</label>
                     </li>
                     <li>
-                      <input type="radio" name="" value="" id="" />
-                      <label for="">0.29坪未満</label>
+                      <input type="radio" name="" value="" id="opt-05" />
+                      <label for="opt-05">0.29坪未満</label>
                     </li>
                     <li>
-                      <input type="radio" name="" value="" id="" />
-                      <label for="">0.49坪未満</label>
+                      <input type="radio" name="" value="" id="opt-06" />
+                      <label for="opt-06">0.49坪未満</label>
                     </li>
                     <li>
-                      <input type="radio" name="" value="" id="" />
-                      <label for="">0.99坪未満</label>
+                      <input type="radio" name="" value="" id="opt-07" />
+                      <label for="opt-07">0.99坪未満</label>
                     </li>
                     <li>
-                      <input type="radio" name="" value="" id="" />
-                      <label for="">1.49坪未満</label>
+                      <input type="radio" name="" value="" id="opt-08" />
+                      <label for="opt-08">1.49坪未満</label>
                     </li>
                     <li>
-                      <input type="radio" name="" value="" id="" />
-                      <label for="">1.99坪未満</label>
+                      <input type="radio" name="" value="" id="opt-09" />
+                      <label for="opt-09">1.99坪未満</label>
                     </li>
                     <li>
-                      <input type="radio" name="" value="" id="" />
-                      <label for="">2.49坪未満</label>
+                      <input type="radio" name="" value="" id="opt-10" />
+                      <label for="opt-10">2.49坪未満</label>
                     </li>
                     <li>
-                      <input type="radio" name="" value="" id="" />
-                      <label for="">2.99坪未満</label>
+                      <input type="radio" name="" value="" id="opt-11" />
+                      <label for="opt-11">2.99坪未満</label>
                     </li>
                   </ul>
                 </div>
@@ -484,6 +479,56 @@
     <script src="../js/plugin/modaal/modaal.js"></script>
     <script src="../js/plugin/object-fit/ofi.min.js"></script>
     <script src="../js/main.js"></script>
+    <script>
+      // var number;
+      // $(function(){
+      //   $('input').click(function(){
+      //     if($(this).val() == number) {
+      //       $(this).prop('checked', false);
+      //       number = 0;
+      //     } else {
+      //       number = $(this).val();
+      //     }
+      //   });
+      // });
+
+//       $(function(){
+//     var nowchecked = $('input[name=aaa]:checked').val();
+//     $('input[name=aaa]').click(function(){
+//         if($(this).val() == nowchecked) {
+//             $(this).prop('checked', false);
+//             nowchecked = false;
+//         } else {
+//             nowchecked = $(this).val();
+//         }
+//     });
+// });
+
+// 予めチェックされているもの
+var nowchecked = [];
+$('input[type="radio"]:checked').each(function(){
+  nowchecked.push( $(this).attr('id') );
+});
+
+$('input[type="radio"]').click(function(){
+  var idx = $.inArray( $(this).attr('id'), nowchecked ); // nowcheckedにクリックされたボタンのidが含まれるか判定。なければ-1が返る。
+	if( idx >= 0 ) { // クリックしたボタンにチェックが入っていた場合
+		$(this).prop('checked', false); // チェックを外す
+		nowchecked.splice(idx,1); // nowcheckedからこのボタンのidを削除
+	} else { // チェックが入っていなかった場合
+	// 同じname属性のラジオボタンをnowcheckedから削除する
+    var name = $(this).attr('name');
+    $('input[name="' + name + '"]').each(function(){
+      var idx2 = $.inArray( $(this).attr('id'), nowchecked);
+      if( idx2 >= 0 ){
+        nowchecked.splice(idx2,1);
+      }
+    });
+    // チェックしたものをnowcheckedに追加
+		nowchecked.push( $(this).attr('id') );
+	}
+});
+    </script>
     <script>
       $(".modal").modaal();
     </script>
