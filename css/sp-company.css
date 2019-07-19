@@ -1,0 +1,64 @@
+@charset 'utf-8';
+
+/* =================================================================
+sp-company css
+================================================================= */
+
+/* 800px-1200px
+================================================================= */
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+
+  /*
+  -----------------------------------------------------------------  */
+
+  .box-text h3 {
+    font-size: 2.92vw;
+  }
+
+  .box-text p {
+    font-size: 1.667vw;
+  }
+
+  .circle {
+    font-size: 2.92vw;
+  }
+}
+
+/* 800px
+================================================================= */
+
+@media screen and (max-width: 800px) {
+
+  /*
+  -----------------------------------------------------------------  */
+
+  .box-text {
+    width: 100%;
+  }
+
+  .box-text h3 {
+    color: #fff;
+    text-shadow: rgba(0, 0, 0, .2) 2px 3px 5px;
+  }
+
+  .box-text p {
+    color: #fff;
+    text-shadow: rgba(0, 0, 0, .2) 2px 3px 5px;
+  }
+
+  .page-catch {
+    font-size: 2.4rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .box-text h3 {
+    font-size: 2.4rem;
+  }
+
+  .box-text p {
+    font-size: 1.6rem;
+  }
+}
