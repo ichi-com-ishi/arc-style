@@ -4,21 +4,31 @@
 partner css
 ================================================================= */
 
+#contents #main section:nth-of-type(even) {
+  background: inherit;
+}
+
+#contents #main section:last-of-type {
+  padding-bottom: 0;
+}
+
 .page-catch {
   font-size: 2rem;
   letter-spacing: .1em;
+  line-height: 1.75;
   margin-bottom: 100px;
   text-align: center;
 }
 
 .reform-policy {
-  margin: 0 auto;
   text-align: center;
 }
 
 .reform-policy p {
   letter-spacing: .05em;
-  line-height: 1.725;
-  margin: 0 auto;
-  width: 600px;
+  line-height: 1.75;
+}
+
+.test > div {
+  max-width: 600px;
 }

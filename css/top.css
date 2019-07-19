@@ -58,7 +58,7 @@ top css
   -moz-osx-font-smoothing: grayscale;
   font-weight: 600;
   letter-spacing: .1em;
-  text-shadow: rgba(0, 0, 0, .1) 2px 3px 5px;
+  text-shadow: rgba(0, 0, 0, .2) 2px 3px 5px;
 }
 
 .slid-img-content .el-text {
@@ -69,7 +69,7 @@ top css
   font-weight: 600;
   letter-spacing: .1em;
   padding-left: 7px;
-  text-shadow: rgba(0, 0, 0, .1) 2px 3px 5px;
+  text-shadow: rgba(0, 0, 0, .2) 2px 3px 5px;
 }
 
 .slid-img-content .el-btn {

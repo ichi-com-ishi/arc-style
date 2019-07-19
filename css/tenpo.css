@@ -43,7 +43,7 @@ tenpo css
 
 .slid-img-content .el-title {
   color: #fff;
-  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  font-family: '游明朝', YuMincho, 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'HG明朝E', 'ＭＳ Ｐ明朝', 'ＭＳ 明朝', serif;
   font-size: 6rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -146,7 +146,7 @@ tenpo css
 /* 店舗情報
 ================================================================= */
 
-.list dl {
+/* .list dl {
   border-top: 1px solid #aba696;
   display: flex;
   flex-wrap: wrap;
@@ -173,7 +173,7 @@ tenpo css
 
 .list + p {
   margin-top: 30px;
-}
+} */
 
 /* アクセス
 ================================================================= */
