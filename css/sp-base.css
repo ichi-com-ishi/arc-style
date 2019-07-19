@@ -108,7 +108,7 @@ sp-base css
   ----------------------------------------------------------------- */
 
   .br::before {
-    content: '\A';
+    content: "\A";
     white-space: pre;
   }
 
@@ -137,7 +137,7 @@ sp-base css
   }
 
   .br_sp::before {
-    content: '\A';
+    content: "\A";
     white-space: pre;
   }
 
@@ -165,8 +165,18 @@ sp-base css
     background: #5cb85c;
   }
 
-  .bgGreen img {
-    opacity: .4;
+  .bgBlue {
+    background: #65a4cb;
+  }
+
+  .bgOrenge {
+    background: #f77825;
+  }
+
+  .bgGreen img,
+  .bgBlue img,
+  .bgOrenge img {
+    opacity: .5;
   }
 
   /* ページトップへ戻る

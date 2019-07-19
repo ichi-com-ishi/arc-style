@@ -613,6 +613,47 @@ section:first-of-type .left-heading-wrapper-3 {
   font-weight: 600;
 }
 
+/*page-bg
+================================================================= */
+
+.page-bg {
+  position: relative;
+  text-align: center;
+}
+
+.page-bg img {
+  vertical-align: bottom;
+  width: 100%;
+}
+
+.page-bg-inner {
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.page-bg-inner h2 {
+  color: #f8f8f8;
+  font-family: "Roboto", "verdana", sans-serif;
+  font-size: 6rem;
+  letter-spacing: .05em;
+  text-shadow: rgba(0, 0, 0, .2) 2px 3px 5px;
+}
+
+.page-bg-inner p {
+  color: #f8f8f8;
+  font-size: 1.8rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 600;
+  letter-spacing: .05em;
+  text-shadow: rgba(0, 0, 0, .2) 2px 3px 5px;
+}
+
 /* フッター
 ================================================================= */
 
