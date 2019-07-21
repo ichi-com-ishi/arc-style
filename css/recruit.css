@@ -4,6 +4,33 @@
 recruit css
 ================================================================= */
 
+/* search
+================================================================= */
+
+#search div {
+  max-width: 430px;
+}
+
+#search div nav ul li {
+  width: calc(100% / 2);
+}
+
+/* page-catch
+================================================================= */
+
+.page-catch {
+  font-family: '游明朝', YuMincho, 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'HG明朝E', 'ＭＳ Ｐ明朝', 'ＭＳ 明朝', serif;
+  font-feature-settings: 'palt';
+  font-size: 3.2rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 600;
+  letter-spacing: .1em;
+  line-height: 1.75;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
 .list dl.kinmuti dd ul {
   display: flex;
   flex-wrap: wrap;
@@ -15,9 +42,12 @@ recruit css
 }
 
 .list dl.kinmuti dd ul li {
-  width: 85px;
+  width: calc(100% / 3);
+
+  /* width: 85px; */
 }
 
 .list dl.kinmuti dd ul li:nth-of-type(2) {
-  margin: 0 5%;
+
+  /* margin: 0 5%; */
 }

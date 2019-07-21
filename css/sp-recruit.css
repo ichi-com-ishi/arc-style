@@ -24,3 +24,18 @@ sp-recruit css
     width: 100%;
   }
 }
+
+@media screen and (max-width: 600px) {
+
+  .list dl.kinmuti dd ul li:nth-of-type(1) {
+    width: 42%;
+  }
+
+  .list dl.kinmuti dd ul li:nth-of-type(2) {
+    width: 30%;
+  }
+
+  .list dl.kinmuti dd ul li:nth-of-type(3) {
+    width: 28%;
+  }
+}
