@@ -30,7 +30,15 @@ sp-company css
 
 @media screen and (max-width: 800px) {
 
-  /*
+  /*レイアウト
+  -----------------------------------------------------------------  */
+
+  .col-10 > div {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /*box
   -----------------------------------------------------------------  */
 
   .box-text {
@@ -50,9 +58,30 @@ sp-company css
   .page-catch {
     font-size: 2.4rem;
   }
+
+  /*list
+  -----------------------------------------------------------------  */
+
+  .list dl {
+    flex-direction: column;
+    font-size: 1.6rem;
+    padding: .9375em;
+  }
+
+  .list dl dt {
+    margin-bottom: .9375em;
+  }
+
+  .list dl dt,
+  .list dl dd {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 500px) {
+
+  /*box
+  -----------------------------------------------------------------  */
 
   .box-text h3 {
     font-size: 2.4rem;
