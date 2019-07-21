@@ -1,0 +1,35 @@
+@charset 'utf-8';
+
+/* =================================================================
+flow css
+================================================================= */
+h3 {
+  background: #ffd98a;
+  border-radius: 0 10px 10px 0;
+  color: #474747;
+  font-size: 20px;
+  padding: 2px 5px 2px 25px;
+  position: relative;
+}
+
+h3::before {
+  background: #ffa337;
+  border: solid 3px white;
+  border-radius: 50%;
+  color: white;
+  content: '1';
+  display: inline-block;
+  font-family: var(--font-google);
+  font-weight: normal;
+  height: 40px;
+  left: -1.35em;
+  line-height: 40px;
+  line-height: 40px;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 40px;
+}
