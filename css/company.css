@@ -170,23 +170,28 @@ section .box-wrapper:nth-of-type(2).box-img {
   color: #f8f8f8;
 }
 
-.aisatu-text {
+.text {
   font-size: 1.6rem;
   letter-spacing: .1em;
   line-height: 1.75;
+  margin-bottom: 30px;
 }
 
-.aisatu-footer {
+.text:last-of-type {
+  margin-bottom: 0;
+}
+
+.text-footer {
   font-family: '游明朝', YuMincho, 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'HG明朝E', 'ＭＳ Ｐ明朝', 'ＭＳ 明朝', serif;
   margin-top: 60px;
   text-align: right;
 }
 
-.aisatu-footer p {
+.text-footer p {
   letter-spacing: .1em;
 }
 
-.aisatu-footer p span {
+.text-footer p span {
   font-size: 3.2rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

@@ -108,7 +108,7 @@ sp-base css
   ----------------------------------------------------------------- */
 
   .br::before {
-    content: "\A";
+    content: '\A';
     white-space: pre;
   }
 
@@ -136,8 +136,8 @@ sp-base css
     display: none;
   }
 
-  .br_sp::before {
-    content: "\A";
+  .br-sp::before {
+    content: '\A';
     white-space: pre;
   }
 
