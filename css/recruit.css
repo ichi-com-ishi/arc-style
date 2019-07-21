@@ -1,0 +1,23 @@
+@charset 'utf-8';
+
+/* =================================================================
+recruit css
+================================================================= */
+
+.list dl.kinmuti dd ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.list dl.kinmuti dd ul:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.list dl.kinmuti dd ul li {
+  width: 85px;
+}
+
+.list dl.kinmuti dd ul li:nth-of-type(2) {
+  margin: 0 5%;
+}
