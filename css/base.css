@@ -11,6 +11,7 @@ html {
 body {
   background-color: #fff;
   color: #5a5a5a;
+  counter-reset: count-number;
   font-family: '游ゴシック Medium', 'Yu Gothic Medium', '游ゴシック体', 'YuGothic', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', 'Meiryo', 'verdana', sans-serif;
 
   /* font-feature-settings: "palt"; */
@@ -24,7 +25,8 @@ body {
   box-sizing: border-box;
 }
 
-ul {
+ul,
+ol {
   list-style: none;
 }
 
