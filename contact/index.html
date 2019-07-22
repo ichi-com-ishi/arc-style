@@ -13,6 +13,7 @@
     />
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/ress.css" />
     <link rel="stylesheet" href="../css/variables.css" />
     <link rel="stylesheet" href="../css/base.css" />
     <link rel="stylesheet" href="../css/contact.css" />
@@ -22,7 +23,6 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css" /> -->
     <link rel="stylesheet" href="../js/plugin/swiper/swiper.css" />
     <link rel="stylesheet" href="../js/plugin/modaal/modaal.css" />
-    <link rel="stylesheet" href="../css/ress.css" />
   </head>
 
   <body>
@@ -126,13 +126,13 @@
                     <span>必須</span>
                     <select name="">
                       <option value="お選びください"></option>
-                      <option value="">アークスタイル新潟店</option>
-                      <option value="">アークスタイル三条店</option>
-                      <option value="">アークスタイル新発田店</option>
-                      <option value="">アークスタイル京都八幡店</option>
-                      <option value="">アークスタイル姫路店</option>
-                      <option value="">アークスタイル仙台泉店</option>
-                      <option value="">アークスタイル埼玉久喜菖蒲店</option>
+                      <option >アークスタイル新潟店</option>
+                      <option >アークスタイル三条店</option>
+                      <option >アークスタイル新発田店</option>
+                      <option >アークスタイル京都八幡店</option>
+                      <option >アークスタイル姫路店</option>
+                      <option >アークスタイル仙台泉店</option>
+                      <option >アークスタイル埼玉久喜菖蒲店</option>
                     </select>
                   </div>
                   <div>
@@ -167,6 +167,11 @@
                   </div>
                 </form>
               </div> -->
+
+              参考HP
+              <!-- https://webliker.info/79009/
+              https://www.nxworld.net/tips/15-useful-css-snippets-in-form-style.html -->
+
               <div>
                 <form action="" method="">
                   <table>
@@ -175,57 +180,59 @@
                         <th>お問合せ店舗<span>必須</span></th>
                         <td>
                           <select name="">
-                            <option value="お選びください"></option>
-                            <option value="">アークスタイル新潟店</option>
-                            <option value="">アークスタイル三条店</option>
-                            <option value="">アークスタイル新発田店</option>
-                            <option value="">アークスタイル京都八幡店</option>
-                            <option value="">アークスタイル姫路店</option>
-                            <option value="">アークスタイル仙台泉店</option>
-                            <option value="">アークスタイル埼玉久喜菖蒲店</option>
+                            <option value="お選びください">お選びください</option>
+                            <option value="アークスタイル三条店">アークスタイル三条店</option>
+                            <option value="アークスタイル新発田店">アークスタイル新発田店</option>
+                            <option value="アークスタイル京都八幡店">アークスタイル京都八幡店</option>
+                            <option value="アークスタイル姫路店">アークスタイル姫路店</option>
+                            <option value="アークスタイル仙台泉店">アークスタイル仙台泉店</option>
+                            <option value="アークスタイル埼玉久喜菖蒲店">アークスタイル埼玉久喜菖蒲店</option>
                           </select>
                         </td>
                       </tr>
                       <tr>
                         <th>お名前<span>必須</span></th>
                         <td>
-                          <input type="text" />
+                          <input type="text" name="name" id="namd" />
                         </td>
                       </tr>
                       <tr>
                         <th>ふりがな<span>必須</span></th>
                         <td>
-                          <input type="text" />
+                          <input type="text" name="kana" id="kana" value placeholder="" size="40" />
                         </td>
                       </tr>
                       <tr>
                         <th>郵便番号<span>必須</span></th>
                         <td>
-                          <input type="text" />
+                          <input type="text" name="zip1" id="zip1" class="zip" />
+                          &nbsp;-&nbsp;
+                          <input type="text" name="zip2" id="zip2" class="zip" />
+                          <a href=""></a>
                         </td>
                       </tr>
                       <tr>
                         <th>ご住所</th>
                         <td>
-                          <input type="text" />
+                          <input type="text" name="address" id="address" />
                         </td>
                       </tr>
                       <tr>
                         <th>メールアドレス<span>必須</span></th>
                         <td>
-                          <input type="text" />
+                          <input type="email" name="email" id="email" />
                         </td>
                       </tr>
                       <tr>
                         <th>メールアドレス（再入力）<span>必須</span></th>
                         <td>
-                          <input type="text" />
+                          <input type="email" name="email" />
                         </td>
                       </tr>
                       <tr>
                         <th>お問い合わせ内容<span>必須</span></th>
                         <td>
-                          <input type="text" />
+                          <textarea name="msg" id="msg" cols="40" rows="7"></textarea>
                         </td>
                       </tr>
                     </tbody>
