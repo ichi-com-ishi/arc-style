@@ -20,6 +20,93 @@ contact css
   width: 100%;
 }  */
 
+table {
+  width: 100%;
+}
+
+/*
 table tbody tr th {
+  border-bottom: 1px solid #f0f1f1;
+  font-weight: 500;
+  padding: 15px 0;
+  padding-right: 30px;
   text-align: left;
+  vertical-align: middle;
+  white-space: nowrap;
+} */
+
+/* table tbody tr td {
+  border-bottom: 1px solid #f0f1f1;
+  padding: 15px 0;
+  text-align: left;
+  vertical-align: middle;
+  width: 1000px;
+} */
+
+table tbody tr span {
+  background: #e74c3c;
+  color: #fff;
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1;
+  margin: -.25em 0 0 .5em;
+  padding: .5em .75em;
+  vertical-align: middle;
+}
+
+input[type='text'],
+input[type='search'],
+input[type='tel'],
+input[type='url'],
+input[type='email'],
+input[type='password'],
+input[type='datetime'],
+textarea {
+  background: #fff;
+  background: rgba(240, 241, 241, .5);
+  border: none;
+  border: 1px solid #f0f1f1;
+  padding: 10px;
+  transition: border .2s ease 0s, background-color .2s ease 0s;
+}
+
+/* select {
+  background: url(../images/form_select.png) no-repeat right 10px center #fff;
+  background-size: 21px auto;
+  border: 1px solid #f0f1f1;
+  line-height: 1;
+  min-width: 200px;
+  padding: .75em;
+  padding-right: 40px;
+  text-indent: .01px;
+  text-overflow: '';
+  transition: border .2s ease 0s, background-color .2s ease 0s;
+  width: auto;
+} */
+
+/* input,
+textarea,
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  display: inline-block;
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+  outline: none;
+  vertical-align: middle;
+  *vertical-align: auto;
+  width: 100%;
+  *zoom: 1;
+} */
+
+table tbody tr th,
+table tbody tr td {
+
+  /* display: block; */
+  text-align: left;
+
+  /* width: 1000px; */
 }
