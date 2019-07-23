@@ -8,6 +8,7 @@ contact css
   font-size: 2rem;
   letter-spacing: .05em;
   line-height: 2;
+  margin-bottom: 100px;
   text-align: center;
 }
 
@@ -20,38 +21,51 @@ contact css
   width: 100%;
 }  */
 
+/* フォーム
+================================================================= */
+
 table {
+  border-collapse: collapse;
+  border-spacing: 0;
   width: 100%;
 }
 
-/*
-table tbody tr th {
-  border-bottom: 1px solid #f0f1f1;
+table tbody tr span {
+  background: #ed303c;
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  font-size: 1.2rem;
   font-weight: 500;
-  padding: 15px 0;
-  padding-right: 30px;
+  margin: 0 auto;
+  margin-left: 15px;
+  padding: 0 1.1em;
+  vertical-align: middle;
+}
+
+table tbody tr th {
+  border-bottom: 1px solid #ddd;
+  font-size: 1.6rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 600;
+  padding: 30px 15px 30px 0;
   text-align: left;
   vertical-align: middle;
   white-space: nowrap;
-} */
+}
 
-/* table tbody tr td {
-  border-bottom: 1px solid #f0f1f1;
-  padding: 15px 0;
-  text-align: left;
-  vertical-align: middle;
-  width: 1000px;
-} */
+table tbody tr td {
+  padding: 30px 0;
+  width: 770px;
+}
 
-table tbody tr span {
-  background: #e74c3c;
-  color: #fff;
-  display: inline-block;
-  font-size: 1rem;
-  line-height: 1;
-  margin: -.25em 0 0 .5em;
-  padding: .5em .75em;
-  vertical-align: middle;
+table tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:first-of-type {
+  border-top: 1px solid #ddd;
 }
 
 input[type='text'],
@@ -62,51 +76,84 @@ input[type='email'],
 input[type='password'],
 input[type='datetime'],
 textarea {
-  background: #fff;
-  background: rgba(240, 241, 241, .5);
-  border: none;
-  border: 1px solid #f0f1f1;
-  padding: 10px;
+  background: #f7f7f7;
+  border: 1px solid #f2f2f2;
+  border-radius: 3px;
+  padding: 7px 0;
+
   transition: border .2s ease 0s, background-color .2s ease 0s;
 }
 
-/* select {
-  background: url(../images/form_select.png) no-repeat right 10px center #fff;
+select {
+  background: url(../images/select.png) no-repeat right 10px center #fff;
   background-size: 21px auto;
-  border: 1px solid #f0f1f1;
+  border: 1px solid #f2f2f2;
+  border-radius: 3px;
   line-height: 1;
-  min-width: 200px;
+  max-width: 280px;
   padding: .75em;
   padding-right: 40px;
-  text-indent: .01px;
-  text-overflow: '';
-  transition: border .2s ease 0s, background-color .2s ease 0s;
-  width: auto;
-} */
+}
 
-/* input,
-textarea,
-select {
+input,
+select,
+textarea {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  border-radius: 0;
   display: inline-block;
   font-family: inherit;
   font-size: inherit;
-  margin: 0;
-  outline: none;
   vertical-align: middle;
-  *vertical-align: auto;
   width: 100%;
-  *zoom: 1;
-} */
+}
 
-table tbody tr th,
-table tbody tr td {
+/* ボタン
+----------------------------------------------------------------- */
 
-  /* display: block; */
-  text-align: left;
+.submit {
+  margin-top: 50px;
+  padding: 0 15px;
+  text-align: center;
+}
 
-  /* width: 1000px; */
+input[type='submit'],
+input[type='button'] {
+  background: #55ab55;
+  border-radius: 3px;
+  box-shadow: 0 2px 0 #007db6;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1;
+  max-width: 290px;
+  padding: 1em 1.75em;
+  text-align: center;
+  transition: all .5s ease 0s;
+  vertical-align: middle;
+}
+
+input[type='submit']:hover {
+  opacity: .8;
+}
+
+/* フォーカス
+----------------------------------------------------------------- */
+
+.focus:focus {
+  background: #fff;
+}
+
+/* エラー
+----------------------------------------------------------------- */
+
+.error {
+  color: #ed303c;
+}
+
+.error + input {
+  background: #fdefee;
+  border-color: #ff9e95;
 }
