@@ -12,9 +12,12 @@ top css
   width: 100%;
 }
 
-/* .swiper-main {
-  height: 600px;
-} */
+.swiper-main {
+
+  /* height: 600px; */
+
+  /* height: calc(100vh - 100px); */
+}
 
 /* .swiper-main {
   padding-top: 100px;
@@ -25,19 +28,24 @@ top css
 }
 
 .slid_img1 {
-  background: url(../images/slid/pixta_7229716_XL_bk.jpg) center center / cover
-    no-repeat;
+  background: url(../images/slid/pixta_7229716_XL_bk.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .slid_img2 {
   background: url(../images/slid/zisedai_1900-600.jpg);
+  background-position: center center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .slid_img3 {
-  background: url(../images/slid/slid-darkbg-1.jpg) center center / cover
-    no-repeat;
+  background: url(../images/slid/slid-darkbg-1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .slid-img-content {
