@@ -7,7 +7,7 @@ var mySwiper = new Swiper( '.swiper-main', {
   autoplay: {
     delay: 5000
   },
-  speed: 2000
+  speed: 1300
 
   // effect: "fade"
 });

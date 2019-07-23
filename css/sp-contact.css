@@ -3,3 +3,24 @@
 /* =================================================================
 sp-contact css
 ================================================================= */
+
+/* 800px
+================================================================= */
+
+@media screen and (max-width: 800px) {
+
+  form table tbody tr th,
+  form table tbody tr td {
+    display: block;
+  }
+
+  table tbody tr th {
+    border-bottom: none;
+    padding: 30px 15px 15px 15px;
+  }
+
+  table tbody tr td {
+    padding: 0 15px 30px 15px;
+    width: inherit;
+  }
+}
