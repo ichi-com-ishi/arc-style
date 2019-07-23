@@ -65,6 +65,55 @@ work css
 /* 投稿ページ
 ================================================================= */
 
+/* レイアウト */
+
+/* 画像 */
+
+#article img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/* 見出し */
+
+#article h2 {
+  font-size: 3.2rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 600;
+  letter-spacing: .05em;
+}
+
+#article h3 {
+  font-size: 2.8rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 600;
+  letter-spacing: .05em;
+}
+
+/* 本文 */
+
+#article p {
+  color: #5a5a5a;
+  font-size: 1.6rem;
+  letter-spacing: .05em;
+  line-height: 1.75;
+  text-align: left;
+}
+
+/* その他 */
+
+#article time {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+/* ボタン */
+
+/* リンク */
+
 /* ページャー */
 
 .pager {
@@ -89,22 +138,23 @@ work css
 }
 
 .pager ul li a {
+  background: #5cb85c;
   color: #fff;
   display: block;
+  font-size: 1.6rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 600;
   letter-spacing: .05em;
   padding: 1em 0;
+  text-align: center;
   transition: .5s all ease 0s;
+  width: 100%;
 }
 
-.pager ul li a :hover {
-  background: #fff;
-  color: #5cb85c;
-}
-
-.pager ul li:first-of-type::before {
+.pager ul li:first-of-type a::before {
   color: #fff;
   content: '\f100';
-
   font-family: 'Font Awesome 5 Free';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -112,10 +162,9 @@ work css
   padding-right: .625em;
 }
 
-.pager ul li:last-of-type::after {
+.pager ul li:last-of-type a::after {
   color: #fff;
   content: '\f101';
-
   font-family: 'Font Awesome 5 Free';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
