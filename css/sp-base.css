@@ -179,6 +179,10 @@ sp-base css
     opacity: .5;
   }
 
+  #contents #main section {
+    padding-bottom: 12.5%;
+  }
+
   /* ページトップへ戻る
   ----------------------------------------------------------------- */
 
@@ -197,8 +201,24 @@ sp-base css
     width: 100%;
   }
 
+  /* パンくず
+  ----------------------------------------------------------------- */
+
+  #topic-path {
+    height: 30px;
+    line-height: 30px;
+  }
+
+  #topic-path ul li span {
+    font-size: 1.2rem;
+  }
+
   /* 見出し
   ----------------------------------------------------------------- */
+
+  .heading-2 {
+    font-size: 3.2rem;
+  }
 
   .heading-wrapper-2 {
     margin-bottom: 8.25%;
