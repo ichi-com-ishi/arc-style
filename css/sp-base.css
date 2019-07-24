@@ -201,6 +201,14 @@ sp-base css
     width: 100%;
   }
 
+  /* ページネーション
+  ----------------------------------------------------------------- */
+
+  .pagination {
+    padding-left: 3.8%;
+    padding-right: 3.8%;
+  }
+
   /* パンくず
   ----------------------------------------------------------------- */
 
@@ -236,6 +244,10 @@ sp-base css
 
   /* search
   ----------------------------------------------------------------- */
+
+  #search {
+    margin-top: 6.25%;
+  }
 
   #search div nav ul li a {
     font-size: 2vw;
@@ -320,6 +332,17 @@ sp-base css
 
   .footer-bottom-nav {
     justify-content: center;
+  }
+
+  /* page bg
+  ----------------------------------------------------------------- */
+
+  .page-bg-inner h2 {
+    font-size: 3.2rem;
+  }
+
+  .page-bg-inner p {
+    font-size: 1.4rem;
   }
 
   /* article
@@ -423,16 +446,19 @@ sp-base css
 
 @media screen and (max-width: 500px) {
 
-  /* search
+  /* page bg
   ----------------------------------------------------------------- */
 
-  .archive #search div ul li:first-of-type {
-    flex-basis: 100%;
+  .page-bg-inner h2 {
+    font-size: 2.4rem;
   }
 
-  .archive #search div ul li:not(:first-of-type) {
-    flex-basis: 50%;
+  .page-bg-inner p {
+    font-size: 1.2rem;
   }
+
+  /* archive
+  ----------------------------------------------------------------- */
 
   /* item
   ----------------------------------------------------------------- */

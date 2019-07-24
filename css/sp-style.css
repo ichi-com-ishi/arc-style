@@ -105,6 +105,17 @@ sp-style css
   .info-flex-child {
     margin-bottom: 3.75%;
   }
+
+  /* news
+  ================================================================= */
+
+  /* archive
+  ----------------------------------------------------------------- */
+
+  .archive #search div {
+    padding-left: 3.8%;
+    padding-right: 3.8%;
+  }
 }
 
 /* 500px
@@ -117,5 +128,15 @@ sp-style css
 
   .shop-triming img {
     height: 200px;
+  }
+
+  /* archive
+  -----------------------------------------------------------------  */
+  .archive #search div ul li:first-of-type {
+    flex-basis: 100%;
+  }
+
+  .archive #search div ul li:not(:first-of-type) {
+    flex-basis: 50%;
   }
 }
