@@ -197,6 +197,23 @@ sp-base css
     width: 100%;
   }
 
+  /* 見出し
+  ----------------------------------------------------------------- */
+
+  .heading-wrapper-2 {
+    margin-bottom: 8.25%;
+    padding-top: 8.25%;
+  }
+
+  .heading-wrapper-reform {
+    margin-bottom: 8.25%;
+  }
+
+  .heading-wrapper-exterior {
+    margin-bottom: 8.25%;
+    padding-top: 12.5%;
+  }
+
   /* search
   ----------------------------------------------------------------- */
 
@@ -215,10 +232,20 @@ sp-base css
   .header-log {
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+  }
+
+  .header-log img {
+    vertical-align: 10%;
+    width: 70%;
   }
 
   /* フッター
   ----------------------------------------------------------------- */
+
+  #footer {
+    margin-top: 25%;
+  }
 
   .footer-bottom {
     padding-bottom: 80px;
