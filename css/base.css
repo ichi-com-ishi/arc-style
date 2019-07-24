@@ -128,6 +128,11 @@ input {
 
 #topic-path ul li span {
   font-size: 1.4rem;
+  margin-right: .1em;
+}
+
+#topic-path ul li:last-of-type span {
+  margin-right: 0;
 }
 
 #topic-path ul li:not(:last-child)::after {
@@ -137,7 +142,8 @@ input {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 900;
-  margin: 0 .5em;
+
+  /* margin: 0 .5em; */
   vertical-align: 2%;
 }
 
