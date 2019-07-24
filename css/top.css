@@ -12,40 +12,16 @@ top css
   width: 100%;
 }
 
-.swiper-main {
-
-  /* height: 600px; */
-
-  /* height: calc(100vh - 100px); */
-}
-
-/* .swiper-main {
-  padding-top: 100px;
-} */
-
 .slid {
   position: relative;
 }
 
-.slid_img1 {
-  background: url(../images/slid/pixta_7229716_XL_bk.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.swiper-slide > div a {
+  transition: .1s all ease 0s;
 }
 
-.slid_img2 {
-  background: url(../images/slid/zisedai_1900-600.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.slid_img3 {
-  background: url(../images/slid/slid-darkbg-1.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.swiper-slide > div a:hover {
+  opacity: .9;
 }
 
 .slid-img-content {
@@ -174,17 +150,8 @@ top css
   text-align: center;
   top: 50%;
   transform: translate(-50%, -50%);
-
-  /* width: 70%; */
   width: 100%;
 }
-
-/* .shop-triming {
-  overflow: hidden;
-  padding-top: 75%;
-  position: relative;
-  width: 100%;
-} */
 
 .shop-flex-inner h3 {
   color: #f0f0f0;
@@ -272,8 +239,6 @@ top css
   overflow: hidden;
   padding-top: 56%;
   position: relative;
-
-  /* width: 100%; */
 }
 
 .triming-work img {
