@@ -149,8 +149,8 @@ sp-base css
   #flow > div,
   #items > div,
   #info > div {
-    padding-left: 3.8%;
-    padding-right: 3.8%;
+    padding-left: 3.75%;
+    padding-right: 3.75%;
   }
 
   .footer-bottom > div {
@@ -188,7 +188,7 @@ sp-base css
 
   #pageTop {
     bottom: 140px;
-    right: 3.8%;
+    right: 3.75%;
   }
 
   /* ボタン
@@ -201,6 +201,14 @@ sp-base css
     width: 100%;
   }
 
+  /* ページネーション
+  ----------------------------------------------------------------- */
+
+  .pagination {
+    padding-left: 3.75%;
+    padding-right: 3.75%;
+  }
+
   /* パンくず
   ----------------------------------------------------------------- */
 
@@ -210,7 +218,7 @@ sp-base css
   }
 
   #topic-path ul li span {
-    font-size: 1.2rem;
+    font-size: 1.75vw;
   }
 
   /* 見出し
@@ -236,6 +244,10 @@ sp-base css
 
   /* search
   ----------------------------------------------------------------- */
+
+  #search {
+    margin-top: 6.25%;
+  }
 
   #search div nav ul li a {
     font-size: 2vw;
@@ -320,6 +332,29 @@ sp-base css
 
   .footer-bottom-nav {
     justify-content: center;
+  }
+
+  /* ページャー
+  ----------------------------------------------------------------- */
+
+  .pager {
+    padding-left: 3.75%;
+    padding-right: 3.75%;
+  }
+
+  .pager ul li {
+    width: calc((100% - 3.8%) / 2);
+  }
+
+  /* page bg
+  ----------------------------------------------------------------- */
+
+  .page-bg-inner h2 {
+    font-size: 3.2rem;
+  }
+
+  .page-bg-inner p {
+    font-size: 1.4rem;
   }
 
   /* article
@@ -407,7 +442,7 @@ sp-base css
     padding-right: 1.88%;
   }
 
-  .col-10 > div {
+  .list.col-10 > div {
     margin-left: -15px;
     margin-right: -15px;
   }
@@ -423,16 +458,33 @@ sp-base css
 
 @media screen and (max-width: 500px) {
 
-  /* search
+  /* 見出し
   ----------------------------------------------------------------- */
 
-  .archive #search div ul li:first-of-type {
-    flex-basis: 100%;
+  .heading-2 {
+    font-size: 2.8rem;
   }
 
-  .archive #search div ul li:not(:first-of-type) {
-    flex-basis: 50%;
+  /* ページャー
+  ----------------------------------------------------------------- */
+
+  .pager ul li a {
+    padding: .5em 0;
   }
+
+  /* page bg
+  ----------------------------------------------------------------- */
+
+  .page-bg-inner h2 {
+    font-size: 2.4rem;
+  }
+
+  .page-bg-inner p {
+    font-size: 1.2rem;
+  }
+
+  /* archive
+  ----------------------------------------------------------------- */
 
   /* item
   ----------------------------------------------------------------- */

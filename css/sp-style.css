@@ -45,8 +45,8 @@ sp-style css
 
   .top .heading-wrapper-reform,
   .top .heading-wrapper-exterior {
-    padding-left: 3.8%;
-    padding-right: 3.8%;
+    padding-left: 3.75%;
+    padding-right: 3.75%;
   }
 
   .top .heading-3 {
@@ -104,5 +104,78 @@ sp-style css
 
   .info-flex-child {
     margin-bottom: 3.75%;
+  }
+
+  /* news
+  ================================================================= */
+
+  /* archive
+  ----------------------------------------------------------------- */
+
+  .archive #search div {
+    padding-left: 3.75%;
+    padding-right: 3.75%;
+  }
+
+  .archive #article .date {
+    padding-top: 8.75%;
+  }
+
+  .archive #article time {
+    font-size: 1.8rem;
+    padding-right: 15px;
+  }
+
+  .archive #article .date .cat {
+    font-size: 1.2rem;
+    padding: .1em 0;
+  }
+
+  .archive #article h2 {
+    font-size: 2.8rem;
+  }
+
+  .archive #article h3 {
+    font-size: 2.4rem;
+  }
+
+  .archive #article .article-h2 {
+    margin-bottom: 8.75%;
+  }
+
+  .archive #article .article-h3 {
+    margin-bottom: 3.75%;
+    padding-top: 3.75%;
+  }
+}
+
+/* 500px
+================================================================= */
+
+@media screen and (max-width: 500px) {
+
+  /* shop
+   ----------------------------------------------------------------- */
+
+  .shop-triming img {
+    height: 200px;
+  }
+
+  /* archive
+  -----------------------------------------------------------------  */
+  .archive #search div ul li:first-of-type {
+    flex-basis: 100%;
+  }
+
+  .archive #search div ul li:not(:first-of-type) {
+    flex-basis: 50%;
+  }
+
+  .archive #article h2 {
+    font-size: 2.4rem;
+  }
+
+  .archive #article h3 {
+    font-size: 2rem;
   }
 }
