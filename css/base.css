@@ -152,6 +152,15 @@ input {
 
 /* search
 ================================================================= */
+
+#search div {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 #search {
   margin-top: 50px;
 }
@@ -181,6 +190,18 @@ input {
   background: #5cb85c;
   color: #fff;
   content: '';
+}
+
+.archive #search div {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.archive #search div ul li {
+  width: calc(100% / 5);
 }
 
 /* modal
@@ -315,14 +336,6 @@ a {
   margin-left: auto;
   margin-right: auto;
   max-width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-#search div {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 800px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -1063,4 +1076,41 @@ section:first-of-type .left-heading-wrapper-3 {
   letter-spacing: .05em;
   line-height: 1.75;
   margin-top: 30px;
+}
+
+/* ページネーション
+================================================================= */
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.6rem;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.pagination span {
+  background: #71c171;
+  color: #fff;
+  padding: 10px 17px;
+}
+
+.pagination a {
+  display: block;
+  padding: 10px 17px;
+}
+
+.pagination a:not(:last-of-type) {
+  border: 1px solid #ccc;
+  margin-left: 15px;
+}
+
+.pagination a:last-of-type::after {
+  content: '	\f101';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
 }

@@ -197,6 +197,9 @@ sp-base css
     width: 100%;
   }
 
+  /* search
+  ----------------------------------------------------------------- */
+
   #search div nav ul li a {
     font-size: 2vw;
   }
@@ -372,6 +375,17 @@ sp-base css
 }
 
 @media screen and (max-width: 500px) {
+
+  /* search
+  ----------------------------------------------------------------- */
+
+  .archive #search div ul li:first-of-type {
+    flex-basis: 100%;
+  }
+
+  .archive #search div ul li:not(:first-of-type) {
+    flex-basis: 50%;
+  }
 
   /* item
   ----------------------------------------------------------------- */
