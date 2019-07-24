@@ -342,6 +342,10 @@ sp-base css
     padding-right: 3.75%;
   }
 
+  .pager ul li {
+    width: calc((100% - 3.8%) / 2);
+  }
+
   /* page bg
   ----------------------------------------------------------------- */
 
@@ -438,7 +442,7 @@ sp-base css
     padding-right: 1.88%;
   }
 
-  .col-10 > div {
+  .list.col-10 > div {
     margin-left: -15px;
     margin-right: -15px;
   }
