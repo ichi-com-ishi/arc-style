@@ -151,8 +151,8 @@ section > div {
 .mitumori-btn::after {
   bottom: auto;
   color: #fff;
-  content: "\f105";
-  font-family: "Font Awesome 5 Free";
+  content: '\f105';
+  font-family: 'Font Awesome 5 Free';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 900;
@@ -191,7 +191,7 @@ section > div {
 }
 
 .product-img-wrapper img {
-  font-family: "object-fit: cover;";
+  font-family: 'object-fit: cover;';
   height: auto;
   object-fit: cover;
   width: 100%;
@@ -243,15 +243,15 @@ section > div {
 
 .product-flex ul li label::before {
   color: #ccc;
-  content: "\f111";
-  font-family: "Font Awesome 5 Free";
+  content: '\f111';
+  font-family: 'Font Awesome 5 Free';
   font-size: 79%;
   font-weight: 900;
   margin-right: .9375em;
   vertical-align: .1em;
 }
 
-.product-flex input[type="radio"]:checked + label::before {
+.product-flex input[type='radio']:checked + label::before {
   color: #88a1e6;
 }
 
@@ -327,3 +327,6 @@ section > div {
 .mitumori-list-cost dl:nth-of-type(even) {
   background: #f2f2f2;
 }
+
+/* モーダル
+=================================================================  */

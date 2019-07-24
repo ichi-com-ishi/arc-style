@@ -11,13 +11,13 @@ work css
   height: 500px;
 } */
 
-/* section > div {
+section > div {
   margin-left: auto;
   margin-right: auto;
   max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-} */
+}
 
 .page-catch {
   font-size: 2rem;
@@ -32,42 +32,14 @@ work css
   text-align: center;
 }
 
-.pagination {
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 1.6rem;
-  justify-content: center;
-  margin-top: 50px;
-}
-
-.pagination span {
-  background: #71c171;
-  color: #fff;
-  padding: 10px 15px;
-}
-
-.pagination a {
-  display: block;
-  padding: 10px 15px;
-}
-
-.pagination a:not(:last-of-type) {
-  border: 1px solid #ccc;
-  margin-left: 15px;
-}
-
-.pagination a:last-of-type::after {
-  content: '	\f101';
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
-}
-
 /* 投稿ページ
 ================================================================= */
 
-/* レイアウト */
+/* レイアウト
+----------------------------------------------------------------- */
 
-/* 画像 */
+/* 画像
+----------------------------------------------------------------- */
 
 #article img {
   height: auto;
@@ -75,51 +47,118 @@ work css
   vertical-align: middle;
 }
 
-/* 見出し */
+/* 見出し
+----------------------------------------------------------------- */
+
+#article .article-h2 {
+  margin-bottom: 70px;
+  padding-top: 70px;
+  text-align: left;
+}
+
+#article .article-h3 {
+  margin: 0 0 30px 0;
+  padding-top: 30px;
+}
 
 #article h2 {
+  background: #f7f6f3;
+  border-top: 2px solid #55ab55;
   font-size: 3.2rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 600;
   letter-spacing: .05em;
+  padding: .09375em 0 .09375em .46875em;
+  text-align: left;
+}
+
+.archive #article .article-h2 {
+  padding-top: 0;
 }
 
 #article h3 {
+  background: #f7f6f3;
+  border-left: 5px solid #55ab55;
   font-size: 2.8rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 600;
   letter-spacing: .05em;
+  padding: .26785em 0 .26785em .46875em;
 }
 
-/* 本文 */
+#article h4 {
+  border-left: 5px solid #55ab55;
+  font-size: 2.4rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 600;
+  letter-spacing: .05em;
+  margin: 30px 0 10px 0;
+  padding-left: .41667em;
+}
+
+/* 本文
+----------------------------------------------------------------- */
 
 #article p {
   color: #5a5a5a;
   font-size: 1.6rem;
   letter-spacing: .05em;
   line-height: 1.75;
+  margin-bottom: 15px;
   text-align: left;
 }
 
-/* その他 */
+#article p:last-of-type {
+  margin-top: 50px;
+}
+
+/* その他
+----------------------------------------------------------------- */
 
 #article time {
   font-size: 2.4rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-weight: 600;
 }
 
-/* ボタン */
+#article .date {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 15px;
+  padding-top: 70px;
+}
 
-/* リンク */
+#article .date time {
+  padding-right: 30px;
+}
 
-/* ページャー */
+#article .date .cat {
+  color: #fff;
+  font-size: 1.4rem;
+  line-height: 20px;
+  padding: .357em 0;
+  text-align: center;
+  width: 80px;
+}
+
+/* ボタン
+----------------------------------------------------------------- */
+
+/* リンク
+----------------------------------------------------------------- */
+
+/* ページャー
+----------------------------------------------------------------- */
 
 .pager {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
   max-width: 1000px;
   padding-left: 15px;
   padding-right: 15px;

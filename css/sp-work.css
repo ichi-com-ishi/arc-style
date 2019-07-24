@@ -9,6 +9,23 @@ sp-work css
 
 @media screen and (max-width: 800px) {
 
+  #article .col-10 > div {
+    margin: 0;
+    padding-left: 3.8%;
+    padding-right: 3.8%;
+  }
+
+  #article h2 {
+    font-size: 2.8rem;
+  }
+
+  #article h3 {
+    font-size: 2.4rem;
+  }
+
+  /* ページャー
+----------------------------------------------------------------- */
+
   .pager ul li {
     width: calc((100% - 3.8%) / 2);
   }
