@@ -352,6 +352,27 @@ style css
   width: 100%;
 }
 
+/* 店舗ページ
+================================================================= */
+
+/* アクセス
+----------------------------------------------------------------- */
+
+.map {
+  height: 400px;
+  overflow: hidden;
+  padding-bottom: 39.475%;
+  position: relative;
+}
+
+.map iframe {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
 /* 投稿ページ
 ================================================================= */
 
@@ -393,7 +414,7 @@ style css
   text-align: left;
 }
 
-.archive #article .article-h2 {
+.news #article .article-h2 {
   padding-top: 0;
 }
 

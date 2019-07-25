@@ -442,6 +442,21 @@ sp-base css
     padding-right: 1.88%;
   }
 
+  .list dl {
+    flex-direction: column;
+    font-size: 1.6rem;
+    padding: .9375em;
+  }
+
+  .list dl dt {
+    margin-bottom: .9375em;
+    width: 100%;
+  }
+
+  .list dl dd {
+    width: 100%;
+  }
+
   .list.col-10 > div {
     margin-left: -15px;
     margin-right: -15px;
@@ -453,6 +468,12 @@ sp-base css
     font-size: 2.5vw;
     padding-left: 1.88%;
     padding-right: 1.88%;
+  }
+
+  .list + p {
+    font-size: 1.6rem;
+    padding-left: .9375em;
+    padding-right: .9375em;
   }
 }
 
