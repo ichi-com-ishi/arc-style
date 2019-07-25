@@ -214,6 +214,42 @@ sp-style css
   /* 企業情報ページ
   ================================================================= */
 
+  /* box
+----------------------------------------------------------------- */
+
+  .company .box-wrapper {
+    margin-bottom: 8.75%;
+    position: relative;
+  }
+
+  .company .box-text {
+    position: absolute;
+  }
+
+  .company .box-img {
+    width: 100%;
+  }
+
+  .company .box-text {
+    width: 100%;
+  }
+
+  .company .box-text h3 {
+    color: #fff;
+    text-shadow: rgba(0, 0, 0, .2) 2px 3px 5px;
+  }
+
+  .company .box-text p {
+    color: #fff;
+    text-shadow: rgba(0, 0, 0, .2) 2px 3px 5px;
+  }
+
+  .text-footer p span {
+    font-size: 2.8rem;
+    margin-left: 1em;
+    white-space: nowrap;
+  }
+
   /* page-catch
 ----------------------------------------------------------------- */
 
@@ -389,6 +425,20 @@ sp-style css
 
   .size ul li a span:last-of-type {
     font-size: 2.8vw;
+  }
+
+  /* 企業情報ページ
+  ================================================================= */
+
+  /*box
+  -----------------------------------------------------------------  */
+
+  .company .box-text h3 {
+    font-size: 2.4rem;
+  }
+
+  .company .box-text p {
+    font-size: 1.6rem;
   }
 
   /* 採用情報ページ

@@ -53,11 +53,11 @@ company css
 /* box
 ================================================================= */
 
-section .box-wrapper:nth-of-type(2).box-img {
+.company .box-wrapper:nth-of-type(2).box-img {
   order: 1;
 }
 
-.box-wrapper {
+.company .box-wrapper {
   margin-bottom: 70px;
 }
 
@@ -65,11 +65,11 @@ section .box-wrapper:nth-of-type(2).box-img {
   order: 2;
 }
 
-.box-img {
+.company .box-img {
   width: 60%;
 }
 
-.box-text {
+.company .box-text {
   background: inherit;
   margin: 0 auto;
   padding: 0 .9375em;
@@ -78,7 +78,7 @@ section .box-wrapper:nth-of-type(2).box-img {
   width: 40%;
 }
 
-.box-text h3 {
+.company .box-text h3 {
   color: #5a5a5a;
   font-family: '游明朝', YuMincho, 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'HG明朝E', 'ＭＳ Ｐ明朝', 'ＭＳ 明朝', serif;
   font-size: 3.5rem;
@@ -88,7 +88,7 @@ section .box-wrapper:nth-of-type(2).box-img {
   margin-bottom: .714em;
 }
 
-.box-text p {
+.company .box-text p {
   color: #5a5a5a;
   font-family: '游明朝', YuMincho, 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'HG明朝E', 'ＭＳ Ｐ明朝', 'ＭＳ 明朝', serif;
   font-size: 2rem;

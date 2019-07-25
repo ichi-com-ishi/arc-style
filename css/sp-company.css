@@ -12,15 +12,15 @@ sp-company css
   /*
   -----------------------------------------------------------------  */
 
-  .box-text h3 {
+  .company .box-text h3 {
     font-size: 2.92vw;
   }
 
-  .box-text p {
+  .company .box-text p {
     font-size: 1.667vw;
   }
 
-  .circle {
+  .company .circle {
     font-size: 2.92vw;
   }
 }
@@ -29,6 +29,18 @@ sp-company css
 ================================================================= */
 
 @media screen and (max-width: 800px) {
+
+  .company .box-wrapper {
+    position: relative;
+  }
+
+  .company .box-text {
+    position: absolute;
+  }
+
+  .company .box-img {
+    width: 100%;
+  }
 
   /*レイアウト
   -----------------------------------------------------------------  */
@@ -41,16 +53,16 @@ sp-company css
   /*box
   -----------------------------------------------------------------  */
 
-  .box-text {
+  .company .box-text {
     width: 100%;
   }
 
-  .box-text h3 {
+  .company .box-text h3 {
     color: #fff;
     text-shadow: rgba(0, 0, 0, .2) 2px 3px 5px;
   }
 
-  .box-text p {
+  .company .box-text p {
     color: #fff;
     text-shadow: rgba(0, 0, 0, .2) 2px 3px 5px;
   }
@@ -83,11 +95,11 @@ sp-company css
   /*box
   -----------------------------------------------------------------  */
 
-  .box-text h3 {
+  .company .box-text h3 {
     font-size: 2.4rem;
   }
 
-  .box-text p {
+  .company .box-text p {
     font-size: 1.6rem;
   }
 }
