@@ -29,6 +29,26 @@ sp-style css
   .info-flex-child {
     margin-bottom: 2.5%;
   }
+
+  /* 施工事例ページ
+  ----------------------------------------------------------------- */
+
+  #mitumori > div > div > div {
+    margin-left: 8.33%;
+    margin-right: 8.33%;
+  }
+
+  .size ul li a span:first-of-type {
+    font-size: 1.66vw;
+  }
+
+  .size ul li a span:last-of-type {
+    font-size: 1.16vw;
+  }
+
+  .product-flex2 div {
+    width: calc((100% - 2.5%) / 2);
+  }
 }
 
 /* 800px
@@ -106,8 +126,54 @@ sp-style css
     margin-bottom: 3.75%;
   }
 
-  /* 施工事例ページ
-================================================================= */
+  /* 取り扱い商品ページ
+----------------------------------------------------------------- */
+
+  #mitumori > div > div > div {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+
+  #type > div div.left-heading-wrapper-3:not(:first-child) {
+    margin-top: 12.5%;
+  }
+
+  .size ul li a span:first-of-type {
+    font-size: 2.5vw;
+  }
+
+  .size ul li a span:last-of-type {
+    font-size: 1.75vw;
+  }
+
+  .product-flex ul li {
+    width: 100%;
+  }
+
+  .product-flex ul li:nth-of-type(2) {
+    border-top: none;
+  }
+
+  .product-flex ul li label {
+    font-size: 2.5vw;
+
+    /* width: 80%; */
+  }
+
+  .product-flex2 div {
+    width: 100%;
+  }
+
+  .product-flex2 .product-text {
+    margin-bottom: 30px;
+  }
+
+  /* mitumori-list
+  ----------------------------------------------------------------- */
+
+  .mitumori-list {
+    padding: 7.5% 3.75%;
+  }
 
   /* page-catch
 ----------------------------------------------------------------- */
@@ -204,6 +270,16 @@ sp-style css
   ----------------------------------------------------------------- */
 }
 
+@media screen and (max-width: 600px) {
+
+  /* 取り扱い商品ページ
+  =================================================================*/
+
+  .mitumori-btn {
+    font-size: 3vw;
+  }
+}
+
 /* 500px
 ================================================================= */
 
@@ -228,6 +304,28 @@ sp-style css
 
   .outer .heading-wrapper-2 h2 {
     font-size: 2rem;
+  }
+
+  /* 取り扱い商品ページ
+  =================================================================*/
+
+  .size ul li:nth-of-type(1),
+  .size ul li:nth-of-type(2),
+  .size ul li:nth-of-type(3),
+  .size ul li:nth-of-type(4) {
+    flex-basis: 50%;
+  }
+
+  .size ul li:last-of-type {
+    flex-basis: 100%;
+  }
+
+  .size ul li a span:first-of-type {
+    font-size: 4vw;
+  }
+
+  .size ul li a span:last-of-type {
+    font-size: 2.8vw;
   }
 
   /* news
