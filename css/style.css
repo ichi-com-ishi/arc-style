@@ -1254,6 +1254,7 @@ input[type='button'] {
   text-align: center;
   transition: all .5s ease 0s;
   vertical-align: middle;
+  width: 100%;
 }
 
 input[type='submit']:hover {
