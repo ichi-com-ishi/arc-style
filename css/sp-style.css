@@ -199,6 +199,7 @@ sp-style css
   .mitumori-list-cost dl dt,
   .mitumori-list-cost dl dd {
     width: 50%;
+    font-size: 1.4rem;
   }
 
   /* page-catch
