@@ -206,7 +206,7 @@ sp-style css
     padding: 8.75% 12.5%;
   }
 
-  .flow .col-12 > div {
+  .flow section.col-12:nth-of-type(1) > div {
     margin-left: -15px;
     margin-right: -15px;
   }
@@ -248,6 +248,30 @@ sp-style css
 
   .privacy .text-footer {
     margin-top: 8.75%;
+  }
+
+  /* お問い合わせページ
+  ================================================================= */
+
+  .form form table tbody tr th,
+  .form form table tbody tr td {
+    display: block;
+  }
+
+  .form form table tbody tr th {
+    border-bottom: none;
+    padding: 30px 15px 15px 15px;
+  }
+
+  .form form table tbody tr td {
+    padding: 0 15px 30px 15px;
+    width: inherit;
+  }
+
+  .contact .page-catch {
+    margin-bottom: 12.5%;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   /* 投稿ページ
