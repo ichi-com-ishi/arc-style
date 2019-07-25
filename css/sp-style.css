@@ -129,6 +129,15 @@ sp-style css
   /* 取り扱い商品ページ
 ----------------------------------------------------------------- */
 
+  .left-heading-3,
+  .mitumori-h3 {
+    font-size: 2.4rem;
+  }
+
+  .mitumori-4 {
+    font-size: 2rem;
+  }
+
   #mitumori > div > div > div {
     margin-left: 8%;
     margin-right: 8%;
@@ -202,6 +211,15 @@ sp-style css
   /* リフォームの流れページ
 ================================================================= */
 
+  .flow .page-catch {
+    margin-bottom: 12.5%;
+    padding: 0 3.75%;
+  }
+
+  .feature.col-12 .page-catch {
+    padding: 0;
+  }
+
   .description {
     padding: 8.75% 12.5%;
   }
@@ -244,7 +262,7 @@ sp-style css
     text-shadow: rgba(0, 0, 0, .2) 2px 3px 5px;
   }
 
-  .text-footer p span {
+  .company .text-footer p span {
     font-size: 2.8rem;
     margin-left: 1em;
     white-space: nowrap;
@@ -312,6 +330,19 @@ sp-style css
     padding-right: 15px;
   }
 
+  /* 協力工事業者募集ページ
+================================================================= */
+
+  .partner #main section:not(:first-child) > div,
+  .partner #main section:not(:last-child) > div {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .partner .page-catch {
+    margin-bottom: 12.5%;
+  }
+
   /* 投稿ページ
   ================================================================= */
 
@@ -355,6 +386,10 @@ sp-style css
   .news #search div {
     padding-left: 3.75%;
     padding-right: 3.75%;
+  }
+
+  .work #article .article-h2 {
+    padding-top: 8.75%;
   }
 
   /* work

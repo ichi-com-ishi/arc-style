@@ -392,7 +392,7 @@ style css
   text-align: center;
 }
 
-/* 施工事例ページ
+/* 取り扱い商品ページ
 ================================================================= */
 
 #contents.item #main section:nth-of-type(even) {
@@ -795,7 +795,7 @@ style css
 /* 採用情報
 ----------------------------------------------------------------- */
 
-.recruit {
+.saiyo {
   background: #f0f0f0;
   padding: 100px 0;
   text-align: center;
@@ -804,7 +804,7 @@ style css
 /* ボタン
 ----------------------------------------------------------------- */
 
-.recruit .btn-v1 {
+.saiyo .btn-v1 {
   background: inherit;
   border: 1px solid #5a5a5a;
   color: #5a5a5a;
@@ -816,7 +816,7 @@ style css
   position: relative;
 }
 
-.recruit .btn-v1::after {
+.saiyo .btn-v1::after {
   color: #5a5a5a;
   content: '\03e';
   font-family: inherit;
@@ -825,12 +825,12 @@ style css
   transition: .5s all ease 0s;
 }
 
-.recruit .btn-v1:hover {
+.saiyo .btn-v1:hover {
   background: #5a5a5a;
   color: #f8f8f8;
 }
 
-.recruit .btn-v1:hover::after {
+.saiyo .btn-v1:hover::after {
   color: #f8f8f8;
 }
 
@@ -848,17 +848,17 @@ style css
   margin-bottom: 0;
 }
 
-.text-footer {
+.company .text-footer {
   font-family: '游明朝', YuMincho, 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'HG明朝E', 'ＭＳ Ｐ明朝', 'ＭＳ 明朝', serif;
   margin-top: 60px;
   text-align: right;
 }
 
-.text-footer p {
+.company .text-footer p {
   letter-spacing: .1em;
 }
 
-.text-footer p span {
+.company .text-footer p span {
   font-size: 3.2rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -955,6 +955,30 @@ style css
   font-size: 1.6rem;
   letter-spacing: .05em;
   line-height: 1.75;
+}
+
+/* 協力工事業者募集ページ
+================================================================= */
+
+.partner .page-catch {
+  font-size: 2rem;
+  letter-spacing: .1em;
+  line-height: 1.75;
+  margin-bottom: 100px;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.test.col-10 > div {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.reform-policy p {
+  font-size: 1.6rem;
+  letter-spacing: .05em;
+  line-height: 1.75;
+  padding: 0 15px;
 }
 
 /* outer
@@ -1182,9 +1206,19 @@ select {
   padding-right: 40px;
 }
 
-input,
 select,
 textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  font-family: inherit;
+  font-size: inherit;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.form form tr td input {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;

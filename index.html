@@ -96,7 +96,7 @@
               <p class="el-text sp-hide">
                 アークスタイルは、トイレ・キッチンなどの入替工事から全面改装まで手がけるトータルリフォーム店です。
               </p>
-              <div class="el-btn">
+              <div class="el-btn sp-hide">
                 <a href="">会社情報</a>
               </div>
             </div>
@@ -114,7 +114,7 @@
               <p class="el-text pc-hide ">
                 アークスタイルは、トイレ・キッチンなどの入替工事から全面改装まで手がけるトータルリフォーム店です。
               </p>
-              <div class="el-btn">
+              <div class="el-btn sp-hide">
                 <a href="">会社情報</a>
               </div>
             </div>
@@ -675,14 +675,14 @@
       </div>
       <!-- /#contrnts -->
 
-      <!--▼ページトップへ戻る▼-->
+      <!-- ページトップへ戻る▼ -->
       <div id="pageTop">
         <a href="#wrap"><i class="fa fa-chevron-up "></i></a>
       </div>
-      <!--▲ページトップへ戻る▲-->
+      <!--/ページトップへ戻る▲ -->
 
-      <a href="#modal" class="modal">Show</a>
-       <div id="modal" style="display:none;">
+      <!-- モーダル▼ -->
+        <div id="modal" style="display:none;">
         <h2>どちらの店舗でお見積りをしますか？</h2>
         <ul class="modal-flex">
           <li>三条店</li>
@@ -694,6 +694,7 @@
           <li>久喜菖蒲店</li>
         </ul>
       </div>
+       <!-- /モーダル▲ -->
 
       <footer id="footer">
         <div class="footer-top sp-hide">
@@ -790,28 +791,5 @@
     <script src="js/plugin/object-fit/ofi.min.js"></script>
     <script src="js/slid.js"></script>
     <script src="js/main.js"></script>
-    <script>
-      // $(".modal").modaal({
-      //   type: "inline", // コンテンツのタイプを指定
-      //   animation_speed: "500", // アニメーションのスピードをミリ秒単位で指定
-      //   background: "#333", // 背景の色を白に変更
-      //   overlay_opacity: "0.6", // 背景のオーバーレイの透明度を変更
-      //   fullscreen: "false", // フルスクリーンモードにする
-      //   background_scroll: "true", // 背景をスクロールさせるか否か
-      //   loading_content: "Now Loading, Please Wait.", // 読み込み時のテキスト表示
-      //   width: "500",
-      //   height: "500",
-      // });
-    </script>
-
-    <script>
-      const buttonElement = document.querySelector(".button");
-      const cssStyle = getComputedStyle(buttonElement);
-      const cssValue = String(cssStyle.getPropertyValue("--color_blue")).trim();
-
-      console.log(cssValue);
-
-      document.documentElement.style.setProperty("--color_blue", "aqua");
-    </script>
   </body>
 </html>
