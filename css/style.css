@@ -395,9 +395,6 @@ style css
 /* 施工事例ページ
 ================================================================= */
 
-/* 画像
------------------------------------------------------------------ */
-
 .photo-height {
   height: 75%;
   left: 50%;
@@ -405,6 +402,10 @@ style css
   top: 50%;
   transform: translate(-50%, -40%);
   width: auto;
+}
+
+#contents.item #main section:nth-of-type(even) {
+  background: inherit;
 }
 
 #mitumori > div > div {

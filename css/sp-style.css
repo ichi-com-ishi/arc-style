@@ -30,7 +30,7 @@ sp-style css
     margin-bottom: 2.5%;
   }
 
-  /* 施工事例ページ
+  /* 取り扱い商品ページ
   ----------------------------------------------------------------- */
 
   #mitumori > div > div > div {
@@ -173,6 +173,23 @@ sp-style css
 
   .mitumori-list {
     padding: 7.5% 3.75%;
+  }
+
+  .mitumori-list dl,
+  .mitumori-list-cost dl {
+    flex-direction: row;
+  }
+
+  .mitumori-list dl dt,
+  .mitumori-list-cost dl dt {
+    margin-bottom: 0;
+  }
+
+  .mitumori-list dl dt,
+  .mitumori-list dl dd,
+  .mitumori-list-cost dl dt,
+  .mitumori-list-cost dl dd {
+    width: 50%;
   }
 
   /* page-catch
