@@ -541,10 +541,6 @@ style css
   text-align: left;
 }
 
-.news #article .article-h2 {
-  padding-top: 0;
-}
-
 #article h3 {
   background: #f7f6f3;
   border-left: 5px solid #55ab55;
@@ -618,5 +614,22 @@ style css
 /* news
 ----------------------------------------------------------------- */
 
+.news #article .article-h2 {
+  padding-top: 0;
+}
+
 /* work
 ----------------------------------------------------------------- */
+
+.work #article .date {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 15px;
+  padding-top: 0;
+}
+
+.work #article p:last-of-type {
+  margin-top: 50px;
+}
