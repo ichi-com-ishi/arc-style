@@ -217,9 +217,11 @@ sp-style css
   /* page-catch
 ----------------------------------------------------------------- */
 
-  .company .page-catch {
+  .company .page-catch,
+  .recruit .page-catch {
     font-size: 2.4rem;
     margin-bottom: 12.5%;
+    padding: 0 15px;
   }
 
   /* outer
@@ -387,6 +389,21 @@ sp-style css
 
   .size ul li a span:last-of-type {
     font-size: 2.8vw;
+  }
+
+  /* 採用情報ページ
+  =================================================================*/
+
+  .list dl.kinmuti dd ul li:nth-of-type(1) {
+    width: 42%;
+  }
+
+  .list dl.kinmuti dd ul li:nth-of-type(2) {
+    width: 30%;
+  }
+
+  .list dl.kinmuti dd ul li:nth-of-type(3) {
+    width: 28%;
   }
 
   /* news

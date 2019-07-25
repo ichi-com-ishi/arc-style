@@ -720,21 +720,41 @@ style css
 /* 企業情報ページ
 ================================================================= */
 
+/* 採用情報ページ
+================================================================= */
+
+.list dl.kinmuti dd ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.list dl.kinmuti dd ul:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.list dl.kinmuti dd ul li {
+  width: calc(100% / 3);
+}
+
 /* search
 ----------------------------------------------------------------- */
 
-.company #search div {
+.company #search div,
+.recruit #search div {
   max-width: 430px;
 }
 
-.company #search div nav ul li {
+.company #search div nav ul li,
+.recruit #search div nav ul li {
   width: calc(100% / 2);
 }
 
 /* page-catch
 ----------------------------------------------------------------- */
 
-.page-catch {
+.company .page-catch,
+.recruit .page-catch {
   font-family: '游明朝', YuMincho, 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', 'HG明朝E', 'ＭＳ Ｐ明朝', 'ＭＳ 明朝', serif;
   font-feature-settings: 'palt';
   font-size: 3.2rem;
